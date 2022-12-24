@@ -1,6 +1,6 @@
 ---
 
-title: 
+title: ""
 description: "grouplove album jacket redesign"
 intro: |
 grouplove album jacket redesign
