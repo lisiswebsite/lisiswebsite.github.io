@@ -9,6 +9,6 @@ intro: |
  used color & a series of tweaks to a modern font to evoke the style of grouplove's music
 
 
-thumbnail: "/grouplove cover 1.png"
+thumbnail: "/grouplove cover 2.png"
 
 ---

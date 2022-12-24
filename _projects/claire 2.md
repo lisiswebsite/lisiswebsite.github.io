@@ -8,6 +8,6 @@ intro: |
  made minimalist stickers of my friend claire for her birthday
 
 
-thumbnail: "/claire cover 1.png"
+thumbnail: "/claire cover 2.png"
 
 ---

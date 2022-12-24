@@ -7,6 +7,6 @@ intro: |
  september 2020 <br>
  adobe illustrator <br>
 
-thumbnail: "/cards.png"
+thumbnail: "/cards cover.png"
 
 ---

@@ -9,6 +9,6 @@ intro: |
  applied the aesthetic of 1950s b-movie posters to a contemporary horror film set in an ambiguous time period
 
 
-thumbnail: "/it-follows.png"
+thumbnail: "/it-follows cover.png"
 
 ---

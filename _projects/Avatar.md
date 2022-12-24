@@ -9,6 +9,6 @@ intro: |
  ​created a logo for the avatar franchise that isn't papyrus
 
 
-thumbnail: "/avatar.png"
+thumbnail: "/avatar cover.png"
 
 ---

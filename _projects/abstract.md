@@ -8,6 +8,6 @@ intro: |
  adobe illustrator <br>
  abstract designs made from three of the worst typefaces (papyrus, comic sans, impact)
 
-thumbnail: "/abstract.png"
+thumbnail: "/abstract cover.png"
 
 ---

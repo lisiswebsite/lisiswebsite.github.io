@@ -8,6 +8,6 @@ intro: |
  adobe illustrator <br>
  selected a yogi berra quote and studied how different letterforms can shape its tone/meaning
 
-thumbnail: "/future.png"
+thumbnail: "/future cover.png"
 
 ---

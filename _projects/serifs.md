@@ -8,6 +8,6 @@ intro: |
  adobe illustrator <br>
  typeface constructed entirely out of serifs
 
-thumbnail: "/serifs.png"
+thumbnail: "/serifs cover.png"
 
 ---
