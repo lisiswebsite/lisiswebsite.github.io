@@ -1,9 +1,16 @@
 ---
 
-title: "Avatar"
-description: "Avatar logo redesign"
+title: 
+description: "avatar logo redesign"
 intro: |
-  This is where I will describe the project
+avatar (2009) logo redesign
+
+typography 332B | spring 2021
+
+adobe illustrator
+
+​created a logo for the avatar franchise that isn't papyrus
+
 
 thumbnail: "/avatar.png"
 
