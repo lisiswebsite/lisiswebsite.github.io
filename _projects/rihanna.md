@@ -1,17 +1,13 @@
 ---
 
-title: 
-description: abstract portraits
+title: ""
+description: "rihanna portraits"
 intro: |
-rihanna portraits
+ rihanna portraits <br>
+ design 203 | fall 2020 <br>
+ adobe illustrator <br>
+ using the original center photo for reference, created two abstract portraits of rihanna on illustrator
 
-design 203 | fall 2020
-
-adobe illustrator
-
-​
-
-using the original center photo for reference, created two abstract portraits of rihanna on illustrator
 
 thumbnail: "/rihanna.png"
 

@@ -1,11 +1,11 @@
 ---
 
 title: ""
-description: "abstract type art"
+description: "type art"
 intro: |
- abstract type art assignment
- typography 332a | fall 2020
- adobe illustrator
+ abstract type art assignment <br>
+ typography 332a | fall 2020 <br>
+ adobe illustrator <br>
  abstract designs made from three of the worst typefaces (papyrus, comic sans, impact)
 
 thumbnail: "/abstract.png"

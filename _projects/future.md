@@ -1,17 +1,12 @@
 ---
 
-title: 
-description: hand lettering
+title: ""
+description: "hand lettering"
 intro: |
-hand lettering assignment
-
-typography 332a | fall 2020
-
-adobe illustrator
-
-​
-
-selected a yogi berra quote and studied how different letterforms can shape its tone/meaning
+ hand lettering assignment <br>
+ typography 332a | fall 2020 <br>
+ adobe illustrator <br>
+ selected a yogi berra quote and studied how different letterforms can shape its tone/meaning
 
 thumbnail: "/future.png"
 

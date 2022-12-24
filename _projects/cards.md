@@ -1,11 +1,11 @@
 ---
 
 title: ""
-description: "difficult playing cards"
+description: "playing cards"
 intro: |
- difficult playing cards
- september 2020
- adobe illustrator
+ difficult playing cards <br>
+ september 2020 <br>
+ adobe illustrator <br>
 
 thumbnail: "/cards.png"
 

@@ -3,9 +3,9 @@
 title: ""
 description: "just serifs"
 intro: |
- original typeface
- typography 332a | fall 2020
- adobe illustrator
+ original typeface <br>
+ typography 332a | fall 2020 <br>
+ adobe illustrator <br>
  typeface constructed entirely out of serifs
 
 thumbnail: "/serifs.png"
