@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "grouplove album jacket redesign"
+description: ""
 intro: |
  grouplove album jacket redesign <br>
  typography 332a | fall 2020 <br>

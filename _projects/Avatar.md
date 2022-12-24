@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "avatar logo redesign"
+description: ""
 intro: |
  avatar (2009) logo redesign <br>
  typography 332B | spring 2021 <br>

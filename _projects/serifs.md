@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "just serifs"
+description: ""
 intro: |
  original typeface <br>
  typography 332a | fall 2020 <br>

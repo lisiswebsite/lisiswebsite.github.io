@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "claire stickers"
+description: ""
 intro: |
  october 2019 <br>
  gimp 2.8 <br>

@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "playing cards"
+description: ""
 intro: |
  difficult playing cards <br>
  september 2020 <br>

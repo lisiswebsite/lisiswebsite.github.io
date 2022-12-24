@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "type art"
+description: ""
 intro: |
  abstract type art assignment <br>
  typography 332a | fall 2020 <br>

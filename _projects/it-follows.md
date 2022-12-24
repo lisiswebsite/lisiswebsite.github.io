@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "it follows poster redesign"
+description: ""
 intro: |
  it follows (2014) poster redesign <br>
  design 202 | fall 2020 <br>

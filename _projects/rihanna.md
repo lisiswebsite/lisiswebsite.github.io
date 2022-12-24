@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "rihanna portraits"
+description: ""
 intro: |
  rihanna portraits <br>
  design 203 | fall 2020 <br>

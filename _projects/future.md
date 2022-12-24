@@ -1,7 +1,7 @@
 ---
 
 title: ""
-description: "hand lettering"
+description: ""
 intro: |
  hand lettering assignment <br>
  typography 332a | fall 2020 <br>
