@@ -1,7 +1,7 @@
 ---
 
-title: 
-description: difficult playing cards
+title: ""
+description: "difficult playing cards"
 intro: |
 difficult playing cards
 

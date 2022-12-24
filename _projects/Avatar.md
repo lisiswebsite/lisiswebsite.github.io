@@ -1,6 +1,6 @@
 ---
 
-title: 
+title: ""
 description: "avatar logo redesign"
 intro: |
 avatar (2009) logo redesign

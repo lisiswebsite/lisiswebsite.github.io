@@ -1,7 +1,7 @@
 ---
 
-title: 
-description: abstract type art
+title: ""
+description: "abstract type art"
 intro: |
 abstract type art assignment
 
