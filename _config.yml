@@ -23,7 +23,7 @@ email: lisiswebsite@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   good design good design good design
   good design good design good design
-baseurl: "/src" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: cavedevice
 github_username:  lisiswebsite
@@ -37,7 +37,7 @@ include:
   - _pages
   - _redirects
 
-image_serve_path: "/src/images"
+image_serve_path: "/images"
 
 collections:
   projects:
