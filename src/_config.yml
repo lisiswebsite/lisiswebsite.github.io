@@ -37,6 +37,8 @@ include:
   - _pages
   - _redirects
 
+image_serve_path: "/src/images"
+
 collections:
   projects:
     output: true
