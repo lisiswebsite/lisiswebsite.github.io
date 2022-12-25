@@ -2,7 +2,7 @@
 
 gridorder: 1
 date: 2020-10-28
-disciplines: adobe illustrator, adobe photoshop
+tools: adobe illustrator, adobe photoshop
 title: ""
 description: ""
 time_period: 2020
