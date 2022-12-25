@@ -1,7 +1,7 @@
 ---
 
 gridorder: 8
-date: october 2019
+date: 2019-10-14
 disciplines: gimp 2.8
 title: ""
 description: ""
