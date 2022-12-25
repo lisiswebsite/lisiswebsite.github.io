@@ -3,10 +3,10 @@
 title: ""
 description: ""
 intro: |
- abstract type art assignment <br>
+ abstract typeface art <br>
  typography 332a | fall 2020 <br>
  adobe illustrator <br>
- abstract designs made from three of the worst typefaces (papyrus, comic sans, impact)
+ abstract designs made from papyrus, comic sans, & impact
 
 thumbnail: "/abstract cover.png"
 
