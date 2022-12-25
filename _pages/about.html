@@ -3,24 +3,107 @@ layout: page
 title: about
 permalink: /about/
 priority: 0.9
+intro: |
+  lisi schauer is an analyst at influential.<br>
+  she graduated from usc in 2021 with a BA in communication<br>
+  and minors in sports media industries & communication design.
+
+profile_picture: "/computer.png"
+
 ---
 
- 
- lisi schauer is an analyst at influential.<br>
- she graduated from usc in 2021 with a BA in communication<br>
- and minors in sports media industries & communication design.  
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Matt Grey",
+    "jobTitle": "UX Designer",
+    "nationality": "British",
+    "url": "http://www.himatt.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "London",
+      "addressCountry": "United Kingdom"
+    }
+  }
+</script>
 
+<div class="about-wrapper">
+  <div class="about">
+    <div class="about-intro-image">
+      <img src="{{ page.profile_picture }}" alt="">
+    </div>
 
-content_layout:
- - section_layout: 2col
-   images:
-     - caption:
-       description: ""
-       url: '/cards/cards1.png'
-       width:
-       height:
-     - caption:
-       description: ""
-       url: '/cards/cards2.png'
-       width:
-       height:
+    <div class="about-intro-description paragraph-normal">
+      {{ page.intro | markdownify }}
+    </div>
+
+    <div class="about-attributes">
+      <div class="about-experience">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Experience</h3>
+          <dl class="relational-list">
+            {% for experience-item in page.experience %}
+              <dt class="relational-list__title">{{ experience-item.company | markdownify}}</dt>
+              <dd class="relational-list__description relational-list__description--period">{{ experience-item.period | markdownify}}</dd>
+              <dd class="relational-list__description">{{ experience-item.position | markdownify}}</dd>
+            {% endfor %}
+          </dl>
+        </div>
+      </div>
+
+      <div class="about-education">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Education</h3>
+          <dl class="relational-list">
+            {% for education-item in page.education %}
+              <dt class="relational-list__title">{{ education-item.course | markdownify}}</dt>
+              <dd class="relational-list__description">{{ education-item.place | markdownify}}</dd>
+            {% endfor %}
+          </dl>
+        </div>
+
+        <div class="about-section about-section--nested">
+          <h3 class="about-section-title type-level-2">Competitions</h3>
+          <dl class="relational-list">
+            {% for competition-item in page.competitions %}
+              <dt class="relational-list__title">{{ competition-item.event | markdownify}}</dt>
+              <dd class="relational-list__description relational-list__description--period">{{ competition-item.period | markdownify}}</dd>
+              <dd class="relational-list__description"><a href="{{ competition-item.link }}">{{ competition-item.result | markdownify}}</a></dd>
+            {% endfor %}
+          </dl>
+        </div>
+      </div>
+
+      <div class="about-tools">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Tools &amp; technologies</h3>
+          <ul class="list--dashed list--small">
+            {% for tool in page.tools %}
+              <li>{{ tool | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+
+      <div class="about-skills">
+        <div class="about-section">
+          <h3 class="about-section-title type-level-2">Skills</h3>
+          <ul class="list--dashed">
+            {% for skill in page.skills %}
+              <li>{{ skill }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-site">
+      <div class="about-section about-site-description">
+        <h3 class="about-section-title type-level-2">Colophon: about this site</h3>
+        <div class="paragraph-small">{{ page.about_site | markdownify }}</div>
+      </div>
+    </div>
+
+  </div>
+</div>
