@@ -9,11 +9,12 @@ priority: 1.0
 </head>
 
 <div class="projects-intro-wrapper">
-  <p class="projects-intro type-level-3">good design good design good design good design good design</p>
+  <!-- <p class="projects-intro type-level-3">good design good design good design good design good design</p> -->
 </div>
 
 <div class="projects">
-    {% for project in site.projects reversed limit:include.limit %}
+    <!-- { % site.projects | sort: "gridorder" % } -->
+    {% for project in site.projects  limit:include.limit %}
     <article class="project-listing">
         <div class="thumbnail-wrapper">
           <a href="{{ project.url | prepend: site.baseurl }}">

@@ -37,6 +37,10 @@ plugins:
 navigation:
   - title: Projects
     url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
 
 include:
   - _pages

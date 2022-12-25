@@ -8,7 +8,7 @@
 
     .logo-nav-wrapper {
        @extend .grid-container;
-
+       grid-template-columns: repeat(20, 1fr);
       .logo-title-wrapper {
         @include grid-column(4);
         display: flex;
@@ -22,7 +22,7 @@
         @include grid-column(2);
 
         @include grid-media(tablet) {
-          @include grid-column(8);
+          @include grid-column(6);
         }
       }
     }
