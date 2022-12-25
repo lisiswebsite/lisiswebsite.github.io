@@ -27,3 +27,13 @@ profile_picture: "/computer.png"
     }
   }
 </script>
+
+<div class="about-wrapper">
+  <div class="about">
+    <div class="about-intro-image">
+      <img src="{{ page.profile_picture }}" alt="">
+    </div>
+
+    <div class="about-intro-description paragraph-normal">
+      {{ page.intro | markdownify }}
+    </div>
