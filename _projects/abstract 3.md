@@ -8,6 +8,6 @@ intro: |
  adobe illustrator <br>
  abstract designs made from papyrus, comic sans, & impact
 
-thumbnail: "/abstract 1.png"
+thumbnail: "/abstract 3.png"
 
 ---
