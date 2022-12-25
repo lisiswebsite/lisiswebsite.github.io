@@ -12,17 +12,17 @@ intro: |
   frustrating playing cards
 
 content_layout:
-  - section_layout: 2col-2col
+  - section_layout: 5col-5col
     images:
       - caption:
         description: ""
         url: '/cards/cards1.png'
-        width: 30%
+        width: 
         height:
       - caption:
         description: ""
         url: '/cards/cards2.png'
-        width: 30%
+        width: 
         height:
 
   - section_layout: 3col
