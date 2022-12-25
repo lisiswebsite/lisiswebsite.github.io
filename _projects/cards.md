@@ -12,7 +12,7 @@ intro: |
   frustrating playing cards
 
 content_layout:
-  - section_layout: 5col-7col
+  - section_layout: 2col-2col
     images:
       - caption:
         description: ""
@@ -25,41 +25,22 @@ content_layout:
         width:
         height:
 
-  - section_layout: text
-    content: |
-      I carried the concept of the institution's cutting-edge reputation into
-      reality. The Saatchi gallery is known for it’s sometimes controversial art
-      and confidence, which I hinted at in the logo by introducing sharp 45°
-      angles which give a suggestion of brash menace.
-
-  - section_layout: 2col
+  - section_layout: 3col
     images:
       - caption:
-        description: 'Magazine article'
-        url: '/projects/saatchi-gallery/saatchi-magazine-article.jpg'
-        positioning: nudge-down-5
+        description: ""
+        url: '/cards/mockup1.png'
+        positioning: 
         width:
         height:
       - caption:
-        description: 'Newspaper magazine'
-        url: '/projects/saatchi-gallery/saatchi-magazine-article-inner.jpg'
+        description: ""
+        url: '/cards/mockup2.png'
         width:
         height:
-
-  - section_layout: text
-    content: |
-      I wanted to re-imagine the brand to project a more modern image which
-      could comfortably extend across digital and print platforms, from the
-      responsive website to promotional items such as posters and banners, as
-      well as magazines that I chose to be in the format of newspapers to
-      reflect the cutting edge, newsworthy art being displayed within the
-      gallery.
-
-  - section_layout: 1col
-    images:
       - caption:
-        description: 'Newspaper magazine'
-        url: '/projects/saatchi-gallery/saatchi-website.jpg'
+        description: ""
+        url: '/cards/mockup3.png'
         width:
         height:
 
