@@ -8,6 +8,6 @@ intro: |
  typography 332b | spring 2021 <br>
  adobe illustrator <br>
 
-thumbnail: "/more images/spooky.png"
+thumbnail: "/spooky.png"
 
 ---

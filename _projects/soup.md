@@ -7,6 +7,6 @@ intro: |
  spring 2021 <br>
  collage & photoshop <br>
 
-thumbnail: "/more images/soup.png"
+thumbnail: "/soup.png"
 
 ---
