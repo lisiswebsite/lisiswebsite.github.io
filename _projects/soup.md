@@ -1,12 +1,12 @@
 ---
 
 gridorder: 11
+date: spring 2021
+disciplines: collage, adobe photoshop
 title: ""
 description: ""
 intro: |
- alphabet soup ad <br>
- spring 2021 <br>
- paper collage & photoshop
+ alphabet soup ad
 
 thumbnail: "/soup.png"
 

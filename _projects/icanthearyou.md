@@ -1,12 +1,12 @@
 ---
 
 gridorder: 7
+date: typography 332b | spring 2021
+disciplines: sculpture
 title: ""
 description: ""
 intro: |
- hanging sculpture <br>
- spring 2021 <br>
- broken headphones and earbuds collected over the years
+ hanging sculpture made from broken headphones and earbuds collected over the years
 
 thumbnail: "/icanthearyou cover.png"
 

@@ -1,12 +1,12 @@
 ---
 
 gridorder: 13
+date: "typography 332a | fall 2020"
+disciplines: "adobe illustrator"
 title: ""
 description: ""
 intro: |
- abstract typeface art <br>
- typography 332a | fall 2020 <br>
- adobe illustrator <br>
+ abstract typeface art
  abstract designs made from papyrus, comic sans, & impact letters
 
 thumbnail: "/abstract cover.png"
