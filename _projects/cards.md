@@ -16,12 +16,12 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/images/cards/cards1.png'
+        url: '/cards/cards1.png'
         width:
         height:
       - caption:
         description: ""
-        url: '/images/cards/cards2.png'
+        url: '/cards/cards2.png'
         width:
         height:
 
