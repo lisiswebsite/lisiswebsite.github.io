@@ -7,7 +7,7 @@ title: ""
 description: ""
 intro: |
  spooky phantom <br>
-original typeface
+ original typeface
 
 thumbnail: "/spooky.png"
 
