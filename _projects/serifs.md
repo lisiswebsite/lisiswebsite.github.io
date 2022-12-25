@@ -7,8 +7,7 @@ title: ""
 description: ""
 intro: |
  just serifs <br>
- original typeface <br>
- typeface constructed entirely out of serifs
+ original typeface constructed entirely out of serifs
 
 thumbnail: "/serifs cover.png"
 

@@ -6,7 +6,7 @@ disciplines: adobe illustrator, adobe photoshop
 title: ""
 description: ""
 intro: |
- it follows (2014) poster redesign
+ it follows (2014) poster redesign <br>
  1950s b-movie take on a contemporary horror film
 
 

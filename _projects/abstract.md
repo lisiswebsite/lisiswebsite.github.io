@@ -6,8 +6,8 @@ disciplines: "adobe illustrator"
 title: ""
 description: ""
 intro: |
- abstract typeface art
- abstract designs made from papyrus, comic sans, & impact letters
+ 
+ abstract art made from papyrus, comic sans, & impact letters
 
 thumbnail: "/abstract cover.png"
 

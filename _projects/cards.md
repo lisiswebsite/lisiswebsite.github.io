@@ -1,6 +1,6 @@
 ---
 
-gridorder: 15
+gridorder: 14
 date: 2020-09-01
 disciplines: adobe illustrator
 title: ""

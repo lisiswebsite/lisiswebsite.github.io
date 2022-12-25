@@ -7,7 +7,7 @@ title: ""
 description: ""
 intro: |
 
- made stickers of my friend claire for her birthday
+ stickers of my friend claire i made for her birthday
 
 
 thumbnail: "/claire cover.png"
