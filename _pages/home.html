@@ -13,8 +13,8 @@ priority: 1.0
 </div>
 
 <div class="projects">
-    <!-- { % site.projects | sort: "gridorder" % } -->
-    {% for project in site.projects  limit:include.limit %}
+    {% assign p =  site.projects | sort: "gridorder" %}
+    {% for project in p  limit:include.limit %}
     <article class="project-listing">
         <div class="thumbnail-wrapper">
           <a href="{{ project.url | prepend: site.baseurl }}">
