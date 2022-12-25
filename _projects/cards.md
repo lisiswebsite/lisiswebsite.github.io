@@ -15,15 +15,13 @@ content_layout:
   - section_layout: 5col-7col
     images:
       - caption:
-        description: 'Proposed logo'
-        url: '/projects/saatchi-gallery/saatchi-logo.png'
-        border: light
+        description: ""
+        url: '/images/cards/cards1.png'
         width:
         height:
       - caption:
-        description: 'Magazine'
-        url: '/projects/saatchi-gallery/saatchi-magazine.jpg'
-        positioning: nudge-down-5
+        description: ""
+        url: '/images/cards/cards2.png'
         width:
         height:
 
