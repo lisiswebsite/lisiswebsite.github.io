@@ -35,11 +35,11 @@ plugins:
 
 # Structure
 navigation:
-  - title: Projects
+  - title: projects
     url: /
-  - title: About
+  - title: about
     url: /about
-  - title: Contact
+  - title: contact
     url: /contact
 
 include:
