@@ -4,7 +4,7 @@ gridorder: 15
 title: ""
 description: ""
 intro: |
- difficult playing cards <br>
+ frustrating playing cards <br>
  september 2020 <br>
  adobe illustrator <br>
 
