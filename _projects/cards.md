@@ -12,7 +12,7 @@ intro: |
   frustrating playing cards
 
 content_layout:
-  - section_layout: 5col-5col
+  - section_layout: 2col
     images:
       - caption:
         description: ""
