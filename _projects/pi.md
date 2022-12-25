@@ -7,6 +7,6 @@ intro: |
  march 2017 <br>
  gimp 2.8 <br>
 
-thumbnail: "/more images/pi cover.png"
+thumbnail: "/more images/pi.png"
 
 ---
