@@ -1,7 +1,7 @@
 ---
 
 gridorder: 7
-date: typography 332b | spring 2021
+date: 2021
 disciplines: sculpture
 title: ""
 description: ""

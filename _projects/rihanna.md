@@ -1,7 +1,7 @@
 ---
 
 gridorder: 5
-date: design 203 | fall 2020
+date: 2020
 disciplines: adobe illustrator
 title: ""
 description: ""

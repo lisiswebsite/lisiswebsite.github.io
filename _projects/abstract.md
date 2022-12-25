@@ -1,7 +1,7 @@
 ---
 
 gridorder: 13
-date: "typography 332a | fall 2020"
+date: 2020
 disciplines: "adobe illustrator"
 title: ""
 description: ""
