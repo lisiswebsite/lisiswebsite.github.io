@@ -1,7 +1,7 @@
 ---
 
 gridorder: 15
-date: september 2020
+date: 2020-09-01
 disciplines: adobe illustrator
 title: ""
 description: ""

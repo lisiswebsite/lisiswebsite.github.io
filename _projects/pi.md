@@ -1,7 +1,7 @@
 ---
 
 gridorder: 14
-date: march 2017
+date: 2017-03-14
 disciplines: gimp 2.8
 title: ""
 description: ""

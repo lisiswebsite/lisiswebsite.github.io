@@ -1,7 +1,7 @@
 ---
 
 gridorder: 13
-date: 2020
+date: 2020-01-01
 disciplines: "adobe illustrator"
 title: ""
 description: ""
