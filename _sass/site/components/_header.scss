@@ -4,25 +4,40 @@
     transform: translateY(0%) !important;
   }
 
+  .header-new{
+    text-align:center;
+  }
+
   .header-content {
+    @extend .grid-container;
+    grid-template-columns: repeat(3, 1fr);
+
+    @include grid-media(tablet) {
+      grid-template-columns: repeat(3, 1fr);
+      // @include grid-column(4);
+    }
 
     .logo-nav-wrapper {
-       @extend .grid-container;
-       grid-template-columns: repeat(20, 1fr);
-      .logo-title-wrapper {
-        @include grid-column(4);
-        display: flex;
+      //  @extend .grid-container;
+      //  grid-template-columns: repeat(3, 1fr);
+      @include grid-column(2);
+      // display: flex;
+      // .logo-title-wrapper {
+      //   @include grid-column(4);
+      //   display: flex;
 
-        @include grid-media(tablet) {
-          @include grid-column(4);
-        }
-      }
+        // @include grid-media(tablet) {
+        //   grid-template-columns: repeat(3, 1fr);
+        //   // @include grid-column(4);
+        // }
+      // }
 
       nav.navigation {
+
         @include grid-column(2);
 
         @include grid-media(tablet) {
-          @include grid-column(6);
+          @include grid-column(2);
         }
       }
     }
