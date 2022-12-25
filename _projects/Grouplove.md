@@ -1,14 +1,12 @@
 ---
 
 gridorder: 3
-date: 2020-01-01
+date: 2020-11-02
 disciplines: adobe illustrator
 title: ""
 description: ""
+time_period: 2020
+thumbnail: "/grouplove cover.png"
 intro: |
  grouplove album jacket redesign
-
-
-thumbnail: "/grouplove cover.png"
-
 ---
