@@ -45,7 +45,7 @@ content_layout:
       - caption:
         description: ""
         url: '/future/future4.png'
-        border: medium
+        border: heavy
         positioning: 
         width:
         height:
