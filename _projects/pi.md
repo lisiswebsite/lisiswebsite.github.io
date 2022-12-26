@@ -10,6 +10,13 @@ thumbnail: "/pi.png"
 intro: |
  math honors society pi day t shirt design
 
-
+content_layout:
+  - section_layout: 1col
+    images:
+      - caption:
+        description: ""
+        url: '/pi/pie.png'
+        width:
+        height:
 
 ---
