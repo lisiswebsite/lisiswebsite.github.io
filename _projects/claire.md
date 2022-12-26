@@ -2,7 +2,7 @@
 
 gridorder: 8
 date: 2019-10-14
-tools: gimp 2.8
+disciplines: gimp 2.8
 title: ""
 description: ""
 time_period: 2019

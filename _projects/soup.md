@@ -2,7 +2,7 @@
 
 gridorder: 11
 date: 2021-01-21
-tools: collage, adobe photoshop
+disciplines: collage, adobe photoshop
 title: ""
 description: ""
 time_period: 2021
