@@ -24,13 +24,8 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatar1.jpeg'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
         url: '/avatar/avatar2.jpeg'
+        positioning: 
         width:
         height:
       - caption:
@@ -38,23 +33,17 @@ content_layout:
         url: '/avatar/avatar3.jpeg'
         width:
         height:
- 
-  - section_layout: 3col
-    images:
       - caption:
         description: ""
         url: '/avatar/avatar4.jpeg'
-        positioning: 
         width:
         height:
+ 
+  - section_layout: 1col
+    images:
       - caption:
         description: ""
         url: '/avatar/avatar5.png'
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/avatar/avatar6.png'
         width:
         height:
 
