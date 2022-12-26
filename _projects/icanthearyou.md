@@ -8,15 +8,6 @@ description: ""
 time_period: 2021
 thumbnail: "/icanthearyou cover.png"
 intro: |
- hanging sculpture made from broken headphones and earbuds collected over the years
-
-content_layout:
-  - section_layout: 1col
-    images:
-      - caption:
-        description: ""
-        <iframe url:'/icanthearyou/icanthearyou/.mov'></iframe>
-        width:
-        height:
-
+ hanging sculpture made from broken headphones and earbuds collected over the years<br>
+ <iframe src="/icanthearyou/icanthearyou/.mov"></iframe>
 ---
