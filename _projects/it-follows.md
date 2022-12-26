@@ -62,26 +62,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/it-follows/itfollows7.png'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/it-follows/itfollows8.png'
-        width:
-        height:
-      - caption:
-        description: ""
         url: '/it-follows/itfollows9.png'
-        width:
-        height:
-
-  - section_layout: 3col
-    images:
-      - caption:
-        description: ""
-        url: '/it-follows/itfollows10.png'
         positioning: 
         width:
         height:
@@ -95,4 +76,6 @@ content_layout:
         url: '/it-follows/itfollows12.png'
         width:
         height:
+
+
 ---
