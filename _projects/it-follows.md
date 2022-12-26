@@ -8,11 +8,6 @@ description: ""
 time_period: 2020
 thumbnail: "/it-follows cover.png"
 intro: |
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
  it follows (2014) poster redesign <br>
  1950s b-movie take on a contemporary horror film
 
