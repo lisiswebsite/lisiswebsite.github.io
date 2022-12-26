@@ -10,6 +10,14 @@ thumbnail: "/soup.png"
 intro: |
  fake alphabet soup advertisement made from physical & digital collage
 
+content_layout:
+  - section_layout: 1col
+    images:
+      - caption:
+        description: ""
+        url: '/soup/alphabetsoup.png'
+        width:
+        height:
 
 
 ---
