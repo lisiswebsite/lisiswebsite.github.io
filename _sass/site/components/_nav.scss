@@ -53,7 +53,7 @@
 
   a.mobile-nav {
     display: inline-block;
-    float: right;
+    float: center;
     right: var(--page-margin);
     padding: rem(10px) rem(20px);
     border: 1px solid var(--color-text);
@@ -123,13 +123,13 @@
             border-color: gray;
           }
 
-          &:after {
-            content: 'Current section';
-            text-transform: uppercase;
-            float: right;
-            font-size: var(--font-size-body-small);
-            margin-top: rem(4px);
-          }
+          // &:after {
+          //   content: 'Current section';
+          //   text-transform: uppercase;
+          //   float: right;
+          //   font-size: var(--font-size-body-small);
+          //   margin-top: rem(4px);
+          // }
         }
       }
     }
