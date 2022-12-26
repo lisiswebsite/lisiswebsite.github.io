@@ -41,7 +41,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/icanthearyou/icanthearyou5.jpeg'
+        url: '/icanthearyou/icanthearyou5.jpg'
         width:
         height:
       - caption:
