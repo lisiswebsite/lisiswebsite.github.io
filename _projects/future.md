@@ -13,7 +13,7 @@ intro: |
  studied how different letterforms can shape the tone and meaning of a yogi berra quote
 
 content_layout:
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""

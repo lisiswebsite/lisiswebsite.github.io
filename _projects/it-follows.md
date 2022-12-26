@@ -12,7 +12,7 @@ intro: |
  1950s b-movie take on a contemporary horror film
 
 content_layout:
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""

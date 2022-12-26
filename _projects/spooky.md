@@ -12,7 +12,7 @@ intro: |
  original typeface
 
 content_layout:
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
@@ -20,7 +20,7 @@ content_layout:
         width:
         height:
         
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""

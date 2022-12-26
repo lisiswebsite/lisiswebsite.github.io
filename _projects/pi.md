@@ -11,7 +11,7 @@ intro: |
  math honors society pi day t shirt design
 
 content_layout:
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""

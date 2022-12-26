@@ -11,7 +11,7 @@ intro: |
  fake alphabet soup advertisement made from physical & digital collage
 
 content_layout:
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""

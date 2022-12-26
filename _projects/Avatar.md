@@ -39,7 +39,7 @@ content_layout:
         width:
         height:
  
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
