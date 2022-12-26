@@ -17,12 +17,12 @@ content_layout:
       - caption:
         description: ""
         url: '/cards/cards1.png'
-        width: "narrow"
+        width: 0.5
         height:
       - caption:
         description: ""
         url: '/cards/cards2.png'
-        width: "narrow"
+        width: 0.5
         height:
 
   - section_layout: 3col
