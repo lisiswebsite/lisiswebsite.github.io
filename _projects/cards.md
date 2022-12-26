@@ -6,7 +6,7 @@ disciplines: adobe illustrator
 title: ""
 description: ""
 time_period: 2020
-thumbnail: "/cards cover.png"
+thumbnail: '/cards cover.png'
 
 intro: |
   frustrating playing cards
