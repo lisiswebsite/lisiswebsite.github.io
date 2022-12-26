@@ -5,7 +5,7 @@ date: 2020-09-24
 tools: adobe illustrator
 title: ""
 description: ""
-time_period: 2020
+time_period:
 thumbnail: "/rihanna.png"
 intro: |
  

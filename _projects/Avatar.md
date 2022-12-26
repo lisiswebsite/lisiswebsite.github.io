@@ -5,7 +5,7 @@ date: 2021-03-05
 tools: adobe illustrator
 title: ""
 description: ""
-time_period: 2021
+time_period:
 thumbnail: "/avatar cover.png"
 intro: |
  avatar (2009) logo redesign <br>

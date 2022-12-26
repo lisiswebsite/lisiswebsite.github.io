@@ -5,7 +5,7 @@ date: 2020-09-04
 tools: adobe illustrator
 title: ""
 description: ""
-time_period: 2020
+time_period:
 thumbnail: "/future cover.png"
 intro: |
  hand lettering assignment <br>

@@ -5,7 +5,7 @@ date: 2021-04-30
 tools: adobe illustrator
 title: ""
 description: ""
-time_period: 2021
+time_period:
 thumbnail: "/spooky.png"
 intro: |
  spooky phantom <br>

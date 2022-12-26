@@ -5,7 +5,7 @@ date: 2020-10-26
 tools: adobe illustrator
 title: ""
 description: ""
-time_period: 2020
+time_period:
 thumbnail: "/serifs cover.png"
 intro: |
  just serifs <br>

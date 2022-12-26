@@ -5,7 +5,7 @@ date: 2019-10-14
 tools: gimp 2.8
 title: ""
 description: ""
-time_period: 2019
+time_period:
 thumbnail: "/claire cover.png"
 intro: |
 

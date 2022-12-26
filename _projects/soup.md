@@ -5,7 +5,7 @@ date: 2021-01-21
 tools: adobe photoshop
 title: ""
 description: ""
-time_period: 2021
+time_period:
 thumbnail: "/soup.png"
 intro: |
  fake alphabet soup advertisement made from physical & digital collage
