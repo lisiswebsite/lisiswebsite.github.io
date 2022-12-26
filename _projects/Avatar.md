@@ -20,6 +20,14 @@ content_layout:
         width:
         height:
 
+  - section_layout: 1col
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarmockup.png'
+        width:
+        height:
+
   - section_layout: 2col
     images:
       - caption:
