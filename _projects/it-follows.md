@@ -30,7 +30,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows2.png'
+        url: '/it-follows/itfollows2.jpeg'
         width:
         height:
       - caption:
@@ -39,5 +39,60 @@ content_layout:
         width:
         height:
  
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows4.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows5.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows6.png'
+        width:
+        height:
 
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows7.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows8.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows9.png'
+        width:
+        height:
+
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows10.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows11.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/it-follows/itfollows12.png'
+        width:
+        height:
 ---
