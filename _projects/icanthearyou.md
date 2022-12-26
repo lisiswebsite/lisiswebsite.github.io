@@ -2,7 +2,7 @@
 
 gridorder: 7
 date: 2021-02-07
-tools: sculpture
+tools:
 title: ""
 description: ""
 time_period: 2021
