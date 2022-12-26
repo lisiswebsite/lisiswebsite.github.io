@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Lisi Schauer's Portfolio
-email: lisiswebsite@gmail.com
+title: lisi schauer's portfolio
+email: lisi222@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   good design good design good design
   good design good design good design
