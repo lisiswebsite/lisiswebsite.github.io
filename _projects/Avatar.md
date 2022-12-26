@@ -32,20 +32,6 @@ content_layout:
     content: |
       process:
 
-  - section_layout: 2col
-    images:
-      - caption:
-        description: ""
-        url: '/avatar/avatar2.jpeg'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/avatar/avatar3.jpeg'
-        width:
-        height:
- 
   - section_layout: 1col-narrow
     images:
       - caption:
