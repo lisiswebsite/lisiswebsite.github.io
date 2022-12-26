@@ -22,7 +22,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/rihanna/rihanna2.png'
+        url: '/rihanna/rihanna2.jpg'
         width:
         height:
       - caption:
