@@ -15,7 +15,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/pi/pie.png'
+        url: '/pi/pie2.png'
         width:
         height:
 
