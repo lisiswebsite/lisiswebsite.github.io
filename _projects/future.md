@@ -52,6 +52,7 @@ content_layout:
       - caption:
         description: ""
         url: '/future/future5.png'
+        border: light
         width:
         height:
       - caption:
