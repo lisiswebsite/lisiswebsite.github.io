@@ -12,6 +12,51 @@ intro: |
  
  studied how different letterforms can shape the tone and meaning of a yogi berra quote
 
+content_layout:
+  - section_layout: 1col
+    images:
+      - caption:
+        description: ""
+        url: '/future/future.png'
+        width:
+        height:
 
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/future/future1.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/future/future2.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/future/future3.png'
+        width:
+        height:
+
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/future/future4.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/future/future5.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/future/future6.png'
+        width:
+        height:
 
 ---
