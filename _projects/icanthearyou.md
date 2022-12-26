@@ -16,7 +16,7 @@ content_layout:
     content: |
       process:
 
-- section_layout: 3col
+  - section_layout: 3col
     images:
       - caption:
         description: ""
