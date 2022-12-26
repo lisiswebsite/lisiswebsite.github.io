@@ -15,7 +15,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/icanthearyou/icanthearyou/.mov'
+        <iframe width = "600px" src="/icanthearyou/icanthearyou/.mov"></iframe>
         width:
         height:
 
