@@ -20,8 +20,6 @@ content_layout:
         width:
         height:
         
-        
-
   - section_layout: 1col-narrow
     images:
       - caption:
@@ -30,9 +28,13 @@ content_layout:
         width:
         height:
 
+  - section_layout: text
+    content: |
+      sans serif version:
+
   - section_layout: 1col-narrow
     images:
-      - caption: "sans serif version"
+      - caption:
         description: ""
         url: '/serifs/serifs5.png'
         width:
