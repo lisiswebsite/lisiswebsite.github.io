@@ -8,7 +8,7 @@ description: ""
 time_period:
 thumbnail: "/soup.png"
 intro: |
- fake alphabet soup advertisement made from physical & digital collage
+ fake alphabet soup advertisement
 
 content_layout:
   - section_layout: 1col-narrow
