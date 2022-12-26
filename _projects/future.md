@@ -23,7 +23,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      process:
+      "process:"
 
 - section_layout: 3col
     images:
