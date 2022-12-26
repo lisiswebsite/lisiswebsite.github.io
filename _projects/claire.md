@@ -12,7 +12,7 @@ intro: |
  stickers of my friend claire i made for her birthday
 
 content_layout:
-  - section_layout: 2col-narrow
+  - section_layout: 2col
     images:
       - caption:
         description: ""
@@ -26,7 +26,7 @@ content_layout:
         width:
         height:
 
-  - section_layout: 2col-narrow
+  - section_layout: 2col
     images:
       - caption:
         description: ""
@@ -40,7 +40,7 @@ content_layout:
         width:
         height:
 
-  - section_layout: 2col-narrow
+  - section_layout: 2col
     images:
       - caption:
         description: ""
