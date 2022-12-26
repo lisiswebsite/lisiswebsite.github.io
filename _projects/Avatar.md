@@ -20,7 +20,7 @@ content_layout:
         width:
         height:
 
-  - section_layout: 3col
+  - section_layout: 2col
     images:
       - caption:
         description: ""
@@ -31,11 +31,6 @@ content_layout:
       - caption:
         description: ""
         url: '/avatar/avatar3.jpeg'
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/avatar/avatar4.jpeg'
         width:
         height:
  
