@@ -19,6 +19,10 @@ content_layout:
         width:
         height:
 
+  - section_layout: text
+    content: |
+      process:
+
   - section_layout: 3col
     images:
       - caption:

@@ -28,6 +28,10 @@ content_layout:
         width:
         height:
 
+  - section_layout: text
+    content: |
+      process:
+
   - section_layout: 2col
     images:
       - caption:

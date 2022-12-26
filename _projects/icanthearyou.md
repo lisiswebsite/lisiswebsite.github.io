@@ -12,7 +12,11 @@ intro: |
  <iframe src="/icanthearyou/icanthearyou/.mov"></iframe>
 
 content_layout:
-  - section_layout: 3col
+  - section_layout: text
+    content: |
+      process:
+
+- section_layout: 3col
     images:
       - caption:
         description: ""
