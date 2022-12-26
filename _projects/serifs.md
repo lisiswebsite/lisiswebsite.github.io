@@ -20,13 +20,7 @@ content_layout:
         width:
         height:
         
-  - section_layout: 1col
-    images:
-      - caption:
-        description: ""
-        url: '/serifs/serifs3.png'
-        width:
-        height:
+        
 
   - section_layout: 1col
     images:
