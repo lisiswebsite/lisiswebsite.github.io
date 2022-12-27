@@ -18,7 +18,7 @@ intro: |
     <param name="autoplay" value="true">
     <param name="loop" value="false">
     <param name="controller" value="true">
-    <embed src="/icanthearyou/icanthearyou/.mov" qtsrc="/icanthearyou/icanthearyou/.mov" width="320" height="256" autoplay="true" loop="false" controller="true" pluginspage="http://www.apple.com/quicktime/"></embed>
+    <embed src="/icanthearyou/icanthearyou/.mov" qtsrc="/icanthearyou/icanthearyou/.mov" width="320" height="256" autoplay="true" loop="false" controller="true"></embed>
 </object>
 
 content_layout:
