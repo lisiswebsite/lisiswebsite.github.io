@@ -9,7 +9,9 @@ time_period:
 thumbnail: "/icanthearyou cover.png"
 intro: |
  hanging sculpture made from broken headphones and earbuds collected over the years<br>
- <iframe src="/icanthearyou/icanthearyou/.mov"></iframe>
+ <video controls="controls" width="800" height="600" name="i cant hear you">
+ <source src="/icanthearyou/icanthearyou/.mov">
+ </video>
 
 content_layout:
   - section_layout: text
