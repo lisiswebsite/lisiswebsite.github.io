@@ -10,7 +10,7 @@ thumbnail: "/icanthearyou cover.png"
 intro: |
  hanging sculpture made from broken headphones and earbuds collected over the years<br>
  <video controls="controls" width="800" height="600" name="i cant hear you">
- <source src="/icanthearyou/icanthearyou/.mp4">
+ <source src="https://youtu.be/6lL1jkT2dwk">
  </video>
 
 content_layout:
