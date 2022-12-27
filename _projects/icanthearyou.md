@@ -9,11 +9,7 @@ time_period:
 thumbnail: "/icanthearyou cover.png"
 intro: |
  hanging sculpture made from broken headphones and earbuds collected over the years<br>
- <object height="350" width="425">
-  <param name="movie" value="https://youtu.be/6lL1jkT2dwk">
-  <param name="wmode" value="transparent">
-  <embed height="350" src="https://youtu.be/6lL1jkT2dwk" type="application/x-shockwave-flash" width="425" wmode="transparent">
-  </object>
+  <embed src="https://youtu.be/6lL1jkT2dwk"></embed>
 
 content_layout:
   - section_layout: text
