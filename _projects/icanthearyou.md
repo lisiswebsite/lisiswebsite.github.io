@@ -9,7 +9,7 @@ time_period:
 thumbnail: "/icanthearyou cover.png"
 intro: |
  hanging sculpture made from broken headphones and earbuds collected over the years<br>
-  <embed src="https://youtu.be/6lL1jkT2dwk"></embed>
+  <embed src="/icanthearyou/icanthearyou.mov" Pluginspage="https://support.apple.com/quicktime" width="320" height="250" CONTROLLER="true" LOOP="false" AUTOPLAY="false" name="i cant hear you"></embed>
 
 content_layout:
   - section_layout: text
