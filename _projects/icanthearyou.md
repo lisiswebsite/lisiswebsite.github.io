@@ -8,15 +8,20 @@ description: ""
 time_period:
 thumbnail: "/icanthearyou cover.png"
 intro: |
- hanging sculpture made from broken headphones and earbuds collected over the years<br>
-  <video controls>Your browser does not support the &lt;video&gt; tag.
-  <source src="https://youtu.be/6lL1jkT2dwk"/>
-  </video>
+ hanging sculpture made from broken headphones and earbuds collected over the years
 
 content_layout:
   - section_layout: text
     content: |
       process:
+
+  - section_layout: 1col
+    images:
+      - caption:
+        description: ""
+        url: '/icanthearyou/icanthearyou0.jpeg'
+        width:
+        height:
 
   - section_layout: 3col
     images:

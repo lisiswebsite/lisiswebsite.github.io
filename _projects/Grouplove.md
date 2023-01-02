@@ -11,6 +11,7 @@ intro: |
  grouplove album jacket redesign
 
 content_layout:
+  
   - section_layout: 1col
     images:
       - caption:
