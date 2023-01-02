@@ -1,6 +1,6 @@
 ---
 
-gridorder: 15
+gridorder: 13
 date: 2017-03-14
 tools: gimp 2.8
 title: ""
