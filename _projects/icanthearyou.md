@@ -29,7 +29,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/icanthearyou/icanthearyou1.jpeg'
+        url: '/icanthearyou/icanthearyou7.jpeg'
         positioning: 
         width:
         height:
@@ -40,7 +40,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/icanthearyou/icanthearyou7.jpeg'
+        url: '/icanthearyou/icanthearyou1.jpeg'
         width:
         height:
  
