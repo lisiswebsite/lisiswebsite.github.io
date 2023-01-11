@@ -9,7 +9,7 @@ time_period:
 thumbnail: "/avatar cover.png"
 intro: |
  avatar (2009) logo redesign <br>
- ​created a new logo for the avatar franchise that isn't in papyrus
+ ​created a new logo for the avatar franchise that isn't papyrus
 
 content_layout:
   - section_layout: 1col
