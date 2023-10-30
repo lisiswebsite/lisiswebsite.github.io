@@ -1,6 +1,6 @@
 ---
 
-gridorder: 6
+gridorder: 12
 date: 2021-02-07
 tools:
 title: ""

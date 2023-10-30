@@ -1,12 +1,12 @@
 ---
 
-gridorder: 4
+gridorder: 3
 date: 2021-04-30
 tools: adobe illustrator
 title: ""
 description: ""
 time_period:
-thumbnail: "/spooky.png"
+thumbnail: "/spookycover.png"
 intro: |
  spooky phantom <br>
  original typeface

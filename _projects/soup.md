@@ -1,6 +1,6 @@
 ---
 
-gridorder: 11
+gridorder: 8
 date: 2021-01-21
 tools: adobe photoshop
 title: ""

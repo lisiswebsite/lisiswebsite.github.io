@@ -1,12 +1,12 @@
 ---
 
-gridorder: 8
+gridorder: 4
 date: 2020-10-26
 tools: adobe illustrator
 title: ""
 description: ""
 time_period:
-thumbnail: "/serifs cover.png"
+thumbnail: "/justserifscover.png"
 intro: |
  just serifs <br>
  original typeface constructed entirely out of serifs
@@ -19,24 +19,29 @@ content_layout:
         url: '/serifs/serifs1.png'
         width:
         height:
-        
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/serifs/serifs4.png'
+        url: '/serifs/serifsnew-04.png'
         width:
         height:
 
   - section_layout: text
     content: |
       sans serif version:
-
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/serifs/serifs5.png'
+        url: '/serifs/serifssansserif.png'
+        width:
+        height:
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/serifs/serifsnew-05.png'
         width:
         height:
 
