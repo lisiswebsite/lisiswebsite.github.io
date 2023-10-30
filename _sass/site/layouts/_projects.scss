@@ -33,15 +33,15 @@ $thumb-animation-ease-out: ease-in-out;
     @include grid-column(6);
 
     @include grid-media(phablet) {
-      @include grid-column(3);
+      @include grid-column(12);
     }
 
     @include grid-media(tablet) {
-      @include grid-column(4);
+      @include grid-column(12);
     }
 
     @include grid-media(desktop) {
-      @include grid-column(4);
+      @include grid-column(12);
     }
   }
 }
