@@ -1,6 +1,6 @@
 ---
 
-gridorder: 8
+gridorder: 9
 date: 2021-04-30
 tools: adobe illustrator
 title: ""
@@ -8,8 +8,10 @@ description: ""
 time_period:
 thumbnail: "/spookycover.png"
 intro: |
- spooky phantom <br>
- original typeface
+ Spooky Phantom <br>
+ Original typeface for setting a spooky tone. <br>
+
+ Trifold brochure pictured below:
 
 content_layout:
   - section_layout: 1col-narrow

@@ -1,6 +1,6 @@
 ---
 
-gridorder: 1
+gridorder: 3
 date: 2020-11-02
 tools: adobe illustrator
 title: ""
@@ -8,7 +8,7 @@ description: ""
 time_period:
 thumbnail: "/grouplove cover.png"
 intro: |
- grouplove album jacket redesign
+ Redesign of the album "Big Mess" by Grouplove. Like the band's sound, I wanted the album art to be a modern take on the '60s psychedelic aesthetic.
 
 content_layout:
   

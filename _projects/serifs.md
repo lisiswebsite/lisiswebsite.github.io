@@ -1,6 +1,6 @@
 ---
 
-gridorder: 9
+gridorder: 10
 date: 2020-10-26
 tools: adobe illustrator
 title: ""
@@ -8,8 +8,8 @@ description: ""
 time_period:
 thumbnail: "/justserifscover.png"
 intro: |
- just serifs <br>
- original typeface constructed entirely out of serifs
+ Just Serifs <br>
+ Original typeface constructed entirely out of serifs.
 
 content_layout:
   - section_layout: 1col-narrow

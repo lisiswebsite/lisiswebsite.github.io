@@ -1,6 +1,6 @@
 ---
 
-gridorder: 4
+gridorder: 6
 date: 2020-09-24
 tools: adobe illustrator
 title: ""
@@ -9,7 +9,7 @@ time_period:
 thumbnail: "/rihanna.png"
 intro: |
  
- using the original center photo for reference, created two abstract portraits of rihanna
+ Using the original center photo for reference, I created two abstract portraits of Rihanna.
 
 content_layout:
   - section_layout: 3col

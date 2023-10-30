@@ -1,6 +1,6 @@
 ---
 
-gridorder: 2
+gridorder: 4
 date: 2021-03-05
 tools: adobe illustrator
 title: ""
@@ -8,8 +8,10 @@ description: ""
 time_period:
 thumbnail: "/avatarcovernew.png"
 intro: |
- avatar (2009) logo redesign <br>
- ​created a new logo for the avatar franchise that isn't papyrus
+ Avatar (2009) logo redesign <br>
+ 
+ 
+ Redesign of the logo from the Avatar franchise (that isn't in Papyrus). The contrast between the hard corners on the bottom of each letter and the rounded path shaping the top represents the struggle faced by the film's protagonist, who becomes caught between the brutal, mechanical human world and Pandora, where the Na'vi and nature are interconnected.
 
 content_layout:
   - section_layout: 1col

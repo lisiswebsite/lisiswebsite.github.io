@@ -1,6 +1,6 @@
 ---
 
-gridorder: 12
+gridorder: 13
 date: 2020-09-03
 tools: adobe illustrator
 title: ""
@@ -9,7 +9,7 @@ time_period:
 thumbnail: '/cards cover.png'
 
 intro: |
-  frustrating playing cards
+  Frustrating playing cards. Especially difficult for speed-based games.
 
 content_layout:
   - section_layout: 2col

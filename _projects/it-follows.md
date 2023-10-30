@@ -8,8 +8,9 @@ description: ""
 time_period:
 thumbnail: "/it-follows cover.png"
 intro: |
- it follows (2014) poster redesign <br>
- 1950s b-movie take on a contemporary horror film
+ It Follows (2014) poster redesign <br>
+
+ It Follows takes place in an ambiguous time period, so this poster is meant to evoke the style of the 1950s B-movie horror films that the characters watch in several scenes.
 
 content_layout:
   - section_layout: 1col-narrow

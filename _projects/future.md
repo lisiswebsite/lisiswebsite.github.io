@@ -1,6 +1,6 @@
 ---
 
-gridorder: 10
+gridorder: 12
 date: 2020-09-04
 tools: adobe illustrator
 title: ""
@@ -8,9 +8,9 @@ description: ""
 time_period:
 thumbnail: "/future cover.png"
 intro: |
- hand lettering assignment <br>
+ Hand lettering assignment <br>
  
- study of how different letterforms can shape the tone and meaning of a yogi berra quote
+ This Yogi Berra quote alludes to how our perception of the future changes over time. I tried to capture this idea using hand-drawn space age-inspired letters.
 
 content_layout:
   - section_layout: 1col-narrow

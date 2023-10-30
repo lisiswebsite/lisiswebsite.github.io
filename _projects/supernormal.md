@@ -1,6 +1,6 @@
 ---
 
-gridorder: 7
+gridorder: 8
 date: 2023-10-29
 tools: robofont
 title: ""
@@ -8,15 +8,15 @@ description: ""
 time_period:
 thumbnail: "/supernormalcover.png"
 intro: |
- supernormal semibold<br>
- original typeface
+ Supernormal Semibold<br>
+ Original typeface
 
 content_layout:
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/supernormalcover.png'
+        url: '/supernormal/supernormal.png'
         width:
         height:
         

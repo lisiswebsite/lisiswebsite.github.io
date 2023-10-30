@@ -1,6 +1,6 @@
 ---
 
-gridorder: 3
+gridorder: 2
 date: 2023-10-29
 tools: adobe illustrator, blender
 title: ""
@@ -8,7 +8,7 @@ description: ""
 time_period:
 thumbnail: "/profane/profane1.png"
 intro: |
- fragrance bottle design for PROFANE <br>
+ Original bottle design for a fragrance called Profane. <br>
 
 content_layout:
   - section_layout: 1col-narrow
