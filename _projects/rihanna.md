@@ -1,6 +1,6 @@
 ---
 
-gridorder: 5
+gridorder: 4
 date: 2020-09-24
 tools: adobe illustrator
 title: ""

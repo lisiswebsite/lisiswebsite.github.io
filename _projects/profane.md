@@ -1,6 +1,6 @@
 ---
 
-gridorder: 1
+gridorder: 3
 date: 2023-10-29
 tools: adobe illustrator, blender
 title: ""
