@@ -47,51 +47,13 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/grouplove/grouplove4.png'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove5.png'
-        width:
-        height:
-      - caption:
-        description: ""
         url: '/grouplove/grouplove6.png'
-        width:
-        height:
-
-  - section_layout: 3col
-    images:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove7.png'
         positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove8.png'
         width:
         height:
       - caption:
         description: ""
         url: '/grouplove/grouplove9.png'
-        width:
-        height:
-
-  - section_layout: 3col
-    images:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove10.png'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove11.png'
         width:
         height:
       - caption:
