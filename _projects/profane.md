@@ -58,4 +58,57 @@ content_layout:
         width:
         height:
 
+  - section_layout: text
+    content: |
+      inspiration:
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/profane/sacred.png'
+        width:
+        height:
+
+  - section_layout: text
+    content: |
+      print ad iterations:
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/profane/print1.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/profane/print2.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/profane/print3.png'
+        width:
+        height:
+
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/profane/print4.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/profane/print5.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/profane/print6.png'
+        width:
+        height:
+
 ---
