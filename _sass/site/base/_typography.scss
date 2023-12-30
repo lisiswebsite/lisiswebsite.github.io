@@ -34,6 +34,11 @@ h1, h2, h3, h4, h5, h6, p, ul, li, dl, dt, dd {
   font-family: $font-family-secondary;
   font-size: var(--font-size-level-1);
   line-height: var(--line-height-tight);
+  color: var(--title-color);
+}
+
+.title-color {
+  color: var(--title-color);
 }
 
 .type-level-2 {
