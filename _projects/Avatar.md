@@ -4,7 +4,7 @@ gridorder: 4
 date: 2021-03-05
 tools: adobe illustrator
 title: ""
-description: ""
+description: "AVATAR<br>logo redesign"
 time_period:
 thumbnail: "/avatarcovernew.png"
 intro: |

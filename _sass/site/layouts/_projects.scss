@@ -179,7 +179,7 @@ $thumb-animation-ease-out: ease-in-out;
       &:hover .thumbnail-description-wrapper img,
       &:focus .thumbnail-description-wrapper img {
         filter:
-          grayscale(100%)
+          //grayscale(100%)
           //contrast(200%)
         ;
       }

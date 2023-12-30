@@ -1,10 +1,10 @@
 ---
 
-gridorder: 7
+gridorder: 9
 date: 2021-02-07
 tools:
 title: ""
-description: ""
+description: "I Can't Hear You<br>hanging sculpture"
 time_period:
 thumbnail: "/icanthearyou cover.png"
 intro: |

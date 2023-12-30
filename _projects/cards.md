@@ -4,7 +4,7 @@ gridorder: 13
 date: 2020-09-03
 tools: adobe illustrator
 title: ""
-description: ""
+description: "Frustrating playing cards"
 time_period:
 thumbnail: '/cards cover.png'
 

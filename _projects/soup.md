@@ -4,7 +4,7 @@ gridorder: 11
 date: 2021-01-21
 tools: adobe photoshop
 title: ""
-description: ""
+description: "Alphabet Soup advertisement"
 time_period:
 thumbnail: "/soup.png"
 intro: |

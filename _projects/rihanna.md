@@ -1,10 +1,10 @@
 ---
 
-gridorder: 6
+gridorder: 10
 date: 2020-09-24
 tools: adobe illustrator
 title: ""
-description: ""
+description: "Digital portraits"
 time_period:
 thumbnail: "/rihanna.png"
 intro: |

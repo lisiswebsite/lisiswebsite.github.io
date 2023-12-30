@@ -4,11 +4,11 @@ gridorder: 12
 date: 2020-09-04
 tools: adobe illustrator
 title: ""
-description: ""
+description: "Hand lettering"
 time_period:
 thumbnail: "/future cover.png"
 intro: |
- Hand lettering assignment <br>
+ Hand lettering project <br>
  
  This Yogi Berra quote alludes to how our perception of the future changes over time. I tried to capture this idea using hand-drawn space age-inspired letters.
 

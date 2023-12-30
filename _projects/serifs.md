@@ -1,10 +1,10 @@
 ---
 
-gridorder: 10
+gridorder: 8
 date: 2020-10-26
 tools: adobe illustrator
 title: ""
-description: ""
+description: "Just Serifs<br>original typeface"
 time_period:
 thumbnail: "/justserifscover.png"
 intro: |

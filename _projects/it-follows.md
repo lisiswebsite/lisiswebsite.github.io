@@ -1,10 +1,10 @@
 ---
 
-gridorder: 5
+gridorder: 6
 date: 2020-10-28
 tools: adobe illustrator, adobe photoshop
 title: ""
-description: ""
+description: "It Follows<br>movie poster redesign"
 time_period:
 thumbnail: "/it-follows cover.png"
 intro: |

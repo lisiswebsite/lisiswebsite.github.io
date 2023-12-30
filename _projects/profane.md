@@ -1,27 +1,29 @@
 ---
 
-gridorder: 2
+gridorder: 3
 date: 2023-10-29
-tools: adobe illustrator, blender
+tools: adobe illustrator, blender, adobe photoshop
 title: ""
-description: ""
+description: "PROFANE<br>fragrance packaging"
 time_period:
-thumbnail: "/profane/profane1.png"
+thumbnail: "/profanecover.png"
 intro: |
- Original bottle design for a fragrance called Profane. <br>
+ Original bottle design for a fragrance called Profane.
 
 content_layout:
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/profane/profane1.png'
+        url: '/profane/finalrender.png'
+        positioning: 
         width:
         height:
-
   - section_layout: text
     content: |
-      original thumbnail sketches:
+      For this project, I received a sample of an evening fragrance which had a floral scent mixed with muskier notes of patchouli. The combination inspired the name “Sacred and Profane,” with “sacred” referencing the lighter, sweeter top notes and “profane” referencing the richer, earthier base notes. This was later shortened to just “Profane,” as a one-word name felt more impactful.<br>
+      
+      After coming up with the name, I created a series of thumbnail sketches:
   - section_layout: 2col
     images:
       - caption:
@@ -38,7 +40,9 @@ content_layout:
 
   - section_layout: text
     content: |
-      2D models:
+       Like the name, the bottle design I eventually decided on was inspired by the opposition of the sacred and the profane. I imagined sacred objects as having soft, rounded shapes like celestial bodies, so therefore a profane bottle should have more severe angles and pointed edges. The tapered kite shape of the fragrance inside the bottle is meant to evoke a more feminine figure than the broader silhouette of the exterior glass. <br>
+       
+       Here are the 2D models as I refined this idea further:
   - section_layout: 3col
     images:
       - caption:
@@ -57,10 +61,28 @@ content_layout:
         url: '/profane/2drenders-03.png'
         width:
         height:
+  
+  - section_layout: text
+    content: |
+      
+      Next, I took the design to Blender to create a 3D model:
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/profane/profane1.png'
+        width:
+        height:
 
   - section_layout: text
     content: |
-      inspiration:
+      
+      I developed several different ideas for the fragrance's marketing materials. For the first round of print ads, I was inspired by the following definition of profane:<br>
+
+      <pre>"treat (something sacred) with irreverence or disrespect."</pre>
+
+      I decided to "profane" famous works of art by photoshopping my bottle into them. I did this first with Titian's "Sacred and Profane Love"
+
 
   - section_layout: 1col-narrow
     images:
@@ -69,10 +91,16 @@ content_layout:
         url: '/profane/sacred.png'
         width:
         height:
-
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/profane/zoom2.png'
+        width:
+        height:
   - section_layout: text
     content: |
-      print ad iterations:
+      and then, to be consistent with the art deco aesthetic of the bottle, with Tamara de Lempicka's "Young Girl in Green":
   - section_layout: 3col
     images:
       - caption:
@@ -84,6 +112,7 @@ content_layout:
       - caption:
         description: ""
         url: '/profane/print2.png'
+        positioning: 
         width:
         height:
       - caption:
@@ -91,7 +120,9 @@ content_layout:
         url: '/profane/print3.png'
         width:
         height:
-
+  - section_layout: text
+    content: |
+      I experimented with some more art deco found images before pivoting to a more minimalistic look. For the final print ad, I changed the color of the fragrance and echoed the herringbone pattern from the side of the bottle and the gold from the cap.
   - section_layout: 3col
     images:
       - caption:
@@ -108,6 +139,40 @@ content_layout:
       - caption:
         description: ""
         url: '/profane/print6.png'
+        width:
+        height:
+
+  - section_layout: text
+    content: |
+      Other marketing materials including the vial card, box, shopping bag, and blotters followed the same approach as the minimalistic print ad:
+  - section_layout: 3col
+    images:
+      - caption:
+        description: ""
+        url: '/profane/VIALS.png'
+        positioning: 
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/profane/box.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/profane/blotter.png'
+        width:
+        height:
+
+  - section_layout: text
+    content: |
+      Finally, I designed a counter display for the bottle as it would appear in a department store:
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/profane/counterdisplay.png'
+        positioning: 
         width:
         height:
 
