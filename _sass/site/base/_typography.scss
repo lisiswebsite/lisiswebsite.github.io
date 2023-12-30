@@ -1,10 +1,11 @@
-/*@font-face {
+@font-face {
   font-family: 'Tholoes DEMO';
-  src: url('/_sass/site/base/tholoesdemo-jexel.ttf') format('truetype');
-}*/
+  src: url('tholoesdemo-jexel.ttf') format('truetype');
+}
 
 $font-family-primary: 'Futura', -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
-$font-family-secondary: 'Futura', sans-serif; /*'Tholoes DEMO';*/
+$font-family-secondary: 'Tholoes DEMO';
+// $font-family-secondary: 'Futura', sans-serif; /*'Tholoes DEMO';*/
 
 html {
   font-family: sans-serif;
