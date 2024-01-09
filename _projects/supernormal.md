@@ -14,19 +14,19 @@ intro: |
  <a href="/images/supernormalsemibold.otf.zip" download>Click here</a> to try it out!
 
 content_layout:
-  - section_layout: 1col-narrow
+  - section_layout: 1col
     images:
       - caption:
         description: ""
-        url: '/supernormal/supernormal-02.png'
+        url: '/supernormal/supernormal.png'
         width:
         height:
 
-  - section_layout: 1col-narrow
+  - section_layout: 1col
     images:
       - caption:
         description: ""
-        url: '/supernormal/supernormal-03.png'
+        url: '/supernormal/supernormal2.png'
         width:
         height:
 
