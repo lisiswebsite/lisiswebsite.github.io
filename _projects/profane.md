@@ -8,7 +8,10 @@ description: "PROFANE<br>fragrance packaging"
 time_period:
 thumbnail: "/profanecover.png"
 intro: |
- Original bottle design for a fragrance called Profane.
+ For this project, I designed the bottle and marketing materials for a fragrance called Profane.
+ <br>
+ <br>
+ Each step of this process is outlined below.
 
 content_layout:
   - section_layout: 1col-narrow
@@ -21,7 +24,7 @@ content_layout:
         height:
   - section_layout: text
     content: |
-      For this project, I received a sample of an evening fragrance which had a floral scent mixed with muskier notes of patchouli. The combination inspired the name “Sacred and Profane,” with “sacred” referencing the lighter, sweeter top notes and “profane” referencing the richer, earthier base notes. This was later shortened to just “Profane,” as a one-word name felt more impactful.<br>
+      I first received a sample of an evening fragrance which had a floral scent mixed with muskier notes of patchouli. The combination inspired the name “Sacred and Profane,” with “sacred” referencing the lighter, sweeter top notes and “profane” referencing the richer, earthier base notes. This was later shortened to just “Profane,” as a one-word name felt more impactful.<br>
       
       After coming up with the name, I created a series of thumbnail sketches:
   - section_layout: 2col
@@ -122,7 +125,7 @@ content_layout:
         height:
   - section_layout: text
     content: |
-      I experimented with some more art deco found images before pivoting to a more minimalistic look. For the final print ad, I changed the color of the fragrance and echoed the herringbone pattern from the side of the bottle and the gold from the cap.
+      I experimented with some more art deco found images before pivoting to a more minimalistic look. For the final print ad, I changed the color of the fragrance and echoed the herringbone pattern from the bottle and the gold from the cap.
   - section_layout: 3col
     images:
       - caption:

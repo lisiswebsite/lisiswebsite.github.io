@@ -8,10 +8,7 @@ description: "AVATAR<br>logo redesign"
 time_period:
 thumbnail: "/avatar cover.png"
 intro: |
- Avatar (2009) logo redesign <br>
- 
- 
- Redesign of the logo from the Avatar franchise (that isn't in Papyrus). The contrast between the hard corners on the bottom of each letter and the rounded path shaping the top represents the struggle faced by the film's protagonist, who becomes caught between the brutal, mechanical human world and Pandora, where the Na'vi and nature are interconnected.
+ The goal of this project was to redesign the Avatar film franchise logo (so it would no longer be in Papyrus).
 
 content_layout:
   - section_layout: 1col
@@ -24,7 +21,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      process:
+      The contrast between the hard corners on the bottom of each letter and the rounded path shaping the top represents the struggle faced by the film's protagonist, who becomes caught between the brutal, mechanical human world and Pandora, where the Na'vi and nature are interconnected. Starting with this concept, I gradually made edits until acheiving the final typographic result:
 
   - section_layout: 1col-narrow
     images:
