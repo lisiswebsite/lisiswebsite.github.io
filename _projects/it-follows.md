@@ -29,18 +29,18 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/it-follows/itfollows1.png'
+        url: '/it-follows/itfollows1.jpeg'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows2.jpeg'
+        url: '/it-follows/itfollows2.png'
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows3.png'
+        url: '/it-follows/itfollows4.png'
         width:
         height:
  
@@ -48,13 +48,13 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/it-follows/itfollows4.png'
+        url: '/it-follows/itfollows5.png'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows5.png'
+        url: '/it-follows/itfollows3.png'
         width:
         height:
       - caption:

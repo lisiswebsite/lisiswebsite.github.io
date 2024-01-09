@@ -6,7 +6,7 @@ tools: robofont
 title: ""
 description: "Supernormal Semibold<br>original typeface"
 time_period:
-thumbnail: "/supernormal/supernormal-01.png"
+thumbnail: "/supernormal/supernormalcover.png"
 intro: |
  Supernormal Semibold<br>
  Original typeface
