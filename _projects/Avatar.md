@@ -27,7 +27,55 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatar5.png'
+        url: '/avatar/avatarsketch1.png'
+        width:
+        height:
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch2.png'
+        width:
+        height:  
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch4.png'
+        width:
+        height:      
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch6.png'
+        width:
+        height:  
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch8.png'
+        width:
+        height:   
+        
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch9.1.png'
+        width:
+        height: 
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarmockup.png'
         width:
         height:
 
