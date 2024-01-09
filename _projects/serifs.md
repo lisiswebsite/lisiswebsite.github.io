@@ -6,7 +6,7 @@ tools: adobe illustrator
 title: ""
 description: "Just Serifs<br>original typeface"
 time_period:
-thumbnail: "/justserifscover.png"
+thumbnail: "/serifs cover.png"
 intro: |
  Just Serifs <br>
  Original typeface constructed entirely out of serifs.

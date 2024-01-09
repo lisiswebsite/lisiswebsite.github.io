@@ -8,9 +8,7 @@ description: "Annenberg Inclusion Initiative<br>infographics & logos"
 time_period:
 thumbnail: "/aiicover.png"
 intro: |
- Annenberg Inclusion Initiative graphics <br>
- 
- Some examples of the infographics I made while working for the Annenberg Inclusion Initiative, which were published in official reports and on the organization's social media accounts. The typefaces, colors, and overall style were based on past reports for consistency.
+ Below are some examples of the infographics I made while working for the Annenberg Inclusion Initiative, which were published in official reports and on the organization's social media accounts. The typefaces, colors, and overall style were based on past reports for consistency.
 
  Other published reports and graphics I worked on can be found <a href="https://assets.uscannenberg.org/docs/aii-inclusion-directors-chair-2022.pdf" target="_blank">here</a> and <a href="https://assets.uscannenberg.org/docs/aii-inclusion-recording-studio-20220331.pdf" target="_blank">here</a>.
 

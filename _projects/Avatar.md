@@ -6,7 +6,7 @@ tools: adobe illustrator
 title: ""
 description: "AVATAR<br>logo redesign"
 time_period:
-thumbnail: "/avatarcovernewest.png"
+thumbnail: "/avatar cover.png"
 intro: |
  Avatar (2009) logo redesign <br>
  

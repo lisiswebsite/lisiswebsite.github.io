@@ -6,10 +6,12 @@ tools: robofont
 title: ""
 description: "Supernormal Semibold<br>original typeface"
 time_period:
-thumbnail: "/supernormal/supernormalcover.png"
+thumbnail: "/supernormalcover.png"
 intro: |
- Supernormal Semibold<br>
- Original typeface
+ Supernormal Semibold is an original typeface designed for fashion brands and magazine headlines.
+ <br>
+ <br>
+ <a href="/images/supernormalsemibold.otf.zip" download>Click here</a> to try it out!
 
 content_layout:
   - section_layout: 1col-narrow
