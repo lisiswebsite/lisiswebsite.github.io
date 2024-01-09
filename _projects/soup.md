@@ -6,7 +6,7 @@ tools: adobe photoshop
 title: ""
 description: "Alphabet Soup advertisement"
 time_period:
-thumbnail: "/soup.png"
+thumbnail: "/soup cover.png"
 intro: |
  Fake retro alphabet soup advertisement.
 

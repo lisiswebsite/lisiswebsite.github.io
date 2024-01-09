@@ -6,7 +6,7 @@ tools: adobe illustrator
 title: ""
 description: "Digital portraits"
 time_period:
-thumbnail: "/rihanna.png"
+thumbnail: "/rihanna cover.png"
 intro: |
  
  Using the original center photo for reference, I created two abstract portraits of Rihanna.
