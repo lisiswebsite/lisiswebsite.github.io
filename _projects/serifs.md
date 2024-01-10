@@ -8,8 +8,7 @@ description: "Just Serifs<br>original typeface"
 time_period:
 thumbnail: "/serifs cover.png"
 intro: |
- Just Serifs <br>
- Original typeface constructed entirely out of serifs.
+ Just Serifs is an original typeface constructed entirely out of serifs.
 
 content_layout:
   - section_layout: 1col-narrow
@@ -29,7 +28,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      sans serif version:
+      Sans serif version:
   - section_layout: 1col-narrow
     images:
       - caption:
