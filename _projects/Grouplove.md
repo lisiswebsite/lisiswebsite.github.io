@@ -8,7 +8,7 @@ description: "Grouplove<br>album jacket redesign"
 time_period:
 thumbnail: "/grouplove cover.png"
 intro: |
- Redesign of the album "Big Mess" by Grouplove. Like the band's sound, I wanted the album art to be a modern take on the '60s psychedelic aesthetic.
+ I redesigned the cover for "Big Mess," an album by Grouplove. Like the band's sound, I wanted the typography and colors to be a modern take on the '60s psychedelic aesthetic.
 
 content_layout:
   
@@ -22,7 +22,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      process:
+      Starting with my favorite typeface, Futura, I made small tweaks until achieving the look I had in mind. After that, I experimented with different color palettes and layouts, which eventually led to the final result.
 
   - section_layout: 3col
     images:

@@ -8,7 +8,7 @@ description: "Avatar<br>logo redesign"
 time_period:
 thumbnail: "/avatar cover.png"
 intro: |
- The goal of this project was to redesign the Avatar film franchise logo (so it would no longer be in Papyrus).
+ I redesigned the Avatar film franchise logo (so it would no longer be in Papyrus).
 
 content_layout:
   - section_layout: 1col

@@ -8,7 +8,7 @@ description: "PROFANE<br>fragrance packaging"
 time_period:
 thumbnail: "/profanecover.png"
 intro: |
- For this project, I designed the bottle and marketing materials for a fragrance called Profane.
+ I designed the bottle and marketing materials for a fragrance called Profane.
  <br>
  <br>
  Each step of this process is outlined below.
