@@ -8,10 +8,10 @@ description: "Spooky Phantom<br>original typeface"
 time_period:
 thumbnail: "/spookycover.png"
 intro: |
- Spooky Phantom <br>
- Original typeface for setting a spooky tone. <br>
-
- Trifold brochure pictured below:
+ Spooky Phantom is an original typeface designed for setting a spooky tone.
+ <br>
+ <br>
+ <a href="/images/spooky/SpookyPhantom.zip" download>Click here</a> to try it out!
 
 content_layout:
   - section_layout: 1col-narrow
