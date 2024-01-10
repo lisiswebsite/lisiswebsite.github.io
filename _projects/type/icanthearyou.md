@@ -4,14 +4,14 @@ gridorder: 11
 date: 2021-02-07
 tools: broken headphones, earbuds
 title: ""
-description: "I Can't Hear You<br>hanging sculpture"
+description: "i CAN'T HeAr yoU<br>hanging sculpture"
 time_period:
 thumbnail: "/icanthearyou cover.png"
 category: "misc"
 intro: |
- Hanging sculpture made from broken headphones and earbuds collected over the years <br>
-
- <a href="https://youtu.be/6lL1jkT2dwk" target="_blank">video</a>
+ "i CAN'T HeAr yoU" is a hanging sculpture made from broken headphones and earbuds collected over the years.<br>
+ <br>
+ To see this project from other angles, click <a href="https://youtu.be/6lL1jkT2dwk" target="_blank">here</a>.
 
 content_layout:
   - section_layout: 1col
@@ -24,7 +24,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      process:
+      Construction process:
 
   - section_layout: 3col
     images:
