@@ -5,17 +5,35 @@ title: ""
 description: "typography exercises"
 time_period:
 thumbnail: "/soup cover.png"
-intro: |
- Fake retro alphabet soup advertisement.
 
 content_layout:
-  - section_layout: 1col-narrow
+  - section_layout: 2col
     images:
       - caption:
         description: ""
-        url: '/soup/alphabetsoup.png'
+        url: '/icanthearyou cover.png'
+        positioning: 
         width:
         height:
+        redirect: 'icanthearyou'
+      - caption:
+        description: ""
+        url: '/soup cover.png'
+        width:
+        height:
+        redirect: 'soup'
+      - caption:
+        description: ""
+        url: '/future cover.png'
+        width:
+        height:
+        redirect: 'future'
+      - caption:
+        description: ""
+        url: '/abstract cover.png'
+        width:
+        height:
+        redirect: 'abstract'
 
 
 ---

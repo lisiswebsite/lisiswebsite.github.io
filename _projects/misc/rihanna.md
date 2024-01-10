@@ -7,6 +7,7 @@ title: ""
 description: "Digital portraits"
 time_period:
 thumbnail: "/rihanna cover.png"
+category: "misc"
 intro: |
  
  Using the original center photo for reference, I created two abstract portraits of Rihanna.
@@ -27,7 +28,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/rihanna.png'
+        url: '/rihanna/rihanna.png'
         width:
         height:
 

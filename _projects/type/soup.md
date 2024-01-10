@@ -7,6 +7,7 @@ title: ""
 description: "Alphabet Soup advertisement"
 time_period:
 thumbnail: "/soup cover.png"
+category: "misc"
 intro: |
  Fake retro alphabet soup advertisement.
 

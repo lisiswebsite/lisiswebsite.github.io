@@ -1,27 +1,29 @@
 ---
 
-gridorder: 14
-date: 2020-10-14
-tools: adobe illustrator, adobe photoshop
+gridorder: 9
+date: 2019-10-14
+tools: gimp 2.8
 title: ""
-description: "17776<br>paper currency design"
+description: ""
 time_period:
-thumbnail: "/17776 cover.png"
+thumbnail: "/claire cover.png"
+category: "misc"
 intro: |
- Paper currency based on <i><a href="https://www.sbnation.com/a/17776-football" target="_blank">17776</a></i> by Jon Bois
+
+ stickers of my friend claire i made for her birthday
 
 content_layout:
   - section_layout: 2col
     images:
       - caption:
         description: ""
-        url: '/17776/5frontfinal.png'
+        url: '/claire/claire1.png'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/17776/5backfinal.png'
+        url: '/claire/claire1.5.jpeg'
         width:
         height:
 
@@ -29,13 +31,13 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/17776/10frontfinal.png'
+        url: '/claire/claire2.png'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/17776/10backfinal.png'
+        url: '/claire/claire2.5.png'
         width:
         height:
 
@@ -43,13 +45,23 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/17776/20frontfinal.png'
+        url: '/claire/claire3.png'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/17776/20backfinal.png'
+        url: '/claire/claire3.5.jpeg'
         width:
         height:
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/claire/claire4.png'
+        positioning: 
+        width:
+        height:
+
 ---

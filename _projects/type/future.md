@@ -7,6 +7,7 @@ title: ""
 description: "Hand lettering"
 time_period:
 thumbnail: "/future cover.png"
+category: "misc"
 intro: |
  Hand lettering project <br>
  

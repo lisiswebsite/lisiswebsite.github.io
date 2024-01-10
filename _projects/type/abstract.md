@@ -7,6 +7,7 @@ title: ""
 description: ""
 time_period:
 thumbnail: "/abstract cover.png"
+category: "misc"
 intro: |
  
  abstract art made from papyrus, comic sans, & impact letters

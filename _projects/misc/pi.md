@@ -1,22 +1,22 @@
 ---
 
-gridorder: 10
-date: 2018-05-16
+gridorder: 13
+date: 2017-03-14
 tools: gimp 2.8
 title: ""
 description: ""
 time_period:
-thumbnail: "/534 cover.png"
+thumbnail: "/pi.png"
+category: "misc"
 intro: |
- 
- my favorite bus in los angeles
+ math honors society pi day t shirt design
 
 content_layout:
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/534/534.png'
+        url: '/pi/pie2.png'
         width:
         height:
 

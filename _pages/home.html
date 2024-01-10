@@ -12,9 +12,11 @@ priority: 1.0
   <!-- <p class="projects-intro type-level-3">good design good design good design good design good design</p> -->
 </div>
 
+
 <div class="projects">
-    {% assign p =  site.projects | sort: "gridorder" %}
+  {% assign p =  site.projects | sort: "gridorder" %}
     {% for project in p  limit:include.limit %}
+    {% if project.category != "misc" %} 
     <article class="project-listing">
         <div class="thumbnail-wrapper">
           <a href="{{ project.url | prepend: site.baseurl }}">
@@ -28,5 +30,7 @@ priority: 1.0
           </a>
         </div>
       </article>
+      {% endif %}
     {% endfor %}
     </div>
+

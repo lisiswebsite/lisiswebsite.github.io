@@ -2,11 +2,12 @@
 
 gridorder: 11
 date: 2021-02-07
-tools:
+tools: broken headphones, earbuds
 title: ""
 description: "I Can't Hear You<br>hanging sculpture"
 time_period:
 thumbnail: "/icanthearyou cover.png"
+category: "misc"
 intro: |
  Hanging sculpture made from broken headphones and earbuds collected over the years <br>
 

@@ -7,6 +7,7 @@ title: ""
 description: "Frustrating playing cards"
 time_period:
 thumbnail: '/cards cover.png'
+category: "misc"
 
 intro: |
   Frustrating playing cards. Especially difficult for speed-based games.

@@ -21,10 +21,16 @@
       {% endcapture %}
 
       <figure class="image-wrapper {{ image.positioning }}">
+        {% if image.redirect %}
+        <a href="{{ image.redirect }}">
+        {% endif %}
         <img class="{{ image.border }}" src="{{ image.url | prepend: site.image_serve_path }}" alt="{{ stored_description | normalize_whitespace }}">
         {% if image.caption %}
           <figcaption>{{ image.caption }}</figcaption>
         {% endif %}
+        {% if image.redirect %}
+      </a>
+      {% endif %}
       </figure>
 
     {% endfor %}

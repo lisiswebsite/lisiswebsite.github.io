@@ -30,6 +30,7 @@ title-class: project
 
 <div class="project-wrapper">
 
+  {% if page.intro %}
   <div class="project-info">
     <section class="project-intro paragraph-normal">{{ page.intro | markdownify }}</section>
     <aside class="project-details">
@@ -61,6 +62,7 @@ title-class: project
       </div>
     </aside>
   </div>
+  {% endif %}
 
   <section>
   {% for entry in page.content_layout %}
