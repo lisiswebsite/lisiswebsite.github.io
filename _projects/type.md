@@ -34,6 +34,12 @@ content_layout:
         width:
         height:
         redirect: 'abstract'
+      - caption:
+        description: ""
+        url: '/pi.png'
+        width:
+        height:
+        redirect: 'pi'
 
 
 ---

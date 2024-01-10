@@ -2,7 +2,7 @@
 
 gridorder: 10
 title: ""
-description: "miscellaneous projects"
+description: "miscellaneous work"
 time_period:
 thumbnail: "/rihanna cover.png"
 
@@ -18,10 +18,10 @@ content_layout:
         redirect: '17776'
       - caption:
         description: ""
-        url: '/rihanna cover.png'
+        url: '/bird cover2.png'
         width:
         height:
-        redirect: 'rihanna'
+        redirect:
       - caption:
         description: ""
         url: '/cards cover.png'
@@ -36,10 +36,10 @@ content_layout:
         redirect: '534'
       - caption:
         description: ""
-        url: '/pi.png'
+        url: '/rihanna cover.png'
         width:
         height:
-        redirect: 'pi'
+        redirect: 'rihanna'
       - caption:
         description: ""
         url: '/claire cover.png'
