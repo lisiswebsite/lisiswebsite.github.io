@@ -1,8 +1,6 @@
 ---
 
 gridorder: 10
-date: 2020-09-24
-tools: adobe illustrator
 title: ""
 description: "miscellaneous projects"
 time_period:
@@ -27,7 +25,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/rihanna.png'
+        url: '/rihanna/rihanna.png'
         width:
         height:
 

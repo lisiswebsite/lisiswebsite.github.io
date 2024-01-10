@@ -1,8 +1,6 @@
 ---
 
 gridorder: 9
-date: 2021-01-21
-tools: adobe photoshop
 title: ""
 description: "typography exercises"
 time_period:
