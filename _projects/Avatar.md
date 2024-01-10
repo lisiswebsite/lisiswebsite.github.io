@@ -35,7 +35,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatarsketch2.png'
+        url: '/avatar/avatarsketch2.5.png'
         width:
         height:  
 
@@ -43,7 +43,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatarsketch4.png'
+        url: '/avatar/avatarsketch4.5.png'
         width:
         height:      
 
@@ -51,7 +51,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatarsketch6.png'
+        url: '/avatar/avatarsketch6.5.png'
         width:
         height:  
 
@@ -59,7 +59,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatarsketch8.png'
+        url: '/avatar/avatarsketch8.5.png'
         width:
         height:   
         
@@ -67,7 +67,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatarsketch9.1.png'
+        url: '/avatar/avatarsketch9.5.png'
         width:
         height: 
 
