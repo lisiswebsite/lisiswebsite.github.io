@@ -22,11 +22,16 @@ content_layout:
         width:
         height:
         
-  - section_layout: 1col-narrow
+  - section_layout: 2col
     images:
       - caption:
         description: ""
-        url: '/spooky/spooky3.png'
+        url: '/spooky/spookypreview.png'
+        width:
+        height:
+      - caption:
+        description: ""
+        url: '/spooky/spookypreview2.png'
         width:
         height:
 
