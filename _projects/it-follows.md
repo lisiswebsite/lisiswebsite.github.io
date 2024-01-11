@@ -21,7 +21,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      process:
+      Process:
 
   - section_layout: 3col
     images:
