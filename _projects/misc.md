@@ -2,7 +2,7 @@
 
 gridorder: 10
 title: ""
-description: "miscellaneous work"
+description: "other fun stuff"
 time_period:
 thumbnail: "/rihanna cover.png"
 
