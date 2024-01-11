@@ -8,7 +8,7 @@ description: "It Follows<br>movie poster redesign"
 time_period:
 thumbnail: "/it-follows cover.png"
 intro: |
- Inspired by 1950s B-movie horror, I redesigned the poster for It Follows (2014).
+ Inspired by 1950s B-movie horror, I redesigned the poster for the movie It Follows (2014).
 
 content_layout:
   - section_layout: 1col-narrow
