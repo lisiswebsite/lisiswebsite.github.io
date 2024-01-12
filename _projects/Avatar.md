@@ -8,7 +8,7 @@ description: "Avatar<br>logo redesign"
 time_period:
 thumbnail: "/avatar cover.png"
 intro: |
- I redesigned the Avatar film franchise logo (so it would no longer be in Papyrus).
+ Here's my <a href="https://www.youtube.com/watch?v=jVhlJNJopOQ" target="_blank">non-Papyrus</a> redesign of the Avatar film franchise logo:
 
 content_layout:
   - section_layout: 1col
