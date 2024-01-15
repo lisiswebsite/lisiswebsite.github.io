@@ -1,6 +1,6 @@
 ---
 
-gridorder: 9
+gridorder: 10
 title: ""
 description: "typography exercises"
 time_period:
