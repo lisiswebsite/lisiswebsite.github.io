@@ -2,14 +2,14 @@
 
 gridorder: 9
 date: 2021-01-21
-tools: adobe photoshop
+tools: magazine letters, printed images, adobe photoshop, adobe illustrator
 title: ""
 description: "Alphabet Soup advertisement"
 time_period:
 thumbnail: "/soup cover.png"
 category: "misc"
 intro: |
- Fake retro alphabet soup advertisement.
+ Created an advertisement for alphabet soup.
 
 content_layout:
   - section_layout: 1col-narrow

@@ -2,7 +2,7 @@
 
 gridorder: 11
 date: 2021-02-07
-tools: broken headphones, earbuds
+tools: broken headphones, earbuds, string, tape
 title: ""
 description: "i CAN'T HeAr yoU<br>hanging sculpture"
 time_period:

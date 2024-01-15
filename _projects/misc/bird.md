@@ -1,22 +1,23 @@
 ---
 
-gridorder: 13
-date: 2017-03-14
-tools: gimp 2.8
+gridorder: 10
+date: 2017-01-01
+tools: pen/pencil & paper, illustrator
 title: ""
 description: ""
 time_period:
-thumbnail: "/pi.png"
+thumbnail: "/bird cover2.png"
 category: "misc"
 intro: |
- I designed the T-shirts for my high school math honor society's Pi Day 2017 celebration.
+ 
+ Bird Cape Hero - under construction.
 
 content_layout:
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/pi/pie2.png'
+        url: '/bird cover2.png'
         width:
         height:
 

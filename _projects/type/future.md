@@ -9,8 +9,6 @@ time_period:
 thumbnail: "/future cover.png"
 category: "misc"
 intro: |
- Hand lettering project <br>
- 
  This Yogi Berra quote alludes to how our perception of the future changes over time. I tried to capture this idea using hand-drawn space age-inspired letters.
 
 content_layout:
@@ -24,7 +22,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      process:
+      Process:
 
   - section_layout: 3col
     images:

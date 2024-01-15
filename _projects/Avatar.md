@@ -4,11 +4,11 @@ gridorder: 4
 date: 2021-03-05
 tools: adobe illustrator
 title: ""
-description: "Avatar<br>logo redesign"
+description: "<i>Avatar</i><br>logo redesign"
 time_period:
 thumbnail: "/avatar cover.png"
 intro: |
- Here's my <a href="https://www.youtube.com/watch?v=jVhlJNJopOQ" target="_blank">non-Papyrus</a> redesign of the Avatar film franchise logo:
+ Here's my <a href="https://www.youtube.com/watch?v=jVhlJNJopOQ" target="_blank">non-Papyrus</a> redesign of the <i>Avatar</i> film franchise logo:
 
 content_layout:
   - section_layout: 1col
@@ -21,7 +21,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      The contrast between the hard corners on the bottom of each letter and the rounded path shaping the top represents the struggle faced by the film's protagonist, who becomes caught between the brutal, mechanical human world and Pandora, where the Na'vi and nature are interconnected. Starting with this concept, I gradually made edits until acheiving the final typographic result:
+      The contrast between the hard corners on the bottom of each letter and the rounded path shaping the top represents the struggle faced by the film's protagonist, who becomes caught between a brutal, mechanical human world and Pandora, where the Na'vi and nature are interconnected. Starting with this concept, I gradually made edits until acheiving the final typographic result:
 
   - section_layout: 1col-narrow
     images:

@@ -10,7 +10,7 @@ thumbnail: "/claire cover.png"
 category: "misc"
 intro: |
 
- stickers of my friend claire i made for her birthday
+ For my friend Claire's birthday one year, I turned photos of her into stickers.
 
 content_layout:
   - section_layout: 2col

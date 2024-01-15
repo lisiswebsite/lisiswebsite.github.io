@@ -2,7 +2,7 @@
 
 gridorder: 11
 title: ""
-description: "other fun stuff"
+description: "other fun stuff!"
 time_period:
 thumbnail: "/rihanna cover.png"
 
@@ -21,7 +21,7 @@ content_layout:
         url: '/bird cover2.png'
         width:
         height:
-        redirect:
+        redirect: 'bird'
       - caption:
         description: ""
         url: '/cards cover.png'

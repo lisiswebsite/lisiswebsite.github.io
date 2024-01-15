@@ -4,11 +4,11 @@ gridorder: 6
 date: 2020-10-28
 tools: adobe illustrator, adobe photoshop
 title: ""
-description: "It Follows<br>movie poster redesign"
+description: "<i>It Follows</i><br>movie poster redesign"
 time_period:
 thumbnail: "/it-follows cover.png"
 intro: |
- Taking inspiration from 1950s B-movie horror, I redesigned the poster for the film It Follows (2014).
+ Taking inspiration from 1950s B-movie horror, I redesigned the poster for the film <i>It Follows</i> (2014).
 
 content_layout:
   - section_layout: 1col-narrow
@@ -21,7 +21,9 @@ content_layout:
 
   - section_layout: text
     content: |
-      At first glance, It Follows appears to take place in modern day. However, minor details scattered throughout the movie make the setting more ambiguous. Characters exclusively watch the aforementioned 1950s b-movies on TV, yet they also have access to technology that doesn't yet exist in the real world. The redesigned poster is meant to reflect this collapsing of time periods that occurs within the movie.
+      At first glance, <i>It Follows</i> appears to take place in modern day. However, minor details scattered throughout the movie make the setting more ambiguous. Characters exclusively watch the aforementioned 1950s b-movies on TV, yet they also have access to technology that doesn't yet exist in the real world. The redesigned poster is meant to reflect this collapsing of time periods that occurs within the movie.
+
+      Design process:
 
   - section_layout: 3col
     images:

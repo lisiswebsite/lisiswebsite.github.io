@@ -10,7 +10,7 @@ thumbnail: "/abstract cover.png"
 category: "misc"
 intro: |
  
- abstract art made from papyrus, comic sans, & impact letters
+ Three abstract posters made from Papyrus, Comic Sans, & Impact letterforms.
 
 content_layout:
   - section_layout: 3col
