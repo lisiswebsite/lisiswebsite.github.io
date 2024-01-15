@@ -8,7 +8,7 @@ description: "Brat Institute<br>visual identity project"
 time_period:
 thumbnail: "/bratcovertest.png"
 intro: |
- <a href="https://www.bratinstitute.com/" target="_blank">Brat Institute</a> is a fashion, branding, anti branding, and web design project inspired by my desire to own Pratt merchandise unlike anyone else's.
+ <a href="https://www.bratinstitute.com/" target="_blank">Brat Institute</a> is a fashion, branding, and web design project inspired by my desire to own Pratt merchandise unlike anyone else's.
 
 content_layout:
   - section_layout: 1col-narrow
