@@ -18,7 +18,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/finalrender.png'
+        url: '/profane/finalrender.jpeg'
         positioning: 
         width:
         height:
@@ -31,13 +31,13 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/thumbnails1.png'
+        url: '/profane/thumbnails01.jpg'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/profane/thumbnails2.png'
+        url: '/profane/thumbnails02.jpg'
         width:
         height:
 
@@ -73,7 +73,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/profane1.png'
+        url: '/profane/render1.jpg'
         width:
         height:
 
@@ -91,14 +91,14 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/sacred.png'
+        url: '/profane/sacred1.jpg'
         width:
         height:
   - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/profane/zoom2.png'
+        url: '/profane/zoom.jpg'
         width:
         height:
   - section_layout: text
@@ -130,7 +130,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/print4.png'
+        url: '/profane/print4.jpg'
         positioning: 
         width:
         height:
@@ -141,7 +141,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/profane/print6.png'
+        url: '/profane/print6.jpg'
         width:
         height:
 
@@ -152,7 +152,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/VIALS.png'
+        url: '/profane/vials.jpg'
         positioning: 
         width:
         height:
