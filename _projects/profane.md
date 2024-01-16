@@ -6,7 +6,7 @@ tools: adobe illustrator, blender, adobe photoshop
 title: ""
 description: "PROFANE<br>fragrance packaging"
 time_period:
-thumbnail: "/profanecover.png"
+thumbnail: "/profanecover.jpg"
 intro: |
  I designed the bottle and marketing materials for a fragrance called Profane.
  <br>
@@ -91,7 +91,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/sacred1.jpg'
+        url: '/profane/sacred.jpg'
         width:
         height:
   - section_layout: 1col-narrow
@@ -158,12 +158,12 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/profane/box.png'
+        url: '/profane/box.jpg'
         width:
         height:
       - caption:
         description: ""
-        url: '/profane/blotter.png'
+        url: '/profane/blotter.jpg'
         width:
         height:
 
@@ -174,7 +174,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/counterdisplay.png'
+        url: '/profane/counterdisplay.jpg'
         positioning: 
         width:
         height:
