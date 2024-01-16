@@ -28,7 +28,7 @@ content_layout:
 
   - section_layout: text
     content: |
-      Sans serif version:
+      Sans serif version (less useful):
   - section_layout: 1col-narrow
     images:
       - caption:

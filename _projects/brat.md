@@ -1,6 +1,6 @@
 ---
 
-gridorder: 9
+gridorder: 4
 date: 2023-12-05
 tools: upcycled clothing, adobe illustrator, adobe photoshop, github pages
 title: ""
@@ -33,7 +33,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/brat/customtop.png'
+        url: '/brat/brattop.png'
         width:
         height:
   - section_layout: text

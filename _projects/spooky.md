@@ -1,6 +1,6 @@
 ---
 
-gridorder: 7
+gridorder: 9
 date: 2021-04-30
 tools: adobe illustrator
 title: ""
@@ -18,7 +18,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/spooky/spooky1.png'
+        url: '/spooky/spooky1.jpg'
         width:
         height:
         

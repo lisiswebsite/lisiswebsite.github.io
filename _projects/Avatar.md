@@ -1,6 +1,6 @@
 ---
 
-gridorder: 4
+gridorder: 6
 date: 2021-03-05
 tools: adobe illustrator
 title: ""

@@ -16,7 +16,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/soup/alphabetsoup.png'
+        url: '/soup/alphabetsoup.jpg'
         width:
         height:
 
