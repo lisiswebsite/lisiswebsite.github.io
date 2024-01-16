@@ -6,7 +6,7 @@ tools: adobe illustrator, adobe photoshop
 title: ""
 description: "<i>It Follows</i><br>movie poster redesign"
 time_period:
-thumbnail: "/it-follows cover.png"
+thumbnail: "/it-follows cover.jpg"
 intro: |
  Taking inspiration from 1950s B-movie horror, I redesigned the poster for the film <i>It Follows</i> (2014).
 
@@ -15,7 +15,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/it-follows/it-follows.png'
+        url: '/it-follows/it-follows.jpg'
         width:
         height:
 
@@ -35,7 +35,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows1.jpeg'
+        url: '/it-follows/itfollows1.jpg'
         width:
         height:
       - caption:
@@ -48,18 +48,18 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/it-follows/itfollows5.png'
+        url: '/it-follows/itfollows-01.png'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows3.png'
+        url: '/it-follows/itfollows-02.png'
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows6.png'
+        url: '/it-follows/itfollows-03.png'
         width:
         height:
 
@@ -67,18 +67,18 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/it-follows/itfollows9.png'
+        url: '/it-follows/itfollows-04.png'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows11.png'
+        url: '/it-follows/itfollows-05.jpg'
         width:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows12.png'
+        url: '/it-follows/itfollows-06.png'
         width:
         height:
 

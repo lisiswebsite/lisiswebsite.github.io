@@ -75,7 +75,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/avatar/avatarmockup.png'
+        url: '/avatar/avatarmockup.jpg'
         width:
         height:
 

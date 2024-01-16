@@ -12,11 +12,11 @@ intro: |
 
 content_layout:
   
-  - section_layout: 1col
+  - section_layout: 1col-narrow
     images:
       - caption:
         description: ""
-        url: '/grouplove/grouplove0.png'
+        url: '/grouplove cover.png'
         width:
         height:
 
@@ -47,7 +47,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/grouplove/grouplove6.png'
+        url: '/grouplove/grouplove6.jpg'
         positioning: 
         width:
         height:
@@ -66,18 +66,18 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/grouplove/grouplove13.png'
+        url: '/grouplove/grouplove13.jpg'
         positioning: 
         width:
         height:
       - caption:
         description: ""
-        url: '/grouplove/grouplove14.png'
+        url: '/grouplove/grouplove14.jpg'
         width:
         height:
       - caption:
         description: ""
-        url: '/grouplove/grouplove15.png'
+        url: '/grouplove/grouplove15.jpg'
         width:
         height:
 ---

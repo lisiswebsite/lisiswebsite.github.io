@@ -6,7 +6,7 @@ tools: adobe illustrator
 title: ""
 description: "Annenberg Inclusion Initiative<br>infographics & logos"
 time_period:
-thumbnail: "/aiicover2.png"
+thumbnail: "/aiicover.png"
 intro: |
  Below are some examples of the infographics I made while working for the Annenberg Inclusion Initiative, which were published in official reports and on the organization's social media accounts. The typefaces, colors, and overall style were based on past reports for consistency.
 
