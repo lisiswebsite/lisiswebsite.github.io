@@ -17,7 +17,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/bird/birdcapehero1.png'
+        url: '/bird/birdcapehero1.jpg'
         width:
         height:
   - section_layout: text
@@ -27,7 +27,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/bird/birdcapehero2.png'
+        url: '/bird/birdcapehero2.jpg'
         positioning: 
         width:
         height:
