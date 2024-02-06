@@ -1,6 +1,6 @@
 ---
 
-gridorder: 3
+gridorder: 6
 date: 2023-10-29
 tools: robofont
 title: ""

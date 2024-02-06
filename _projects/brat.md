@@ -4,7 +4,7 @@ gridorder: 4
 date: 2023-12-05
 tools: upcycled clothing, adobe illustrator, adobe photoshop, github pages
 title: ""
-description: "Brat Institute<br>visual identity project"
+description: "Brat Institute<br>branding & merchandising project"
 time_period:
 thumbnail: "/bratcovertest.png"
 intro: |
