@@ -4,7 +4,7 @@ gridorder: 2
 date: 2021-03-05
 tools: adobe illustrator
 title: ""
-description: "<i>Avatar</i><br>logo redesign"
+description: "<i>Avatar</i><br>film franchise logo redesign"
 time_period:
 thumbnail: "/avatar cover.png"
 intro: |
