@@ -11,7 +11,7 @@ intro: |
  Supernormal Semibold is an original typeface designed for fashion brands and magazine headlines.
  <br>
  <br>
- <a href="/images/supernormal/supernormalsemibold.otf.zip" download>Click here</a> to try it out!
+ <a href="/images/supernormal/supernormalsemibold.otf.zip" download>Click here</a> to download!
 
 content_layout:
   - section_layout: 2col

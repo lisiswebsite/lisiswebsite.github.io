@@ -11,7 +11,7 @@ intro: |
  Spooky Phantom is an original typeface designed for setting a spooky tone.
  <br>
  <br>
- <a href="/images/spooky/SpookyPhantom.zip" download>Click here</a> to try it out!
+ <a href="/images/spooky/SpookyPhantom.zip" download>Click here</a> to download!
 
 content_layout:
   - section_layout: 1col-narrow
