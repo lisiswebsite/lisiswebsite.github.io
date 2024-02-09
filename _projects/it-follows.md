@@ -59,26 +59,7 @@ content_layout:
         height:
       - caption:
         description: ""
-        url: '/it-follows/itfollows-03.png'
-        width:
-        height:
-
-  - section_layout: 3col
-    images:
-      - caption:
-        description: ""
-        url: '/it-follows/itfollows-04.png'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
         url: '/it-follows/itfollows-05.jpg'
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/it-follows/itfollows-06.png'
         width:
         height:
 
