@@ -56,7 +56,7 @@ content_layout:
         height:
   - section_layout: text
     content: |
-      Six years later, I returned to Bird Cape Hero again for a school animation project. Bird Cape Hero has always been a reflection of myself, so I made a video about being far from home - something I had experienced in both undergrad and graduate school. I moved across the country to begin each of those experiences, so this project was about traveling great distances to be reunited with loved ones, even if only for a short amount of time.
+      Six years later, I returned to Bird Cape Hero again for a school animation project. Bird Cape Hero has always been a reflection of myself, so I made a video about being far from home - something I dealt with in both undergrad and graduate school. I moved across the country to begin each of those experiences, so this project was about traveling great distances to be reunited with loved ones, even if only for a short amount of time.
 
       Click <a href="https://www.youtube.com/watch?v=sl85-n3B0hE" target="_blank">here</a> to see the full video.
   - section_layout: 1col-narrow
