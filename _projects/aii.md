@@ -4,7 +4,7 @@ gridorder: 9
 date: 2022-03-11
 tools: adobe illustrator
 title: ""
-description: "Annenberg Inclusion Initiative<br>infographics & logos"
+description: "<i>Annenberg Inclusion Initiative</i><br>infographics & logos"
 time_period:
 thumbnail: "/aiicover2.png"
 intro: |

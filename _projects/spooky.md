@@ -4,7 +4,7 @@ gridorder: 7
 date: 2021-04-30
 tools: adobe illustrator
 title: ""
-description: "Spooky Phantom<br>original typeface"
+description: "<i>Spooky Phantom</i><br>original typeface"
 time_period:
 thumbnail: "/spookycover.png"
 intro: |

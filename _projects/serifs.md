@@ -4,7 +4,7 @@ gridorder: 8
 date: 2020-10-26
 tools: adobe illustrator
 title: ""
-description: "Just Serifs<br>original typeface"
+description: "<i>Just Serifs</i><br>original typeface"
 time_period:
 thumbnail: "/serifs cover.png"
 intro: |

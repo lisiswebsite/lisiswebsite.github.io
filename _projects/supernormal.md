@@ -4,7 +4,7 @@ gridorder: 6
 date: 2023-10-29
 tools: robofont
 title: ""
-description: "Supernormal Semibold<br>original typeface"
+description: "<i>Supernormal Semibold</i><br>original typeface"
 time_period:
 thumbnail: "/supernormalcover.png"
 intro: |

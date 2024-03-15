@@ -4,7 +4,7 @@ gridorder: 1
 date: 2020-11-02
 tools: adobe illustrator
 title: ""
-description: "Grouplove<br>album jacket redesign"
+description: "<i>Grouplove</i><br>album jacket redesign"
 time_period:
 thumbnail: "/grouplove cover.png"
 intro: |
