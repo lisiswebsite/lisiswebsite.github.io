@@ -7,6 +7,7 @@ title: ""
 description: "<i>Just Serifs</i><br>original typeface"
 time_period:
 thumbnail: "/serifs cover.png"
+category: "misc"
 intro: |
  Just Serifs is an original typeface constructed entirely out of serifs.
 

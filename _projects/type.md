@@ -24,6 +24,13 @@ content_layout:
         redirect: 'icanthearyou'
       - caption:
         description: ""
+        url: '/serifs cover.png'
+        positioning: 
+        width:
+        height:
+        redirect: 'serifs'
+      - caption:
+        description: ""
         url: '/future cover.png'
         width:
         height:
@@ -34,12 +41,6 @@ content_layout:
         width:
         height:
         redirect: 'pi'
-      - caption:
-        description: ""
-        url: '/abstract cover.png'
-        width:
-        height:
-        redirect: 'abstract'
 
 
 ---
