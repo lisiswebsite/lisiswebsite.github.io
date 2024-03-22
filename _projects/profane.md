@@ -18,7 +18,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/profane/finalrender.jpeg'
+        url: '/profane/profane.gif'
         positioning: 
         width:
         height:
