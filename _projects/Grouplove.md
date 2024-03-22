@@ -1,6 +1,6 @@
 ---
 
-gridorder: 1
+gridorder: 2
 date: 2020-11-02
 tools: adobe illustrator
 title: ""
@@ -28,26 +28,7 @@ content_layout:
     images:
       - caption:
         description: ""
-        url: '/grouplove/grouplove1.png'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
         url: '/grouplove/grouplove2.png'
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove3.png'
-        width:
-        height:
- 
-  - section_layout: 3col
-    images:
-      - caption:
-        description: ""
-        url: '/grouplove/grouplove6.jpg'
         positioning: 
         width:
         height:

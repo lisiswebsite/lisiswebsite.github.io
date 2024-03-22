@@ -1,14 +1,15 @@
 ---
 
-gridorder: 1
+gridorder: 2
 date: 2021-03-05
 tools: adobe illustrator
 title: ""
 description: "<i>Avatar</i><br>film franchise logo redesign"
 time_period:
 thumbnail: "/avatar cover.png"
+category: "misc"
 intro: |
- Here's my <a href="https://www.youtube.com/watch?v=jVhlJNJopOQ" target="_blank">non-Papyrus</a> redesign of the <i>Avatar</i> film franchise logo:
+ Process photos from the logo redesign:
 
 content_layout:
   - section_layout: 1col
@@ -43,9 +44,33 @@ content_layout:
     images:
       - caption:
         description: ""
+        url: '/avatar/avatarsketch4.5.png'
+        width:
+        height:      
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch6.5.png'
+        width:
+        height:  
+
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
         url: '/avatar/avatarsketch8.5.png'
         width:
         height:   
+        
+  - section_layout: 1col-narrow
+    images:
+      - caption:
+        description: ""
+        url: '/avatar/avatarsketch9.5.png'
+        width:
+        height: 
 
   - section_layout: 1col-narrow
     images:

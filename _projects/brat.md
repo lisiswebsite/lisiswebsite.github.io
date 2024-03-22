@@ -1,6 +1,6 @@
 ---
 
-gridorder: 4
+gridorder: 3
 date: 2023-12-05
 tools: upcycled clothing, adobe illustrator, adobe photoshop, github pages
 title: ""
