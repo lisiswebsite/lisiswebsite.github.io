@@ -8,7 +8,7 @@ description: "<i>EARBUDZ & earpodz</i><br>original typefaces"
 time_period:
 thumbnail: "/earcover.png"
 intro: |
- I designed the display typeface EARBUDZ after being inspired by a unique A-shaped cutout in a Subway platform advertisement. The ovals and tunnels that sneak through each letterform resemble ear canals and ear buds, hence its name.
+ I created the display typeface EARBUDZ after being inspired by a unique A-shaped cutout in a Subway platform advertisement. The ovals and tunnels that sneak through each letterform resemble ear canals and ear buds, hence its name.
  
  Designed to grab attention, the heavy weight of EARBUDZ turns up the volume of any title or logo it touches.
 
