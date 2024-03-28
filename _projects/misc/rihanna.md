@@ -10,7 +10,7 @@ thumbnail: "/rihanna cover.png"
 category: "misc"
 intro: |
  
- Two abstract portraits of Rihanna:
+ When I was first learning how to use Illustrator, I practiced by creating abstract portraits of Rihanna:
 
 content_layout:
   - section_layout: 2col
