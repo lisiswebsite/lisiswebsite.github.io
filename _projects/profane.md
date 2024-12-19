@@ -9,9 +9,6 @@ time_period:
 thumbnail: "/profanecover.jpg"
 intro: |
  I designed the bottle and marketing materials for a fragrance called Profane.
- <br>
- <br>
- Each step of this process is outlined below.
 
 content_layout:
   - section_layout: 1col-narrow
