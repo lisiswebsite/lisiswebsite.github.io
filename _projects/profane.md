@@ -2,9 +2,9 @@
 
 gridorder: 4
 date: 2023-10-29
-tools: adobe illustrator, blender, adobe photoshop
+tools: adobe illustrator, blender, photoshop
 title: ""
-description: "<i>Profane</i><br>fragrance packaging & branding"
+description: "Profane<br>fragrance packaging & branding"
 time_period:
 thumbnail: "/profanecover.jpg"
 intro: |

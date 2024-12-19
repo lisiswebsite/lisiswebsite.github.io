@@ -1,12 +1,12 @@
 ---
 
-gridorder: 3
+gridorder: 1
 date: 2023-12-05
-tools: upcycled clothing, adobe illustrator, adobe photoshop, github pages
+tools: upcycled clothing, adobe illustrator, photoshop, github pages
 title: ""
-description: "<i>Brat Institute</i><br>branding & merchandising"
+description: "Brat Institute<br>branding & merchandising"
 time_period:
-thumbnail: "/bratcovertest.png"
+thumbnail: "/bratcover.png"
 intro: |
  <a href="https://www.bratinstitute.com/" target="_blank">Brat Institute</a> is a fashion, branding, and web design project inspired by my desire to own Pratt merchandise unlike anyone else's.
 
