@@ -6,7 +6,7 @@ tools: upcycled clothing, adobe illustrator, photoshop, github pages
 title: ""
 description: "Brat Institute<br>branding & merchandising"
 time_period:
-thumbnail: "/bratcover.png"
+thumbnail: "/bratcover2.png"
 intro: |
  <a href="https://www.bratinstitute.com/" target="_blank">Brat Institute</a> is a fashion, branding, and web design project inspired by my desire to own Pratt merchandise unlike anyone else's.
 

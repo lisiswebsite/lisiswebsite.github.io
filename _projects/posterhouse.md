@@ -7,7 +7,6 @@ title: ""
 description: "Poster House<br>animation"
 time_period:
 thumbnail: "/postercover.png"
-category: "misc"
 intro: |
  "i CAN'T HeAr yoU" is a hanging sculpture made from broken headphones and earbuds collected over the years.<br>
  <br>
