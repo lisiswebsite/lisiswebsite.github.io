@@ -6,7 +6,7 @@ tools: adobe illustrator, blender, photoshop
 title: ""
 description: "Profane<br>fragrance packaging & branding"
 time_period:
-thumbnail: "/profanecover.jpg"
+thumbnail: "/profanecover1.jpg"
 intro: |
  I designed the bottle and marketing materials for a fragrance called Profane.
 
