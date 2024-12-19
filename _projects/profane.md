@@ -81,7 +81,7 @@ content_layout:
 
       <pre>"treat (something sacred) with irreverence or disrespect."</pre>
 
-      I decided to "profane" famous works of art by photoshopping my bottle into them. I did this first with Titian's "Sacred and Profane Love"
+      I decided to "profane" famous works of art by photoshopping my bottle into them.
 
 
   - section_layout: 1col-narrow
@@ -98,82 +98,52 @@ content_layout:
         url: '/profane/zoom.jpg'
         width:
         height:
-  - section_layout: text
-    content: |
-      and then, to be consistent with the art deco aesthetic of the bottle, with Tamara de Lempicka's "Young Girl in Green":
-  - section_layout: 3col
+  - section_layout: 2col
     images:
-      - caption:
-        description: ""
-        url: '/profane/print1.png'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/profane/print2.png'
-        positioning: 
-        width:
-        height:
       - caption:
         description: ""
         url: '/profane/print3.png'
         width:
         height:
-  - section_layout: text
-    content: |
-      I experimented with some more art deco found images before pivoting to a more minimalistic look. For the final print ad, I changed the color of the fragrance and echoed the herringbone pattern from the bottle and the gold from the cap.
-  - section_layout: 3col
-    images:
       - caption:
         description: ""
         url: '/profane/print4.jpg'
         positioning: 
         width:
         height:
-      - caption:
-        description: ""
-        url: '/profane/print5.png'
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/profane/print6.jpg'
-        width:
-        height:
 
-  - section_layout: text
-    content: |
-      Other marketing materials including the vial card, box, shopping bag, and blotters followed the same approach as the minimalistic print ad:
-  - section_layout: 3col
-    images:
-      - caption:
-        description: ""
-        url: '/profane/vials.jpg'
-        positioning: 
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/profane/box.jpg'
-        width:
-        height:
-      - caption:
-        description: ""
-        url: '/profane/blotter.jpg'
-        width:
-        height:
+  # - section_layout: text
+  #   content: |
+  #     Other marketing materials including the vial card, box, shopping bag, and blotters followed the same approach as the minimalistic print ad:
+  # - section_layout: 3col
+  #   images:
+  #     - caption:
+  #       description: ""
+  #       url: '/profane/vials.jpg'
+  #       positioning: 
+  #       width:
+  #       height:
+  #     - caption:
+  #       description: ""
+  #       url: '/profane/box.jpg'
+  #       width:
+  #       height:
+  #     - caption:
+  #       description: ""
+  #       url: '/profane/blotter.jpg'
+  #       width:
+  #       height:
 
-  - section_layout: text
-    content: |
-      Finally, I designed a counter display for the bottle as it would appear in a department store:
-  - section_layout: 1col-narrow
-    images:
-      - caption:
-        description: ""
-        url: '/profane/counterdisplay.jpg'
-        positioning: 
-        width:
-        height:
+  # - section_layout: text
+  #   content: |
+  #     Finally, I designed a counter display for the bottle as it would appear in a department store:
+  # - section_layout: 1col-narrow
+  #   images:
+  #     - caption:
+  #       description: ""
+  #       url: '/profane/counterdisplay.jpg'
+  #       positioning: 
+  #       width:
+  #       height:
 
 ---
