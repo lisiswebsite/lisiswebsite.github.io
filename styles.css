@@ -1,0 +1,181 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-bottom: 2rem;
+}
+
+header {
+    background-color: #000000;
+    color: #FFCE2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu a {
+    margin-right: 20px; /* Adds 20px of space between the items */
+}
+
+.menu a:last-child {
+    margin-right: 0; /* Removes extra margin after the last image */
+}
+
+.menu {
+    display: flex; /* Ensures that the images stay on the same line */
+    align-items: center; /* Vertically aligns the items if needed */
+}
+
+.secondary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* You can adjust this color */
+    padding: 1rem;
+    border-bottom: 1px solid #ddd; /* Optional, for separation */
+}
+
+.secondary-header h2 {
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: #333; /* Color can be adjusted */
+    margin-right: auto; /* This will push the dropdown to the right */
+}
+
+.secondary-header select {
+    margin-left: auto; /* Align to the right */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+/* Roster Table (Grid View) */
+.roster-table {
+    margin: 2rem auto;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+thead th {
+    background-color: #000000;
+    color: #FFCE2E;
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+}
+
+tbody td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Remove borders and gridlines from List View */
+.list-player-row {
+    border: none; /* No border for each player's row */
+    margin-bottom: 1rem; /* Spacing between player sections */
+    padding: 1rem; /* Padding to give space around each player's info */
+    background-color: white; /* Optional: Ensure the background is white */
+}
+
+/* Player images in List View - full size */
+.player-img {
+    width: 100px;  /* Adjust the size as per your requirement */
+    height: auto;
+    object-fit: contain; /* Ensures the full image is displayed without cropping */
+}
+
+/* Player names styling */
+.player-name {
+    font-size: 1.5rem; /* Increase size of player names */
+    font-weight: bold; /* Bold player names */
+    margin-bottom: 0.5rem; /* Space below the name */
+}
+
+/* Player images in Cards View */
+.player-img-card {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    margin-bottom: 1rem;
+}
+
+/* Cards View styles */
+.cards-view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.player-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+
+/* Make table responsive on smaller screens */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tbody tr {
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #ddd;
+    }
+
+    tbody td {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    tbody td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        color: #333;
+    }
+}
+
+footer {
+    background-color: #000000;
+    color: #FFCE2E;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
