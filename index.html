@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PRATT BASEBALL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div>
+            <a href="https://bratinstitute.com/BASEBALL"><img src="./images/logo.png" alt="logo" height="35px"></a>
+        </div>
+        <div class="menu">
+            <a href="https://www.bratinstitute.com/allstar/"><img src="./images/allstars.png" alt="allstarlogo" height="13px"></a>
+            <a href="https://bratinstitute.com"><img src="./images/yellow.png" alt="bratlogo" height="13px"></a>
+        </div>
+    </header>
+    <div class="secondary-header">
+        <h2>2025 Men's Baseball Roster</h2>
+        <select id="viewSelect" onchange="changeView()">
+            <option value="list">List View</option>
+            <option value="grid" selected>Grid View</option>
+            <option value="cards">Cards View</option>
+        </select>
+    </div>
+    <section id="roster" class="list-view">
+    </section>
+
+    <footer>
+        <p>© 2024 Pratt Baseball</p>
+    </footer>
+
+    <!-- Include the script that handles view rendering -->
+    <script src="players.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
