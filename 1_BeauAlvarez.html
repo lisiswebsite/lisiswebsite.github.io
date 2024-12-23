@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player Details</title>
+    <title>Beau Alvarez - Pratt Baseball</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <a href="index.html">Back to Roster</a>
-    </header>
+    <div id="header"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
     <main>
         <img id="playerImage" src="" alt="Player Photo">
         <h1 id="playerName"></h1>
@@ -23,13 +28,16 @@
             <li><strong>School:</strong> <span id="playerSchool"></span></li>
             <li><strong>B/T:</strong> <span id="playerBT"></span></li>
         </ul>
+        <div style="padding: 40px;">
+            <a href="index.html">Back to Roster</a>
+        </div>
     </main>
     <footer>
         <p>© 2024 Pratt Baseball</p>
     </footer>
     <script src="players.js"></script>
     <script>
-        const playerIdentifier = "Beau Alvarez"; // Replace this dynamically
+        const playerIdentifier = "Beau Alvarez";
     </script>
     <script src="player-script.js"></script>
 </body>
