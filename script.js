@@ -67,11 +67,12 @@ function renderRoster(view) {
             rosterSection.innerHTML += `
                 <div class="player-card">
                     <img src="${player.image}" alt="${player.name}" class="player-img-card">
-                    <p>#${player.no}</p>
-                    <h2><strong>${player.name}</strong></h2>
-                    <p>${player.pos}</p>
-                    <p>${player.ht} / ${player.year} / ${player.bt}</p>
-                    <p>${player.hometown} / ${player.school}</p>
+                    <div class="player-card-content">
+                        <h2><strong>${player.name}</strong></h2>
+                        <p>${player.pos}</p>
+                        <p>${player.ht} / ${player.year} / ${player.bt}</p>
+                        <p>${player.hometown} / ${player.school}</p>
+                    </div>
                 </div>`;
         });
     }
