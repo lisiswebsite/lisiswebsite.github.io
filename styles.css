@@ -142,9 +142,19 @@ tbody tr:last-child td {
     width: 320px;
 }
 
+footer {
+    background-color: #000000;
+    color: #FFCE2E;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
 /* Make table responsive on smaller screens */
 @media (max-width: 768px) {
-    table, thead, tbody, th, td, tr {
+    /* table, thead, tbody, th, td, tr {
         display: block;
     }
 
@@ -167,15 +177,5 @@ tbody tr:last-child td {
         content: attr(data-label);
         font-weight: bold;
         color: #333;
-    }
-}
-
-footer {
-    background-color: #000000;
-    color: #FFCE2E;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    } */
 }
