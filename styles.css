@@ -174,11 +174,9 @@ tbody tr:last-child td {
 .cards-view .player-no {
     position: absolute;
     z-index: 2; /* Ensure it appears above the image */
-    padding: 0.2rem 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
     font-weight: bold;
     color: #FFCE2E;
 }
@@ -221,7 +219,7 @@ tbody tr:last-child td {
         height: 150px;
         padding: 0;
         position: relative;
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     .player-img-card {
@@ -241,12 +239,12 @@ tbody tr:last-child td {
     }
 
     .player-no {
-        top: 0.5rem;
-        right: 0.5rem;
+        top: 0.3rem;
+        right: 0.3rem;
         border-radius: 4px;
-        padding: 0.2rem 0.5rem;
         z-index: 1;
         background-color: transparent;
+        font-size: 1rem;
     }
 }
 
@@ -259,5 +257,6 @@ tbody tr:last-child td {
         width: 60px;
         height: 60px;
         background-color: black;
+        font-size: 1.4rem;
     }
 }
