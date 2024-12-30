@@ -47,7 +47,7 @@ function renderRoster(view) {
                 <tbody>`;
         players.forEach(player => {
             table += `
-                <tr>
+                <tr class="grid-player-row">
                     <td>${player.no}</td>
                     <td>${player.name}</td>
                     <td>${player.pos}</td>
@@ -60,6 +60,18 @@ function renderRoster(view) {
         });
         table += '</tbody></table>';
         rosterSection.innerHTML = table;
+
+        // Transform grid view for mobile
+        if (window.innerWidth <= 768) {
+            const rows = document.querySelectorAll('.grid-player-row');
+            rows.forEach(row => {
+                const cells = row.querySelectorAll('td');
+                const mobileRow = `
+                    ${cells[0].innerText} / ${cells[1].innerText} / ${cells[2].innerText} / ${cells[4].innerText} / ${cells[5].innerText} / ${cells[6].innerText} / ${cells[7].innerText}
+                `;
+                row.innerHTML = `<td colspan="8">${mobileRow}</td>`;
+            });
+        }
     } else if (view === 'cards') {
         // Cards View
         rosterSection.className = 'cards-view';
@@ -89,4 +101,10 @@ function changeView() {
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('viewSelect').value = 'list'; // Set dropdown to List View by default
     renderRoster('list'); // Set default view to 'list'
+    window.addEventListener('resize', () => {
+        const view = document.getElementById('viewSelect').value;
+        if (view === 'grid') {
+            renderRoster('grid');
+        }
+    });
 });

@@ -181,35 +181,19 @@ tbody tr:last-child td {
     color: #FFCE2E;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-    /* table, thead, tbody, th, td, tr {
-        display: block;
+/* Grid view Mobile */
+@media (max-width: 864px) {
+    .grid-view thead {
+        display: none; /* Hide the table header row */
     }
 
-    thead {
-        display: none;
+    .grid-view td {
+        white-space: normal; /* Allow content to wrap within cells */
+        word-wrap: break-word; /* Ensure long words break and wrap */
     }
-
-    tbody tr {
-        margin-bottom: 1rem;
-        border-bottom: 2px solid #ddd;
-    }
-
-    tbody td {
-        display: flex;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-    }
-
-    tbody td:before {
-        content: attr(data-label);
-        font-weight: bold;
-        color: #333;
-    } */
 }
 
-/* Smaller mobile for cards only */
+/* Cards view mobile */
 @media (max-width: 655px) {
     .player-card {
         display: flex;
