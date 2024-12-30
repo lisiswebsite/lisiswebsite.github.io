@@ -148,6 +148,41 @@ tbody tr:last-child td {
     width: 320px;
 }
 
+/* General styles for player number */
+.player-no {
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add background for better readability */
+    padding: 0.2rem 0.5rem;
+    border-radius: 50%; /* Make it a circle */
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-view .player-card {
+    position: relative; /* Ensure the player card is the positioning context */
+}
+
+.cards-view .player-img-card {
+    position: relative; /* Ensure the image is the positioning context */
+}
+
+.cards-view .player-no {
+    position: absolute;
+    z-index: 2; /* Ensure it appears above the image */
+    padding: 0.2rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #FFCE2E;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     /* table, thead, tbody, th, td, tr {
@@ -185,6 +220,7 @@ tbody tr:last-child td {
         width: 95%;
         height: 150px;
         padding: 0;
+        position: relative;
     }
 
     .player-img-card {
@@ -201,5 +237,25 @@ tbody tr:last-child td {
 
     .player-card-content p {
         margin: 0.5rem 0; /* Add some margin between the text rows */
+    }
+
+    .player-no {
+        top: 0.5rem;
+        right: 0.5rem;
+        border-radius: 4px;
+        padding: 0.2rem 0.5rem;
+        z-index: 1;
+    }
+}
+
+/* Desktop view for cards only */
+@media (min-width: 656px) {
+    .cards-view .player-no {
+        right: 1.5rem; /* Position at the right of the image */
+        top: 10.3em;
+        border-radius: 50%; /* Circle shape */
+        width: 60px;
+        height: 60px;
+        background-color: black;
     }
 }

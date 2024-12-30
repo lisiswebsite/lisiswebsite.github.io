@@ -66,6 +66,7 @@ function renderRoster(view) {
         players.forEach(player => {
             rosterSection.innerHTML += `
                 <div class="player-card">
+                    <span class="player-no">${player.no}</span>
                     <img src="${player.image}" alt="${player.name}" class="player-img-card">
                     <div class="player-card-content">
                         <h2><strong>${player.name}</strong></h2>
