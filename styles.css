@@ -183,6 +183,10 @@ tbody tr:last-child td {
 
 /* Grid view mobile */
 @media (max-width: 864px) {
+    .grid-view tbody {
+        font-size: 0.7em;
+    }
+    
     .grid-view thead {
         display: none; /* Hide the table header row */
     }
@@ -196,8 +200,6 @@ tbody tr:last-child td {
 /* List view mobile */
 @media (max-width: 768px) {
     .list-player-row {
-        white-space: normal;
-        word-wrap: break-word;
     }
 }
 
