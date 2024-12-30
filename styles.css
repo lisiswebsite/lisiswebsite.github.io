@@ -181,7 +181,7 @@ tbody tr:last-child td {
     color: #FFCE2E;
 }
 
-/* Grid view Mobile */
+/* Grid view mobile */
 @media (max-width: 864px) {
     .grid-view thead {
         display: none; /* Hide the table header row */
@@ -190,6 +190,14 @@ tbody tr:last-child td {
     .grid-view td {
         white-space: normal; /* Allow content to wrap within cells */
         word-wrap: break-word; /* Ensure long words break and wrap */
+    }
+}
+
+/* List view mobile */
+@media (max-width: 768px) {
+    .list-player-row {
+        white-space: normal;
+        word-wrap: break-word;
     }
 }
 
