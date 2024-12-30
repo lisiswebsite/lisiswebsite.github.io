@@ -65,6 +65,7 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    z-index: 1000;
 }
 
 /* Roster Table (Grid View) */
@@ -153,7 +154,6 @@ tbody tr:last-child td {
     position: absolute;
     font-size: 1rem;
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Add background for better readability */
     padding: 0.2rem 0.5rem;
     border-radius: 50%; /* Make it a circle */
     width: 2rem;
@@ -221,6 +221,7 @@ tbody tr:last-child td {
         height: 150px;
         padding: 0;
         position: relative;
+        font-size: 0.7em;
     }
 
     .player-img-card {
@@ -245,6 +246,7 @@ tbody tr:last-child td {
         border-radius: 4px;
         padding: 0.2rem 0.5rem;
         z-index: 1;
+        background-color: transparent;
     }
 }
 
