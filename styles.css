@@ -216,22 +216,22 @@ tbody tr:last-child td {
         align-items: center;
         text-align: left;
         width: 95%;
-        height: 130px;
+        height: 120px;
         padding: 0;
         position: relative;
         font-size: 0.75em;
     }
 
     .player-img-card {
-        height: 128px;
+        height: 118px;
         width: auto;
         margin: 0;
         object-fit: cover;
     }
 
     .player-card-content {
-        width: 75%;
-        padding-left: 1rem;
+        width: 70%;
+        padding-left: 0.8rem;
     }
 
     .player-card-content p {
