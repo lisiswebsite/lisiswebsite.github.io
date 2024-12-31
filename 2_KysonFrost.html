@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyson Frost - Pratt Baseball</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
+    <main>
+        <img id="playerImage" src="" alt="Player Photo">
+        <h1 id="playerName"></h1>
+        <p id="playerDetails"></p>
+        <ul>
+            <li><strong>Position:</strong> <span id="playerPosition"></span></li>
+            <li><strong>Year:</strong> <span id="playerYear"></span></li>
+            <li><strong>Height:</strong> <span id="playerHeight"></span></li>
+            <li><strong>Weight:</strong> <span id="playerWeight"></span></li>
+            <li><strong>Hometown:</strong> <span id="playerHometown"></span></li>
+            <li><strong>School:</strong> <span id="playerSchool"></span></li>
+            <li><strong>B/T:</strong> <span id="playerBT"></span></li>
+        </ul>
+        <div style="padding: 40px;">
+            <a href="index.html">Back to Roster</a>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Pratt Baseball</p>
+    </footer>
+    <script src="players.js"></script>
+    <script>
+        const playerIdentifier = "Kyson Frost";
+    </script>
+    <script src="player-script.js"></script>
+</body>
+</html>

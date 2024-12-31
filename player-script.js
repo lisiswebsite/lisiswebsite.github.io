@@ -3,16 +3,14 @@ const player = players.find(p => p.name === playerIdentifier || p.no == playerId
 
 if (player) {
     document.getElementById('playerImage').src = player.image;
-    document.getElementById('playerImage').alt = player.name;
+    document.getElementById('playerNo').textContent = player.no;
     document.getElementById('playerName').textContent = player.name;
-    document.getElementById('playerDetails').textContent = `${player.pos} | ${player.ht} | ${player.bt}`;
-    document.getElementById('playerPosition').textContent = player.pos;
-    document.getElementById('playerYear').textContent = player.year;
-    document.getElementById('playerHeight').textContent = player.ht;
-    document.getElementById('playerWeight').textContent = player.wt;
-    document.getElementById('playerHometown').textContent = player.hometown;
-    document.getElementById('playerSchool').textContent = player.school;
-    document.getElementById('playerBT').textContent = player.bt;
+    document.getElementById('playerPosition').innerHTML = `<span class="label">Position:</span> <span class="data">${player.pos}</span>`;
+    document.getElementById('playerYear').innerHTML = `<span class="label">Year:</span> <span class="data">${player.year}</span>`;
+    document.getElementById('playerHeight').innerHTML = `<span class="label">Height:</span> <span class="data">${player.ht}</span>`;
+    document.getElementById('playerBT').innerHTML = `<span class="label">B/T:</span> <span class="data">${player.bt}</span>`;
+    document.getElementById('playerHometown').innerHTML = `<span class="label">Hometown:</span> <span class="data">${player.hometown}</span>`;
+    document.getElementById('playerSchool').innerHTML = `<span class="label">School:</span> <span class="data">${player.school}</span>`;
 } else {
     document.body.innerHTML = '<p>Player not found.</p>';
 }

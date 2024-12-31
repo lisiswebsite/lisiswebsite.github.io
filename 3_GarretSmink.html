@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garret Smink - Pratt Baseball</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
+    <main class="player-profile">
+        <img id="playerImage" src="" alt="Player Photo" class="player-img-profile">
+        <div class="player-info">
+            <h1 id="playerName"></h1>
+            <table class="player-details-table">
+                <tr>
+                    <td><strong>Position:</strong></td>
+                    <td id="playerPosition"></td>
+                </tr>
+                <tr>
+                    <td><strong>Height:</strong></td>
+                    <td id="playerHeight"></td>
+                </tr>
+                <tr>
+                    <td><strong>Weight:</strong></td>
+                    <td id="playerWeight"></td>
+                </tr>
+                <tr>
+                    <td><strong>Year:</strong></td>
+                    <td id="playerYear"></td>
+                </tr>
+                <tr>
+                    <td><strong>Hometown:</strong></td>
+                    <td id="playerHometown"></td>
+                </tr>
+                <tr>
+                    <td><strong>School:</strong></td>
+                    <td id="playerSchool"></td>
+                </tr>
+            </table>
+            <div style="padding: 40px;">
+                <a href="index.html">Back to Roster</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Pratt Baseball</p>
+    </footer>
+    <script src="players.js"></script>
+    <script>
+        const playerIdentifier = "Garret Smink";
+    </script>
+    <script src="player-script.js"></script>
+</body>
+</html>
