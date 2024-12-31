@@ -5,28 +5,44 @@ function renderRoster(view) {
 
     if (view === 'list') {
         // List View
-        let table = '<table>';
-        table += '<tbody>'; // No <thead> for list view
-        players.forEach(player => {
-            table += `
-                <tr class="list-player-row">
-                    <td><img src="${player.image}" alt="${player.name}" class="player-img"></td>
-                    <td>
-                        <div class="player-left">
-                            <p class="player-details-small">${player.pos} | ${player.ht} | ${player.bt}</p>
-                            <p class="player-name">${player.name}</p>  <!-- Updated class here -->
+        if (window.innerWidth <= 655) {
+            // Mobile List View
+            players.forEach(player => {
+                rosterSection.innerHTML += `
+                    <div class="player-card">
+                        <img src="${player.image}" alt="${player.name}" class="player-img-card">
+                        <div class="player-card-content">
+                            <p>${player.pos} / ${player.ht} / ${player.bt}</p>
+                            <h2><strong>${player.no} ${player.name}</strong></h2>
+                            <p>${player.year} / ${player.hometown} / ${player.school}</p>
                         </div>
-                    </td>
-                    <td>
-                        <div class="player-right">
-                            <p class="player-details-small">${player.year} | ${player.hometown} | ${player.school}</p>
-                            <a href="${player.bioLink}" class="player-bio-link">Full Bio</a>
-                        </div>
-                    </td>
-                </tr>`;
-        });
-        table += '</tbody></table>';
-        rosterSection.innerHTML = table;
+                    </div>`;
+            });
+        } else {
+            // Desktop List View
+            let table = '<table>';
+            table += '<tbody>'; // No <thead> for list view
+            players.forEach(player => {
+                table += `
+                    <tr class="list-player-row">
+                        <td><img src="${player.image}" alt="${player.name}" class="player-img"></td>
+                        <td>
+                            <div class="player-left">
+                                <p class="player-details-small">${player.pos} | ${player.ht} | ${player.bt}</p>
+                                <p class="player-name">${player.name}</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="player-right">
+                                <p class="player-details-small">${player.year} | ${player.hometown} | ${player.school}</p>
+                                <a href="${player.bioLink}" class="player-bio-link">Full Bio</a>
+                            </div>
+                        </td>
+                    </tr>`;
+            });
+            table += '</tbody></table>';
+            rosterSection.innerHTML = table;
+        }
     } else if (view === 'grid') {
         // Grid View
         rosterSection.className = 'grid-view';
@@ -105,6 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const view = document.getElementById('viewSelect').value;
         if (view === 'grid') {
             renderRoster('grid');
+        } else if (view === 'list') {
+            renderRoster('list');
         }
     });
 });

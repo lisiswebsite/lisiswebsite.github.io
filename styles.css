@@ -194,8 +194,9 @@ tbody tr:last-child td {
 }
 
 /* List view mobile */
-@media (max-width: 768px) {
-    .list-player-row {
+@media (max-width: 655px) {
+    body {
+        overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 }
 
