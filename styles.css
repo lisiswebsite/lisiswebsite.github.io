@@ -293,7 +293,7 @@ tbody tr:last-child td {
         height: 140px;
         padding: 0;
         position: relative;
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
 
     .cards-view .player-img-card {
