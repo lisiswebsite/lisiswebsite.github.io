@@ -118,7 +118,7 @@ tbody tr:last-child td {
 /* List View */
 .list-view .list-player-row {
     border: none;
-    margin-bottom: 1rem; /* Spacing between player sections */
+    margin-bottom: 0.5rem; /* Spacing between player sections */
     padding: 1rem; /* Padding to give space around each player's info */
     background-color: white;
 }
@@ -133,7 +133,7 @@ tbody tr:last-child td {
 .player-name {
     font-size: 1.5rem; /* Increase size of player names */
     font-weight: bold; /* Bold player names */
-    margin-bottom: 0.5rem; /* Space below the name */
+    padding-left: 0.5rem;
 }
 
 .list-view .player-list-content {
@@ -279,6 +279,10 @@ tbody tr:last-child td {
 
 /* Cards view mobile */
 @media (max-width: 655px) {
+    .cards-view {
+        gap: 0.5rem;
+    }
+    
     .cards-view .player-card-link {
         text-decoration: none; /* Remove underline from links */
         color: inherit; /* Inherit text color */

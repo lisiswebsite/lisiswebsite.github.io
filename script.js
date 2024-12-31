@@ -32,7 +32,7 @@ function renderRoster(view) {
                         <td>
                             <div class="player-left">
                                 <p class="player-details-small">${player.pos} | ${player.ht} | ${player.bt}</p>
-                                <p class="player-name">${player.name}</p>
+                                <h2><span class="player-no-list">${player.no}</span><strong class="player-name">${player.name}</strong></h2>
                             </div>
                         </td>
                         <td>
