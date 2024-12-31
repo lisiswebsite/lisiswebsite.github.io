@@ -5,6 +5,7 @@ function renderRoster(view) {
 
     if (view === 'list') {
         // List View
+        rosterSection.className = 'list-view'; // Add class for list view
         if (window.innerWidth <= 655) {
             // Mobile List View
             players.forEach(player => {
@@ -27,7 +28,7 @@ function renderRoster(view) {
             players.forEach(player => {
                 table += `
                     <tr class="list-player-row">
-                        <td><img src="${player.image}" alt="${player.name}" class="player-img"></td>
+                        <td><img src="${player.image}" alt="${player.name}" class="player-img-list"></td>
                         <td>
                             <div class="player-left">
                                 <p class="player-details-small">${player.pos} | ${player.ht} | ${player.bt}</p>
@@ -47,7 +48,7 @@ function renderRoster(view) {
         }
     } else if (view === 'grid') {
         // Grid View
-        rosterSection.className = 'grid-view';
+        rosterSection.className = 'grid-view'; // Add class for grid view
         let table = `
             <table>
                 <thead>
@@ -92,19 +93,21 @@ function renderRoster(view) {
         }
     } else if (view === 'cards') {
         // Cards View
-        rosterSection.className = 'cards-view';
+        rosterSection.className = 'cards-view'; // Add class for cards view
         players.forEach(player => {
             rosterSection.innerHTML += `
-                <div class="player-card">
-                    <span class="player-no">${player.no}</span>
-                    <img src="${player.image}" alt="${player.name}" class="player-img-card">
-                    <div class="player-card-content">
-                        <h2><strong>${player.name}</strong></h2>
-                        <p>${player.pos}</p>
-                        <p>${player.ht} / ${player.year} / ${player.bt}</p>
-                        <p>${player.hometown} / ${player.school}</p>
+                <a href="${player.bioLink}" class="player-card-link">
+                    <div class="player-card">
+                        <span class="player-no">${player.no}</span>
+                        <img src="${player.image}" alt="${player.name}" class="player-img-card">
+                        <div class="player-card-content">
+                            <h2><strong>${player.name}</strong></h2>
+                            <p>${player.pos}</p>
+                            <p>${player.ht} / ${player.year} / ${player.bt}</p>
+                            <p>${player.hometown} / ${player.school}</p>
+                        </div>
                     </div>
-                </div>`;
+                </a>`;
         });
     }
 }
@@ -121,10 +124,6 @@ document.addEventListener('DOMContentLoaded', () => {
     renderRoster('list'); // Set default view to 'list'
     window.addEventListener('resize', () => {
         const view = document.getElementById('viewSelect').value;
-        if (view === 'grid') {
-            renderRoster('grid');
-        } else if (view === 'list') {
-            renderRoster('list');
-        }
+        renderRoster(view); // Re-render the current view on resize
     });
 });

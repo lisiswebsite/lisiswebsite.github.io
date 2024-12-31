@@ -116,7 +116,7 @@ tbody tr:last-child td {
 }
 
 /* List View */
-.list-player-row {
+.list-view .list-player-row {
     border: none;
     margin-bottom: 1rem; /* Spacing between player sections */
     padding: 1rem; /* Padding to give space around each player's info */
@@ -124,7 +124,7 @@ tbody tr:last-child td {
 }
 
 /* Player images in List View - full size */
-.player-img {
+.list-view .player-img-list {
     width: 100px;  /* Adjust the size as per your requirement */
     height: auto;
     object-fit: contain; /* Ensures the full image is displayed without cropping */
@@ -136,14 +136,26 @@ tbody tr:last-child td {
     margin-bottom: 0.5rem; /* Space below the name */
 }
 
-/* Cards View */
-.player-img-card {
-    width: 280px;
-    height: 280px;
-    object-fit: cover;
-    margin-bottom: 1rem;
+.list-view .player-list-content {
+    width: 80%;
+    padding-right: 1rem;
 }
 
+.list-view .player-list-content p {
+    margin: 0.5rem 0; /* Add some margin between the text rows */
+}
+
+.list-view .player-no-list {
+    background-color: black;
+    color: #FFCE2E;
+    padding: 0.2rem 0.5rem;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 0.5rem; /* Add some space between the number and the name */
+}
+
+/* Cards View */
 .cards-view {
     display: flex;
     flex-wrap: wrap;
@@ -151,35 +163,36 @@ tbody tr:last-child td {
     justify-content: center;
 }
 
-.player-card {
+.cards-view .player-card-link {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    display: block; /* Make the entire card clickable */
+    height: 100%; /* Ensure the anchor tag covers the entire card */
+}
+
+.cards-view .player-card {
     background-color: white;
     border: 1px solid #ddd;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 320px;
-}
-
-/* General styles for player number */
-.player-no {
-    position: absolute;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 0.2rem 0.5rem;
-    border-radius: 50%; /* Make it a circle */
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.cards-view .player-card {
     position: relative; /* Ensure the player card is the positioning context */
 }
 
 .cards-view .player-img-card {
     position: relative; /* Ensure the image is the positioning context */
+}
+
+.player-img-card {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.cards-view .player-card-content {
+    width: 100%;
 }
 
 .cards-view .player-no {
@@ -237,9 +250,10 @@ tbody tr:last-child td {
     }
 
     .player-img-list {
-        height: 120px;
+        height: 150px;
         width: auto;
         margin: 1rem;
+        margin-left: 0;
         object-fit: cover;
     }
 
@@ -265,34 +279,42 @@ tbody tr:last-child td {
 
 /* Cards view mobile */
 @media (max-width: 655px) {
+    .cards-view .player-card-link {
+        text-decoration: none; /* Remove underline from links */
+        color: inherit; /* Inherit text color */
+        display: block; /* Make the entire card clickable */
+        height: 100%; /* Ensure the anchor tag covers the entire card */
+    }
+    
     .player-card {
         display: flex;
         align-items: center;
-        text-align: left;
-        width: 95%;
-        height: 120px;
+        width: 90vw !important;
+        height: 140px;
         padding: 0;
         position: relative;
-        font-size: 0.75em;
+        font-size: 0.8em;
     }
 
-    .player-img-card {
-        height: 118px;
+    .cards-view .player-img-card {
+        height: 138px;
         width: auto;
         margin: 0;
+        margin-left: -1.25em;
         object-fit: cover;
     }
 
-    .player-card-content {
+    .cards-view .player-card-content {
         width: 70%;
         padding-left: 0.8rem;
+        text-align: left;
     }
 
     .player-card-content p {
         margin: 0.5rem 0; /* Add some margin between the text rows */
     }
 
-    .player-no {
+    .cards-view .player-no {
         top: 0.3rem;
         right: 0.3rem;
         border-radius: 4px;
@@ -304,6 +326,11 @@ tbody tr:last-child td {
 
 /* Desktop view for cards only */
 @media (min-width: 656px) {
+    .cards-view .player-card {
+        width: 320px;
+        height: 440px;
+    }
+    
     .cards-view .player-no {
         right: 1.5rem; /* Position at the right of the image */
         top: 10.3em;
