@@ -9,11 +9,11 @@ function renderRoster(view) {
             // Mobile List View
             players.forEach(player => {
                 rosterSection.innerHTML += `
-                    <div class="player-card">
-                        <img src="${player.image}" alt="${player.name}" class="player-img-card">
-                        <div class="player-card-content">
+                    <div class="list-player-row">
+                        <img src="${player.image}" alt="${player.name}" class="player-img-list">
+                        <div class="player-list-content">
                             <p>${player.pos} / ${player.ht} / ${player.bt}</p>
-                            <h2><strong>${player.no} ${player.name}</strong></h2>
+                            <h2><span class="player-no-list">${player.no}</span><strong>${player.name}</strong></h2>
                             <p>${player.year} / ${player.hometown} / ${player.school}</p>
                         </div>
                     </div>`;

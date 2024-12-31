@@ -196,7 +196,49 @@ tbody tr:last-child td {
 /* List view mobile */
 @media (max-width: 655px) {
     body {
-        overflow-x: hidden; /* Prevent horizontal scrolling */
+        overflow-x: hidden;
+    }
+
+    .list-player-row {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center the content horizontally */
+        text-align: left;
+        width: 95%;
+        height: 150px;
+        padding: 0;
+        position: relative;
+        font-size: 0.8em;
+        background-color: white;
+        margin: 0.5rem auto; /* Add some margin between the rows */
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add shadow to match cards */
+        border: 1px solid #ddd; /* Add border to match cards */
+    }
+
+    .player-img-list {
+        height: 120px;
+        width: auto;
+        margin: 1rem;
+        object-fit: cover;
+    }
+
+    .player-list-content {
+        width: 80%;
+        padding-right: 1rem;
+    }
+
+    .player-list-content p {
+        margin: 0.5rem 0; /* Add some margin between the text rows */
+    }
+
+    .player-no-list {
+        background-color: black;
+        color: #FFCE2E;
+        padding: 0.2rem 0.5rem;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-right: 0.5rem; /* Add some space between the number and the name */
     }
 }
 
