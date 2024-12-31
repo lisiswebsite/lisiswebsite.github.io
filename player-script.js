@@ -11,6 +11,12 @@ if (player) {
     document.getElementById('playerBT').innerHTML = `<span class="label">B/T:</span> <span class="data">${player.bt}</span>`;
     document.getElementById('playerHometown').innerHTML = `<span class="label">Hometown:</span> <span class="data">${player.hometown}</span>`;
     document.getElementById('playerSchool').innerHTML = `<span class="label">School:</span> <span class="data">${player.school}</span>`;
+    
+    // Populate bio information
+    document.getElementById('playerMajor').innerHTML = `<span class="label">Major:</span> <span class="data">${player.major}</span>`;
+    document.getElementById('playerFood').innerHTML = `<span class="label">Favorite Food:</span> <span class="data">${player.food}</span>`;
+    document.getElementById('playerInterests').innerHTML = `<span class="label">Interests:</span> <span class="data">${player.interests}</span>`;
+    document.getElementById('playerFunfact').innerHTML = `<span class="label">Fun Fact:</span> <span class="data">${player.funfact}</span>`;
 } else {
     document.body.innerHTML = '<p>Player not found.</p>';
 }

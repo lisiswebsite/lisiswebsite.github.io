@@ -265,6 +265,7 @@ tbody tr:last-child td {
     height: auto;
     margin-right: 2rem;
     z-index: 3; /* Ensure the image is above the background */
+    border: 2px solid #ccc;
 }
 
 .player-info {
@@ -308,6 +309,19 @@ tbody tr:last-child td {
 .player-details-table td {
     padding: 1rem;
     vertical-align: top;
+}
+
+.player-bio {
+    margin-top: 2rem;
+}
+
+.player-bio h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.player-bio p {
+    margin-bottom: 0.5rem;
 }
 
 .label {
@@ -357,23 +371,31 @@ tbody tr:last-child td {
     font-weight: bold;
 }
 
-/* Responsive adjustments */
+/* Desktop */
 @media (min-width: 1025px) {
     .player-details-table td .label::after {
         content: "\A"; /* Insert a line break */
         white-space: pre; /* Preserve the line break */
     }
+
+    .player-bio {
+        margin-left: calc(-200px - 2rem); /* Align with the player profile picture */
+    }
 }
 
-/* Responsive adjustments */
+/* Tabloid */
 @media (max-width: 1024px) and (min-width: 768px) {
     .player-details-table td .label::after {
         content: "\A"; /* Insert a line break */
         white-space: pre; /* Preserve the line break */
     }
+
+    .player-bio {
+        margin-left: calc(-200px - 2rem); /* Align with the player profile picture */
+    }
 }
 
-/* Responsive adjustments */
+/* Mobile */
 @media (max-width: 768px) {
     .player-profile {
         flex-direction: column;
@@ -394,12 +416,6 @@ tbody tr:last-child td {
         margin-bottom: 1rem;
     }
 
-    .player-details-background {
-        position: absolute;
-        top: 12rem !important;
-        width: 100%;
-        height: 40rem;
-    }
     .distancefromtop {
         padding-bottom: 10px;
     }
@@ -421,9 +437,9 @@ tbody tr:last-child td {
 
     .player-details-background {
         position: absolute;
-        top: 15rem;
+        top: 12rem;
         width: 100%;
-        height: 40rem;
+        height: 50rem;
     }
 
     .distancefromtop {
@@ -432,7 +448,7 @@ tbody tr:last-child td {
 
     .backtoroster {
         position: absolute;
-        bottom: -11rem;
+        bottom: -22rem;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
