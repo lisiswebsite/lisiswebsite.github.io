@@ -199,6 +199,12 @@ tbody tr:last-child td {
         overflow-x: hidden;
     }
 
+    .list-player-row-link {
+        text-decoration: none; /* Remove underline from links */
+        color: inherit; /* Inherit text color */
+        display: block; /* Make the entire row clickable */
+    }
+
     .list-player-row {
         display: flex;
         align-items: center;
