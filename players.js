@@ -358,7 +358,7 @@ const players = [
         major: "Art history",
         food: "Foie gras",
         interests: "Chess, Zodiac (movie), Wagner (music), In Cold Blood (book)",
-        funfact: "Is Griffin Kuntz' Wario",},
+        funfact: "Is Griffin Kuntz's Wario",},
     { no: 75, name: "Lexy Adnhea", pos: "OF", year: "Sophomore", ht: "5'10\"", wt: "0 lbs", hometown: "San Antonio, TX", school: "Sandra Day O'Connor HS", bt: "R/R", image: "images/75 Lexy Adnhea.jpg",
         bioLink: '75_LexyAdnhea.html',
         major: "Photography",
