@@ -100,6 +100,21 @@ tbody tr:last-child td {
     border-bottom: none;
 }
 
+/* Grid view player name link */
+.grid-view .grid-player-name {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Mobile grid view specific styles */
+.grid-view .slash {
+    color: #ccc;
+}
+
+.grid-view .data {
+    color: black;
+}
+
 /* List View */
 .list-player-row {
     border: none;
