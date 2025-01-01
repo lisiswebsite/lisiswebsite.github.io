@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Animation</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    #number {
+      font-size: 5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      visibility: hidden; /* Numbers are hidden by default */
+    }
+
+    #result {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #333;
+      margin-top: 20px;
+      visibility: hidden; /* Hidden by default */
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div id="number">1</div>
+  <button id="toggleButton">Start</button>
+  <div id="result"></div> <!-- Result text will appear here -->
+
+  <script>
+    const numberElement = document.getElementById('number');
+    const toggleButton = document.getElementById('toggleButton');
+    const resultElement = document.getElementById('result');
+
+    let currentNumber = 1;
+    let intervalId = null; // To store the interval ID
+
+    function animateNumbers() {
+      numberElement.textContent = currentNumber;
+      currentNumber++;
+      if (currentNumber > 1000) currentNumber = 1; // Reset to 1 when reaching 1000
+    }
+
+    function getOutcome(number) {
+      if (number >= 1 && number <= 300) {
+        return "Hit";
+      } else if (number >= 301 && number <= 500) {
+        return "Strikeout";
+      } else if (number >= 501 && number <= 600) {
+        return "Walk";
+      } else if (number >= 601 && number <= 800) {
+        return "Groundout";
+      } else if (number >= 801 && number <= 1000) {
+        return "Fly Out";
+      }
+    }
+
+    toggleButton.addEventListener('click', () => {
+      if (intervalId) {
+        // If the animation is running, stop it
+        clearInterval(intervalId);
+        intervalId = null;
+        toggleButton.textContent = 'Start'; // Change button text to Start
+        numberElement.style.visibility = 'visible'; // Show the numbers
+
+        // Display the result based on the current number
+        const outcome = getOutcome(currentNumber);
+        resultElement.textContent = outcome;
+        resultElement.style.visibility = 'visible'; // Show the result
+      } else {
+        // If the animation is stopped, start it
+        intervalId = setInterval(animateNumbers, 1);
+        toggleButton.textContent = 'Stop'; // Change button text to Stop
+        numberElement.style.visibility = 'hidden'; // Hide the numbers
+        resultElement.style.visibility = 'hidden'; // Hide the result
+      }
+    });
+  </script>
+</body>
+</html>

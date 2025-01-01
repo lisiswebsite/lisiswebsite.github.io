@@ -22,6 +22,8 @@ header {
 
 .menu a {
     margin-right: 20px; /* Adds 20px of space between the items */
+    color: #FFCE2E;
+    text-decoration: none;
 }
 
 .menu a:last-child {
@@ -476,6 +478,12 @@ tbody tr:last-child td {
     .player-bio {
         margin-left: calc(-200px - 2rem); /* Align with the player profile picture */
     }
+
+    /* .container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: 0;
+    } */
 }
 
 /* Tabloid */
@@ -492,6 +500,20 @@ tbody tr:last-child td {
 
 /* Mobile */
 @media (max-width: 768px) {
+    .menu {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-end; /* Align items to the right */
+    }
+
+    .menu a {
+        margin-right: 0; /* Remove right margin */
+        /* margin-bottom: 10px; */
+    }
+
+    .menu a:last-child {
+        margin-bottom: 0; /* Remove bottom margin for the last item */
+    }
+    
     .player-profile {
         flex-direction: column;
         align-items: center;
