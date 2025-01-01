@@ -507,7 +507,7 @@ tbody tr:last-child td {
 
     .menu a {
         margin-right: 0; /* Remove right margin */
-        /* margin-bottom: 10px; */
+        margin-bottom: 0.4em;
     }
 
     .menu a:last-child {
