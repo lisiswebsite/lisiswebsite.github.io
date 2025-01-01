@@ -24,7 +24,7 @@ header {
     margin-right: 20px; /* Adds 20px of space between the items */
     color: #FFCE2E;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .menu a:last-child {
@@ -215,7 +215,7 @@ tbody tr:last-child td {
     }
     
     .grid-view thead {
-        display: none; /* Hide the table header row */
+        display: none;
     }
 
     .grid-view td {
