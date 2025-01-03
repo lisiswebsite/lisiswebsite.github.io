@@ -18,6 +18,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .menu a {
@@ -81,7 +86,6 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
 }
 
@@ -471,6 +475,11 @@ tbody tr:last-child td {
 
 /* Desktop */
 @media (min-width: 1025px) {
+    body {
+        padding-top: 4rem;
+        padding-bottom: 3.3rem;
+    }
+    
     .player-details-table td .label::after {
         content: "\A"; /* Insert a line break */
         white-space: pre; /* Preserve the line break */
@@ -480,15 +489,101 @@ tbody tr:last-child td {
         margin-left: calc(-200px - 2rem); /* Align with the player profile picture */
     }
 
-    /* .container {
-        width: 80%;
+    .main-content {
+        display: flex;
+        margin-top: -60px; /* Adjust based on the height of the header */
+        margin-bottom: 0px;
+    }
+
+    .sidebar {
+        width: 20%;
+        height: calc(100vh - 100px); /* Adjust based on the combined height of the header and footer */
+        overflow-y: auto;
+        position: fixed;
+        top: 60px; /* Adjust based on the height of the header */
+        left: 0;
+        background-color: #f4f4f4;
+        padding: 1rem;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar nav ul li {
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc; /* Add a line between each player */
+        padding-bottom: 1rem;
+    }
+
+    .sidebar nav ul li a {
+        color: #333;
+        text-decoration: none;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .sidebar nav ul li a:hover {
+        text-decoration: underline;
+    }
+
+    .sidebar-player-img {
+        width: 50px; /* Adjust the size as needed */
+        height: 50px; /* Adjust the size as needed */
+        margin-right: 10px; /* Space between the image and the info */
+        border-radius: 50%; /* Optional: make the image circular */
+    }
+
+    .sidebar-player-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sidebar-player-no {
+        font-size: 0.9rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .sidebar-player-name {
+        font-size: 1rem;
+        margin-bottom: 0.2rem;
+    }
+
+    .sidebar-player-pos {
+        font-size: 0.8rem;
+        color: #666;
+    }
+
+    .container {
+        width: 100%;
         margin-left: auto;
         margin-right: 0;
-    } */
+        padding-left: 20%;
+    }
 }
 
 /* Tabloid */
 @media (max-width: 1024px) and (min-width: 768px) {
+    body {
+        padding-top: 4rem;
+        padding-bottom: 3.3rem;
+    }
+    
+    .sidebar {
+        display: none; /* Hide the sidebar in tabloid view */
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 0;
+    }
+    
     .player-details-table td .label::after {
         content: "\A"; /* Insert a line break */
         white-space: pre; /* Preserve the line break */
@@ -496,11 +591,35 @@ tbody tr:last-child td {
 
     .player-bio {
         margin-left: calc(-200px - 2rem); /* Align with the player profile picture */
+    }
+
+    .main-content {
+        margin-top: -60px; /* Adjust based on the height of the header */
+        margin-bottom: 0px;
     }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
+    body {
+        padding-top: 6rem;
+        padding-bottom: 3.3rem;
+    }
+    
+    .sidebar {
+        display: none; /* Hide the sidebar in mobile view */
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .main-content {
+        margin-top: -30px; /* Adjust based on the height of the header */
+        margin-bottom: 0px;
+    }
+    
     .menu {
         flex-direction: column; /* Stack items vertically */
         align-items: flex-end; /* Align items to the right */

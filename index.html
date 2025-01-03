@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: white;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.png" type="favicon">
 </head>
-<body>
+<body style="background-color: white;">
     <div id="header"></div>
 <script>
     fetch('header.html')
@@ -20,7 +20,7 @@
 </script>
 
     <div class="secondary-header">
-        <h2>2025 Men's Baseball Roster</h2>
+        <h2>2025 Baseball Roster</h2>
         <select id="viewSelect" onchange="changeView()">
             <option value="list">List View</option>
             <option value="grid" selected>Grid View</option>
@@ -40,7 +40,7 @@
     </script>
 
     <!-- Include the script that handles view rendering -->
-    <script src="players.js"></script>
-    <script src="script.js"></script>
+    <script src="scripts/players.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
