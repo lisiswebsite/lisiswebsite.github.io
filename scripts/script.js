@@ -86,7 +86,7 @@ function renderRoster(view) {
             rows.forEach(row => {
                 const cells = row.querySelectorAll('td');
                 const mobileRow = `
-                    <b>#${cells[0].innerText}</b> <span class="slash">/</span> <a href="players/${cells[1].querySelector('a').href}" class="grid-player-name">${cells[1].innerText}</a> <span class="slash">/</span> <span class="data">${cells[2].innerText}</span> <span class="slash">/</span> <span class="data">${cells[4].innerText}</span> <span class="slash">/</span> <span class="data">${cells[5].innerText}</span> <span class="slash">/</span> <span class="data">${cells[6].innerText}</span> <span class="slash">/</span> <span class="data">${cells[7].innerText}</span>
+                    <b>#${cells[0].innerText}</b> <span class="slash">/</span> <a href="${cells[1].querySelector('a').href}" class="grid-player-name">${cells[1].innerText}</a> <span class="slash">/</span> <span class="data">${cells[2].innerText}</span> <span class="slash">/</span> <span class="data">${cells[4].innerText}</span> <span class="slash">/</span> <span class="data">${cells[5].innerText}</span> <span class="slash">/</span> <span class="data">${cells[6].innerText}</span> <span class="slash">/</span> <span class="data">${cells[7].innerText}</span>
                 `;
                 row.innerHTML = `<td colspan="8">${mobileRow}</td>`;
             });
