@@ -3,6 +3,28 @@ function renderRoster(view) {
     const rosterSection = document.getElementById('roster');
     rosterSection.innerHTML = ''; // Clear the section before rendering
 
+    // Mapping of position codes to full names
+    const positionMapping = {
+        'C': 'Catcher',
+        'IF': 'Infielder',
+        '1B': 'First Base',
+        'UT': 'Utility',
+        'OF': 'Outfielder',
+        'RHP': 'Right-Handed Pitcher',
+        'LHP': 'Left-Handed Pitcher'
+    };
+
+    // Reverse mapping for abbreviations
+    const reversePositionMapping = {
+        'Catcher': 'C',
+        'Infielder': 'IF',
+        'First Base': '1B',
+        'Utility': 'UT',
+        'Outfielder': 'OF',
+        'Right-Handed Pitcher': 'RHP',
+        'Left-Handed Pitcher': 'LHP'
+    };
+
     if (view === 'list') {
         // List View
         rosterSection.className = 'list-view'; // Add class for list view
@@ -22,16 +44,24 @@ function renderRoster(view) {
                     </a>`;
             });
         } else {
-            // Desktop List View
+            // Desktop and Tablet List View
             let table = '<table>';
             table += '<tbody>'; // No <thead> for list view
             players.forEach(player => {
+                let position = player.pos;
+                if (window.innerWidth >= 656 && window.innerWidth <= 1024) {
+                    // Use abbreviated position names for tablet view
+                    position = reversePositionMapping[positionMapping[player.pos]] || player.pos;
+                } else {
+                    // Use full position names for desktop view
+                    position = positionMapping[player.pos] || player.pos;
+                }
                 table += `
                     <tr class="list-player-row">
                         <td><img src="${player.image}" alt="${player.name}" class="player-img-list"></td>
                         <td>
                             <div class="player-left">
-                                <p class="player-details-small">${player.pos} | ${player.ht} | ${player.bt}</p>
+                                <p class="player-details-small">${position} | ${player.ht} | ${player.bt}</p>
                                 <h2><span class="player-no-list">${player.no}</span><strong class="player-name">${player.name}</strong></h2>
                             </div>
                         </td>
@@ -81,7 +111,7 @@ function renderRoster(view) {
         rosterSection.innerHTML = table;
 
         // Transform grid view for mobile
-        if (window.innerWidth <= 768) {
+        if (window.innerWidth <= 864) {
             const rows = document.querySelectorAll('.grid-player-row');
             rows.forEach(row => {
                 const cells = row.querySelectorAll('td');
