@@ -13,6 +13,7 @@ if (player) {
     document.getElementById('playerSchool').innerHTML = `<span class="label">School:</span> <span class="data">${player.school}</span>`;
     
     // Populate bio information
+    document.getElementById('playerBirthday').innerHTML = `<span class="label">Birthdate:</span> <span class="data">${player.birthday}</span>`;
     document.getElementById('playerMajor').innerHTML = `<span class="label">Major:</span> <span class="data">${player.major}</span>`;
     document.getElementById('playerFood').innerHTML = `<span class="label">Favorite Food:</span> <span class="data">${player.food}</span>`;
     document.getElementById('playerInterests').innerHTML = `<span class="label">Interests:</span> <span class="data">${player.interests}</span>`;
