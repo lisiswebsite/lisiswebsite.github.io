@@ -601,6 +601,10 @@ tbody tr:last-child td {
 
 /* Mobile */
 @media (max-width: 768px) {
+    html {
+        background-color: white;
+    }
+    
     body {
         padding-top: 6rem;
         padding-bottom: 3.3rem;
