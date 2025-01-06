@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -622,7 +623,6 @@ tbody tr:last-child td {
     .main-content {
         margin-top: -30px; /* Adjust based on the height of the header */
         margin-bottom: 0px;
-        overflow-x: hidden;
     }
     
     .menu {
