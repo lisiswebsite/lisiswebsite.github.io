@@ -601,7 +601,7 @@ tbody tr:last-child td {
 }
 
 /* Mobile */
-@media (max-width: 768px) {    
+@media (max-width: 768px) {
     body {
         padding-top: 6rem;
         padding-bottom: 3.3rem;
@@ -691,12 +691,14 @@ tbody tr:last-child td {
 
     .backtoroster {
         position: relative;
-        bottom: 4rem;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
         z-index: 10;
         color: black;
         text-decoration: none;
         text-align: center;
-        margin: 0 auto;
-        display: block;
+        font-size: 0.8rem;
+        margin-top: 2rem; /* Add some space above the link */
     }
 }
