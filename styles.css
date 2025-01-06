@@ -686,7 +686,7 @@ tbody tr:last-child td {
 
     .backtoroster {
         position: absolute;
-        bottom: -27rem;
+        bottom: -26rem;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
