@@ -613,6 +613,7 @@ tbody tr:last-child td {
     .container {
         width: 100%;
         padding-left: 0;
+        padding-bottom: 4rem;
     }
 
     .main-content {
@@ -676,7 +677,7 @@ tbody tr:last-child td {
         position: absolute;
         top: 12rem;
         width: 100%;
-        height: 52rem;
+        height: 56rem;
     }
 
     .distancefromtop {
@@ -685,7 +686,7 @@ tbody tr:last-child td {
 
     .backtoroster {
         position: absolute;
-        bottom: -22rem;
+        bottom: -26rem;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
