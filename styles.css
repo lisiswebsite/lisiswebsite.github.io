@@ -685,13 +685,15 @@ tbody tr:last-child td {
     }
 
     .backtoroster {
-        position: absolute;
-        bottom: -27rem;
+        position: fixed;
+        bottom: 4rem;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
         color: black;
         text-decoration: none;
         text-align: center;
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.3s ease; /* Smooth transition for opacity */
     }
 }

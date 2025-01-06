@@ -21,3 +21,21 @@ if (player) {
 } else {
     document.body.innerHTML = '<p>Player not found.</p>';
 }
+
+// Show "Back to Roster" link when scrolled to the bottom
+document.addEventListener('DOMContentLoaded', () => {
+    const backToRosterLink = document.querySelector('.backtoroster');
+
+    if (backToRosterLink) {
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.scrollY + window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+
+            if (scrollPosition >= documentHeight) {
+                backToRosterLink.style.opacity = '1'; // Show the link
+            } else {
+                backToRosterLink.style.opacity = '0'; // Hide the link
+            }
+        });
+    }
+});
