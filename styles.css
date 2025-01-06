@@ -9,6 +9,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     padding-bottom: 2rem;
+    overflow-x: hidden;
 }
 
 header {
@@ -604,6 +605,7 @@ tbody tr:last-child td {
     body {
         padding-top: 6rem;
         padding-bottom: 3.3rem;
+        overflow-x: hidden;
     }
     
     .sidebar {
@@ -613,12 +615,14 @@ tbody tr:last-child td {
     .container {
         width: 100%;
         padding-left: 0;
+        padding-right: 0;
         padding-bottom: 4rem;
     }
 
     .main-content {
         margin-top: -30px; /* Adjust based on the height of the header */
         margin-bottom: 0px;
+        overflow-x: hidden;
     }
     
     .menu {
