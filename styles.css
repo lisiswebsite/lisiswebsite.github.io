@@ -226,6 +226,26 @@ tbody tr:last-child td {
         white-space: normal; /* Allow content to wrap within cells */
         word-wrap: break-word; /* Ensure long words break and wrap */
     }
+
+    .grid-view tr:nth-child(odd) {
+        background-color: #f4f4f4; /* Light grey background for odd rows */
+    }
+
+    .grid-view tr:nth-child(even) {
+        background-color: #ffffff; /* White background for even rows */
+    }
+}
+
+/* Desktop grid view */
+@media (min-width: 865px) {
+    .grid-view tr:hover {
+        background-color: #f4f4f4; /* Light grey background on hover */
+    }
+
+    .grid-view thead th {
+        font-style: italic; /* Italicize the headers */
+        padding: 0.5rem;
+    }
 }
 
 /* List view mobile */
