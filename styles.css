@@ -602,6 +602,10 @@ tbody tr:last-child td {
 
 /* Mobile */
 @media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    
     body {
         padding-top: 6rem;
         padding-bottom: 3.3rem;
