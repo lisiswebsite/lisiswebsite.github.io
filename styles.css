@@ -622,7 +622,6 @@ tbody tr:last-child td {
     .main-content {
         margin-top: -30px; /* Adjust based on the height of the header */
         margin-bottom: 0px;
-        overflow-x: hidden;
     }
     
     .menu {
@@ -647,12 +646,10 @@ tbody tr:last-child td {
     .player-details {
         flex-direction: column;
         gap: 0; /* Remove the gap between the tables */
-        width: 100%;
     }
 
     .player-details-table {
         margin-bottom: -1rem; /* Adjust the negative margin as needed */
-        width: 100%;
     }
 
     .player-img-profile {
