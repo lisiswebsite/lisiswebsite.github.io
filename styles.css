@@ -528,7 +528,7 @@ tbody tr:last-child td {
         align-items: center;
     }
 
-    .sidebar nav ul li a:hover {
+    .sidebar nav ul li a:hover .sidebar-player-name {
         text-decoration: underline;
     }
 
@@ -686,7 +686,7 @@ tbody tr:last-child td {
 
     .backtoroster {
         position: fixed;
-        bottom: 4rem;
+        bottom: 6rem;
         left: 50%;
         transform: translateX(-50%);
         z-index: 10;
