@@ -677,7 +677,7 @@ tbody tr:last-child td {
         position: absolute;
         top: 12rem;
         width: 100%;
-        height: 56rem;
+        height: 80vw;
     }
 
     .distancefromtop {
