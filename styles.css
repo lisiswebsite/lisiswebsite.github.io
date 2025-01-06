@@ -601,11 +601,7 @@ tbody tr:last-child td {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
-    html {
-        overflow-x: hidden;
-    }
-    
+@media (max-width: 768px) {    
     body {
         padding-top: 6rem;
         padding-bottom: 3.3rem;
@@ -626,6 +622,8 @@ tbody tr:last-child td {
     .main-content {
         margin-top: -30px; /* Adjust based on the height of the header */
         margin-bottom: 0px;
+        width: 100%;
+        overflow-x: hidden;
     }
     
     .menu {
