@@ -4,31 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Number Animation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
-      font-family: Arial, sans-serif;
+      font-family: 'Montserrat', sans-serif;
       background-color: #f0f0f0;
     }
 
-    #number {
-      font-size: 5rem;
-      font-weight: bold;
-      margin-bottom: 20px;
-      visibility: hidden; /* Numbers are hidden by default */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      width: 80%;
+      max-width: 1200px;
     }
 
-    #result {
-      font-size: 2rem;
+    @media (max-width: 600px) {
+      .grid-container {
+        grid-template-columns: 1fr; /* Single column on mobile view */
+      }
+    }
+
+    .grid-item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .box-number {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 1.5rem;
       font-weight: bold;
-      color: #333;
-      margin-top: 20px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+
+    .number-result-container {
+      display: flex;
+      align-items: center;
       visibility: hidden; /* Hidden by default */
+      height: 3rem; /* Set a fixed height */
+    }
+
+    .number {
+      font-size: 1.5rem;
+      margin-right: 10px;
+      color: #ccc;
+    }
+
+    .result {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: black;
+    }
+
+    .player-info {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .player-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .player-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
     }
 
     button {
@@ -37,67 +97,85 @@
       cursor: pointer;
       border: none;
       border-radius: 5px;
-      background-color: #007bff;
-      color: white;
+      background-color: #FFCE2E;
+      color: black;
     }
 
     button:hover {
-      background-color: #0056b3;
+      background-color: #E6B800;
     }
   </style>
 </head>
 <body>
-  <div id="number">1</div>
-  <button id="toggleButton">Start</button>
-  <div id="result"></div> <!-- Result text will appear here -->
+  <div class="grid-container">
+    <div class="grid-item" data-script="scripts/1_BeauAlvarez.js" data-number="number1" data-button="toggleButton1" data-result="result1">
+      <div class="box-number">1</div>
+    </div>
+    <div class="grid-item" data-script="scripts/1_BeauAlvarez.js" data-number="number2" data-button="toggleButton2" data-result="result2">
+      <div class="box-number">2</div>
+    </div>
+    <div class="grid-item" data-script="scripts/1_BeauAlvarez.js" data-number="number3" data-button="toggleButton3" data-result="result3">
+      <div class="box-number">3</div>
+    </div>
+    <div class="grid-item" data-script="scripts/1_BeauAlvarez.js" data-number="number4" data-button="toggleButton4" data-result="result4">
+      <div class="box-number">4</div>
+    </div>
+    <div class="grid-item" data-script="scripts/17_GriffinKuntz.js" data-number="number5" data-button="toggleButton5" data-result="result5">
+      <div class="box-number">5</div>
+    </div>
+    <div class="grid-item" data-script="scripts/88_NutpuckMinimick.js" data-number="number6" data-button="toggleButton6" data-result="result6">
+      <div class="box-number">6</div>
+    </div>
+    <div class="grid-item" data-script="scripts/1_BeauAlvarez.js" data-number="number7" data-button="toggleButton7" data-result="result7">
+      <div class="box-number">7</div>
+    </div>
+    <div class="grid-item" data-script="scripts/17_GriffinKuntz.js" data-number="number8" data-button="toggleButton8" data-result="result8">
+      <div class="box-number">8</div>
+    </div>
+    <div class="grid-item" data-script="scripts/88_NutpuckMinimick.js" data-number="number9" data-button="toggleButton9" data-result="result9">
+      <div class="box-number">9</div>
+    </div>
+  </div>
 
+  <script src="scripts/players.js"></script>
   <script>
-    const numberElement = document.getElementById('number');
-    const toggleButton = document.getElementById('toggleButton');
-    const resultElement = document.getElementById('result');
+    document.addEventListener('DOMContentLoaded', () => {
+      const gridItems = document.querySelectorAll('.grid-item');
+      gridItems.forEach((item) => {
+        const scriptSrc = item.getAttribute('data-script');
+        const numberElementId = item.getAttribute('data-number');
+        const toggleButtonId = item.getAttribute('data-button');
+        const resultElementId = item.getAttribute('data-result');
 
-    let currentNumber = 1;
-    let intervalId = null; // To store the interval ID
+        // Create elements for number, button, and result
+        const numberElement = document.createElement('div');
+        numberElement.id = numberElementId;
+        numberElement.className = 'number';
+        numberElement.textContent = '1';
 
-    function animateNumbers() {
-      numberElement.textContent = currentNumber;
-      currentNumber++;
-      if (currentNumber > 1000) currentNumber = 1; // Reset to 1 when reaching 1000
-    }
+        const resultElement = document.createElement('div');
+        resultElement.id = resultElementId;
+        resultElement.className = 'result';
 
-    function getOutcome(number) {
-      if (number >= 1 && number <= 300) {
-        return "Hit";
-      } else if (number >= 301 && number <= 500) {
-        return "Strikeout";
-      } else if (number >= 501 && number <= 600) {
-        return "Walk";
-      } else if (number >= 601 && number <= 800) {
-        return "Groundout";
-      } else if (number >= 801 && number <= 1000) {
-        return "Fly Out";
-      }
-    }
+        const numberResultContainer = document.createElement('div');
+        numberResultContainer.className = 'number-result-container';
+        numberResultContainer.appendChild(numberElement);
+        numberResultContainer.appendChild(resultElement);
 
-    toggleButton.addEventListener('click', () => {
-      if (intervalId) {
-        // If the animation is running, stop it
-        clearInterval(intervalId);
-        intervalId = null;
-        toggleButton.textContent = 'Start'; // Change button text to Start
-        numberElement.style.visibility = 'visible'; // Show the numbers
+        const toggleButton = document.createElement('button');
+        toggleButton.id = toggleButtonId;
+        toggleButton.textContent = 'Start';
 
-        // Display the result based on the current number
-        const outcome = getOutcome(currentNumber);
-        resultElement.textContent = outcome;
-        resultElement.style.visibility = 'visible'; // Show the result
-      } else {
-        // If the animation is stopped, start it
-        intervalId = setInterval(animateNumbers, 1);
-        toggleButton.textContent = 'Stop'; // Change button text to Stop
-        numberElement.style.visibility = 'hidden'; // Hide the numbers
-        resultElement.style.visibility = 'hidden'; // Hide the result
-      }
+        item.appendChild(toggleButton);
+        item.appendChild(numberResultContainer);
+
+        const script = document.createElement('script');
+        script.src = scriptSrc;
+        script.onload = () => {
+          initializePlayerBox(numberElementId, toggleButtonId, resultElementId);
+        };
+        document.body.appendChild(script);
+      });
     });
   </script>
 </body>
