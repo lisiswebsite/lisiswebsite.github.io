@@ -202,7 +202,7 @@ const players = [
         food: "Cheeseburgers",
         interests: "Hosting parties, standup comedy, Seinfeld (TV), Bad Boys 2 (movie), Young Thug (music), The Hitchhiker’s Guide to the Galaxy (book)",
         funfact: "Has crashed a couple weddings",},
-    { no: 30, name: "Kermit Grastan", pos: "UT", year: "Junior", ht: "6'2\"", wt: "0 lbs", hometown: "Brookline, MA", school: "Brookline HS", bt: "R/R", image: "../images/30 Kermit Grastan.jpg",
+    { no: 30, name: "Kermit Grastan", pos: "UT", year: "Junior", ht: "6'2\"", wt: "0 lbs", hometown: "Brookline, MA", school: "Brookline HS", bt: "L/L", image: "../images/30 Kermit Grastan.jpg",
         bioLink: '30_KermitGrastan.html',
         birthday: "6/17/2004",
         major: "Illustration",
