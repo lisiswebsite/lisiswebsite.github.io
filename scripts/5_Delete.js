@@ -1,5 +1,5 @@
 function initializePlayerBox(numberElementId, toggleButtonId, resultElementId) {
-  const playerName = "Reed Clonne";
+  const playerName = "Cumnong Hamdic";
   const playerData = players.find(player => player.name === playerName);
 
   const numberElement = document.getElementById(numberElementId);
