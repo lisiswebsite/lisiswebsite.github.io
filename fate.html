@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Number Animation</title>
+  <title>Fate</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png" type="favicon">
   <style>
     body {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start; /* Align items at the top */
       height: 100vh;
       margin: 0;
       font-family: 'Montserrat', sans-serif;
       background-color: #f0f0f0;
+      overflow-y: auto; /* Enable vertical scrolling */
     }
 
     .grid-container {
@@ -22,11 +24,14 @@
       grid-gap: 20px;
       width: 80%;
       max-width: 1200px;
+      padding: 20px 0; /* Add padding to ensure visibility */
     }
 
     @media (max-width: 600px) {
       .grid-container {
         grid-template-columns: 1fr; /* Single column on mobile view */
+        width: 100%; /* Ensure full width on mobile */
+        padding: 20px; /* Add padding to ensure visibility */
       }
     }
 
@@ -111,28 +116,28 @@
     <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number1" data-button="toggleButton1" data-result="result1">
       <div class="box-number">1</div>
     </div>
-    <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number2" data-button="toggleButton2" data-result="result2">
+    <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number2" data-button="toggleButton2" data-result="result2">
       <div class="box-number">2</div>
     </div>
-    <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number3" data-button="toggleButton3" data-result="result3">
+    <div class="grid-item" data-script="scripts/3_Delete.js" data-number="number3" data-button="toggleButton3" data-result="result3">
       <div class="box-number">3</div>
     </div>
-    <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number4" data-button="toggleButton4" data-result="result4">
+    <div class="grid-item" data-script="scripts/4_Delete.js" data-number="number4" data-button="toggleButton4" data-result="result4">
       <div class="box-number">4</div>
     </div>
-    <div class="grid-item" data-script="scripts/17_GriffinKuntz.js" data-number="number5" data-button="toggleButton5" data-result="result5">
+    <div class="grid-item" data-script="scripts/5_Delete.js" data-number="number5" data-button="toggleButton5" data-result="result5">
       <div class="box-number">5</div>
     </div>
-    <div class="grid-item" data-script="scripts/88_NutpuckMinimick.js" data-number="number6" data-button="toggleButton6" data-result="result6">
+    <div class="grid-item" data-script="scripts/6_Delete.js" data-number="number6" data-button="toggleButton6" data-result="result6">
       <div class="box-number">6</div>
     </div>
-    <div class="grid-item" data-script="scripts/17_GriffinKuntz.js" data-number="number7" data-button="toggleButton7" data-result="result7">
+    <div class="grid-item" data-script="scripts/7_Delete.js" data-number="number7" data-button="toggleButton7" data-result="result7">
       <div class="box-number">7</div>
     </div>
-    <div class="grid-item" data-script="scripts/17_GriffinKuntz.js" data-number="number8" data-button="toggleButton8" data-result="result8">
+    <div class="grid-item" data-script="scripts/8_Delete.js" data-number="number8" data-button="toggleButton8" data-result="result8">
       <div class="box-number">8</div>
     </div>
-    <div class="grid-item" data-script="scripts/88_NutpuckMinimick.js" data-number="number9" data-button="toggleButton9" data-result="result9">
+    <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-button="toggleButton9" data-result="result9">
       <div class="box-number">9</div>
     </div>
   </div>

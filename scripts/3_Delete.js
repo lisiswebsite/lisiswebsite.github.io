@@ -1,5 +1,5 @@
 function initializePlayerBox(numberElementId, toggleButtonId, resultElementId) {
-  const playerName = "Nutpuck Minimick";
+  const playerName = "Griffin Kuntz";
   const playerData = players.find(player => player.name === playerName);
 
   const numberElement = document.getElementById(numberElementId);
@@ -29,22 +29,36 @@ function initializePlayerBox(numberElementId, toggleButtonId, resultElementId) {
   let intervalId = null; // To store the interval ID
 
   function animateNumbers() {
+    currentNumber += 3; // Increment by 3 to make it count faster
+    if (currentNumber > 1000) currentNumber = currentNumber - 1000; // Adjust to handle overflow
     numberElement.textContent = currentNumber;
-    currentNumber++;
-    if (currentNumber > 1000) currentNumber = 1; // Reset to 1 when reaching 1000
   }
 
   function getOutcome(number) {
-    if (number >= 1 && number <= 300) {
+    if (number >= 1 && number <= 184) {
+      return "Walk";
+    } else if (number >= 185 && number <= 316) {
+      return "Strikeout";
+    } else if (number >= 317 && number <= 355) {
       return "HBP";
-    } else if (number >= 301 && number <= 500) {
-      return "HBP";
-    } else if (number >= 501 && number <= 600) {
-      return "HBP";
-    } else if (number >= 601 && number <= 800) {
-      return "HBP";
-    } else if (number >= 801 && number <= 1000) {
-      return "HBP";
+    } else if (number >= 356 && number <= 387) {
+      return "Reached on error";
+    } else if (number >= 388 && number <= 482) {
+      return "Flyout";
+    } else if (number >= 483 && number <= 617) {
+      return "Single";
+    } else if (number >= 618 && number <= 697) {
+      return "Groundout";
+    } else if (number >= 698 && number <= 762) {
+      return "Double";
+    } else if (number >= 763 && number <= 828) {
+      return "Lineout";
+    } else if (number >= 829 && number <= 831) {
+      return "Triple";
+    } else if (number >= 832 && number <= 881) {
+      return "Popout";
+    } else if (number >= 882 && number <= 1000) {
+      return "Home run";
     }
   }
 
