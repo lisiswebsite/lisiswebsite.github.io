@@ -85,6 +85,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center; /* Center align the content */
       visibility: hidden; /* Hidden by default */
       height: 3rem; /* Set a fixed height */
       z-index: 2; /* Ensure it appears above the background image */
@@ -92,9 +93,9 @@
     }
 
     .number {
-      font-size: 1.5rem;
-      margin-right: 10px;
+      font-size: 3rem;
       color: #ccc;
+      text-align: center; /* Center align the text */
     }
 
     .result {
@@ -102,6 +103,7 @@
       font-weight: bold;
       color: black;
       background-color: white;
+      text-align: center; /* Center align the text */
     }
 
     .player-info {
@@ -117,12 +119,14 @@
       font-size: 1.5rem;
       font-weight: bold;
       margin-top: -10px; /* Align to the top */
+      margin-left: 10px;
+      margin-right: 10px;
       z-index: 2;
     }
 
     .player-image {
       position: absolute;
-      top: 0;
+      top: 5%;
       left: 0;
       width: 100%;
       height: 100%;
