@@ -9,13 +9,18 @@
   <style>
     body {
       display: flex;
-      justify-content: center;
-      align-items: flex-start; /* Align items at the top */
+      flex-direction: column;
+      justify-content: flex-start; /* Align items at the top */
+      align-items: center;
       height: 100vh;
       margin: 0;
       font-family: 'Montserrat', sans-serif;
       background-color: #f0f0f0;
       overflow-y: auto; /* Enable vertical scrolling */
+    }
+
+    .dropdown-container {
+      margin: 20px;
     }
 
     .grid-container {
@@ -25,6 +30,10 @@
       width: 80%;
       max-width: 1200px;
       padding: 20px 0; /* Add padding to ensure visibility */
+    }
+
+    .grid-container.defense {
+      grid-template-columns: 1fr; /* Single column for defense view */
     }
 
     @media (max-width: 600px) {
@@ -112,7 +121,15 @@
   </style>
 </head>
 <body>
-  <div class="grid-container">
+  <div class="dropdown-container">
+    <label for="view-select">Choose a view:</label>
+    <select id="view-select">
+      <option value="offense">OFFENSE</option>
+      <option value="defense">DEFENSE</option>
+    </select>
+  </div>
+
+  <div class="grid-container offense">
     <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number1" data-button="toggleButton1" data-result="result1">
       <div class="box-number">1</div>
     </div>
@@ -140,12 +157,37 @@
     <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-button="toggleButton9" data-result="result9">
       <div class="box-number">9</div>
     </div>
+    <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number10" data-button="toggleButton10" data-result="result10" style="display: none;">
+      <div class="box-number">10</div>
+    </div>
   </div>
 
   <script src="scripts/players.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const gridItems = document.querySelectorAll('.grid-item');
+      const viewSelect = document.getElementById('view-select');
+      const gridContainer = document.querySelector('.grid-container');
+      const defenseOnlyItem = document.querySelector('.defense-only');
+
+      viewSelect.addEventListener('change', (event) => {
+        if (event.target.value === 'defense') {
+          gridContainer.classList.add('defense');
+          gridItems.forEach(item => {
+            if (!item.classList.contains('defense-only')) {
+              item.style.display = 'none';
+            }
+          });
+          defenseOnlyItem.style.display = 'flex';
+        } else {
+          gridContainer.classList.remove('defense');
+          gridItems.forEach(item => {
+            item.style.display = 'flex';
+          });
+          defenseOnlyItem.style.display = 'none';
+        }
+      });
+
       gridItems.forEach((item) => {
         const scriptSrc = item.getAttribute('data-script');
         const numberElementId = item.getAttribute('data-number');
