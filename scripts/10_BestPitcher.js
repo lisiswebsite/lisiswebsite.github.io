@@ -10,14 +10,14 @@ function initializePlayerBox(numberElementId, resultElementId) {
   // Create a container for player info
   const playerInfoContainer = document.createElement('div');
   playerInfoContainer.className = 'player-info';
-  numberResultContainer.parentElement.insertBefore(playerInfoContainer, numberResultContainer);
+  gridItem.insertBefore(playerInfoContainer, numberResultContainer);
 
   // Insert player image
   const playerImageElement = document.createElement('img');
   playerImageElement.className = 'player-image';
   playerImageElement.src = playerData.image;
   playerImageElement.alt = playerData.name;
-  numberResultContainer.parentElement.insertBefore(playerImageElement, playerInfoContainer);
+  gridItem.insertBefore(playerImageElement, playerInfoContainer);
 
   // Insert player name
   const playerNameElement = document.createElement('div');
