@@ -35,29 +35,29 @@ function initializePlayerBox(numberElementId, toggleButtonId, resultElementId) {
   }
 
   function getOutcome(number) {
-    if (number >= 1 && number <= 184) {
+    if (number >= 1 && number <= 188) {
       return "Walk";
-    } else if (number >= 185 && number <= 316) {
+    } else if (number >= 189 && number <= 323) {
       return "Strikeout";
-    } else if (number >= 317 && number <= 355) {
+    } else if (number >= 324 && number <= 362) {
       return "HBP";
-    } else if (number >= 356 && number <= 387) {
+    } else if (number >= 363 && number <= 375) {
       return "Reached on error";
-    } else if (number >= 388 && number <= 482) {
+    } else if (number >= 376 && number <= 449) {
       return "Flyout";
-    } else if (number >= 483 && number <= 617) {
+    } else if (number >= 450 && number <= 587) {
       return "Single";
-    } else if (number >= 618 && number <= 697) {
+    } else if (number >= 588 && number <= 661) {
       return "Groundout";
-    } else if (number >= 698 && number <= 762) {
+    } else if (number >= 662 && number <= 727) {
       return "Double";
-    } else if (number >= 763 && number <= 828) {
+    } else if (number >= 728 && number <= 801) {
       return "Lineout";
-    } else if (number >= 829 && number <= 831) {
+    } else if (number >= 802 && number <= 804) {
       return "Triple";
-    } else if (number >= 832 && number <= 881) {
+    } else if (number >= 805 && number <= 878) {
       return "Popout";
-    } else if (number >= 882 && number <= 1000) {
+    } else if (number >= 879 && number <= 1000) {
       return "Home run";
     }
   }
