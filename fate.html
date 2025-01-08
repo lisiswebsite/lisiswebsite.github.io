@@ -12,7 +12,7 @@
       flex-direction: column;
       justify-content: flex-start; /* Align items at the top */
       align-items: center;
-      height: 100vh;
+      /* height: 100vh; */
       margin: 0;
       font-family: 'Montserrat', sans-serif;
       background-color: #f0f0f0;
@@ -37,18 +37,22 @@
       grid-gap: 20px;
       width: 80%;
       max-width: 1200px;
+      /* height: calc(100vh - 100px); */
       padding: 20px 0; /* Add padding to ensure visibility */
     }
 
     .grid-container.defense {
-      grid-template-columns: 1fr; /* Single column for defense view */
+      grid-template-columns: repeat(3, 1fr); /* Three columns for defense view */
+      height: auto; /* Allow height to adjust for defense view */
     }
 
     @media (max-width: 600px) {
-      .grid-container {
+      .grid-container,
+      .grid-container.defense {
         grid-template-columns: 1fr; /* Single column on mobile view */
         width: 100%; /* Ensure full width on mobile */
         padding: 20px; /* Add padding to ensure visibility */
+        height: auto; /* Allow height to adjust on mobile */
       }
     }
 
@@ -56,15 +60,15 @@
       position: relative;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      justify-content: flex-start; /* Align items at the top */
       align-items: center;
       background-color: white;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      padding: 20px 20px; /* Adjust padding to bring content closer to the top */
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      aspect-ratio: 1 / 1; /* Maintain 1:1 aspect ratio */
+      overflow: hidden; /* Ensure content doesn't overflow */
+      cursor: pointer; /* Change cursor to pointer to indicate clickability */
     }
 
     .box-number {
@@ -74,6 +78,7 @@
       font-size: 1.5rem;
       font-weight: bold;
       color: rgba(0, 0, 0, 0.5);
+      z-index: 2; /* Ensure it appears above the background image */
     }
 
     .number-result-container {
@@ -81,6 +86,7 @@
       align-items: center;
       visibility: hidden; /* Hidden by default */
       height: 3rem; /* Set a fixed height */
+      z-index: 2; /* Ensure it appears above the background image */
     }
 
     .number {
@@ -97,40 +103,34 @@
 
     .player-info {
       display: flex;
+      flex-direction: column;
       align-items: center;
       margin-bottom: 10px;
+      z-index: 2; /* Ensure it appears above the background image */
     }
 
     .player-name {
       font-size: 1.2rem;
       font-weight: bold;
-      margin-left: 10px;
+      margin-top: -10%;
+      z-index: 2;
     }
 
     .player-image {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-    }
-
-    button {
-      padding: 10px 20px;
-      font-size: 1rem;
-      cursor: pointer;
-      border: none;
-      border-radius: 5px;
-      background-color: #FFCE2E;
-      color: black;
-    }
-
-    button:hover {
-      background-color: #E6B800;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1; /* Ensure it appears behind other elements */
+      opacity: 1; /* Optional: Add opacity to make text more readable */
     }
   </style>
 </head>
 <body>
   <div class="dropdown-container">
-    <label for="view-select"></label>
+    <label for="view-select">Choose a view:</label>
     <select id="view-select">
       <option value="offense">OFFENSE</option>
       <option value="defense">DEFENSE</option>
@@ -138,35 +138,41 @@
   </div>
 
   <div class="grid-container offense">
-    <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number1" data-button="toggleButton1" data-result="result1">
+    <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number1" data-result="result1">
       <div class="box-number">1</div>
     </div>
-    <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number2" data-button="toggleButton2" data-result="result2">
+    <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number2" data-result="result2">
       <div class="box-number">2</div>
     </div>
-    <div class="grid-item" data-script="scripts/3_Delete.js" data-number="number3" data-button="toggleButton3" data-result="result3">
+    <div class="grid-item" data-script="scripts/3_Delete.js" data-number="number3" data-result="result3">
       <div class="box-number">3</div>
     </div>
-    <div class="grid-item" data-script="scripts/4_Delete.js" data-number="number4" data-button="toggleButton4" data-result="result4">
+    <div class="grid-item" data-script="scripts/4_Delete.js" data-number="number4" data-result="result4">
       <div class="box-number">4</div>
     </div>
-    <div class="grid-item" data-script="scripts/5_Delete.js" data-number="number5" data-button="toggleButton5" data-result="result5">
+    <div class="grid-item" data-script="scripts/5_Delete.js" data-number="number5" data-result="result5">
       <div class="box-number">5</div>
     </div>
-    <div class="grid-item" data-script="scripts/6_Delete.js" data-number="number6" data-button="toggleButton6" data-result="result6">
+    <div class="grid-item" data-script="scripts/6_Delete.js" data-number="number6" data-result="result6">
       <div class="box-number">6</div>
     </div>
-    <div class="grid-item" data-script="scripts/7_Delete.js" data-number="number7" data-button="toggleButton7" data-result="result7">
+    <div class="grid-item" data-script="scripts/7_Delete.js" data-number="number7" data-result="result7">
       <div class="box-number">7</div>
     </div>
-    <div class="grid-item" data-script="scripts/8_Delete.js" data-number="number8" data-button="toggleButton8" data-result="result8">
+    <div class="grid-item" data-script="scripts/8_Delete.js" data-number="number8" data-result="result8">
       <div class="box-number">8</div>
     </div>
-    <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-button="toggleButton9" data-result="result9">
+    <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-result="result9">
       <div class="box-number">9</div>
     </div>
-    <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number10" data-button="toggleButton10" data-result="result10" style="display: none;">
+    <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number10" data-result="result10" style="display: none;">
       <div class="box-number">10</div>
+    </div>
+    <div class="grid-item defense-only" data-script="scripts/11_WorstPitcher.js" data-number="number11" data-result="result11" style="display: none;">
+      <div class="box-number">11</div>
+    </div>
+    <div class="grid-item defense-only" data-script="scripts/4_Delete.js" data-number="number12" data-result="result12" style="display: none;">
+      <div class="box-number">12</div>
     </div>
   </div>
 
@@ -176,7 +182,7 @@
       const gridItems = document.querySelectorAll('.grid-item');
       const viewSelect = document.getElementById('view-select');
       const gridContainer = document.querySelector('.grid-container');
-      const defenseOnlyItem = document.querySelector('.defense-only');
+      const defenseOnlyItems = document.querySelectorAll('.defense-only');
 
       viewSelect.addEventListener('change', (event) => {
         if (event.target.value === 'defense') {
@@ -186,23 +192,26 @@
               item.style.display = 'none';
             }
           });
-          defenseOnlyItem.style.display = 'flex';
+          defenseOnlyItems.forEach(item => {
+            item.style.display = 'flex';
+          });
         } else {
           gridContainer.classList.remove('defense');
           gridItems.forEach(item => {
             item.style.display = 'flex';
           });
-          defenseOnlyItem.style.display = 'none';
+          defenseOnlyItems.forEach(item => {
+            item.style.display = 'none';
+          });
         }
       });
 
       gridItems.forEach((item) => {
         const scriptSrc = item.getAttribute('data-script');
         const numberElementId = item.getAttribute('data-number');
-        const toggleButtonId = item.getAttribute('data-button');
         const resultElementId = item.getAttribute('data-result');
 
-        // Create elements for number, button, and result
+        // Create elements for number and result
         const numberElement = document.createElement('div');
         numberElement.id = numberElementId;
         numberElement.className = 'number';
@@ -217,17 +226,12 @@
         numberResultContainer.appendChild(numberElement);
         numberResultContainer.appendChild(resultElement);
 
-        const toggleButton = document.createElement('button');
-        toggleButton.id = toggleButtonId;
-        toggleButton.textContent = 'Start';
-
-        item.appendChild(toggleButton);
         item.appendChild(numberResultContainer);
 
         const script = document.createElement('script');
         script.src = scriptSrc;
         script.onload = () => {
-          initializePlayerBox(numberElementId, toggleButtonId, resultElementId);
+          initializePlayerBox(numberElementId, resultElementId);
         };
         document.body.appendChild(script);
       });
