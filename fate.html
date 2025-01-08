@@ -46,6 +46,7 @@
       height: auto; /* Allow height to adjust for defense view */
     }
 
+    /* Mobile */
     @media (max-width: 600px) {
       .grid-container,
       .grid-container.defense {
@@ -53,6 +54,64 @@
         width: 100%; /* Ensure full width on mobile */
         padding: 20px; /* Add padding to ensure visibility */
         height: auto; /* Allow height to adjust on mobile */
+      }
+
+      .player-name {
+        font-size: 1.5rem;
+      }
+
+      .box-number {
+        font-size: 1.5rem;
+      }
+
+      .result {
+        font-size: 2.5rem;
+      }
+
+      .number {
+        font-size: 1.5rem;
+      }
+    }
+
+    /* Tabloid */
+    @media (max-width: 1209px) and (min-width: 601px) {
+      .player-name {
+        font-size: 1rem;
+      }
+
+      .box-number {
+        font-size: 1rem;
+      }
+
+      .result {
+        font-size: 1rem;
+      }
+
+      .number {
+        font-size: 1rem;
+      }
+
+      .number-result-container {
+        margin-bottom: -1rem;
+      }
+    }
+
+    /* Desktop */
+    @media (min-width: 1210px) {
+      .player-name {
+        font-size: 1.5rem;
+      }
+
+      .box-number {
+        font-size: 1.5rem;
+      }
+
+      .result {
+        font-size: 2rem;
+      }
+
+      .number {
+        font-size: 1rem;
       }
     }
 
@@ -75,7 +134,6 @@
       position: absolute;
       top: 10px;
       left: 10px;
-      font-size: 1.5rem;
       font-weight: bold;
       color: rgba(0, 0, 0, 0.5);
       z-index: 2; /* Ensure it appears above the background image */
@@ -93,17 +151,15 @@
     }
 
     .number {
-      font-size: 3rem;
       color: #ccc;
       text-align: center; /* Center align the text */
     }
 
     .result {
-      font-size: 1.5rem;
       font-weight: bold;
       color: black;
-      background-color: white;
       text-align: center; /* Center align the text */
+      background-color: white;
     }
 
     .player-info {
@@ -116,7 +172,6 @@
     }
 
     .player-name {
-      font-size: 1.5rem;
       font-weight: bold;
       margin-top: -10px; /* Align to the top */
       margin-left: 10px;
