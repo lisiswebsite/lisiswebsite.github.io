@@ -4,301 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fate</title>
+  <link rel="stylesheet" href="fatestyles.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" href="images/favicon.png" type="favicon">
-  <style>
-    body {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start; /* Align items at the top */
-      align-items: center;
-      /* height: 100vh; */
-      margin: 0;
-      font-family: 'Montserrat', sans-serif;
-      background-color: #f0f0f0;
-      overflow-y: auto; /* Enable vertical scrolling */
-    }
-
-    .dropdown-container {
-      margin: 20px;
-    }
-
-    #view-select {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.2rem; /* Slightly bigger font size */
-      padding: 10px; /* Add padding to make it bigger */
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 20px;
-      width: 80%;
-      max-width: 1200px;
-      /* height: calc(100vh - 100px); */
-      padding: 20px 0; /* Add padding to ensure visibility */
-    }
-
-    .grid-container.defense {
-      grid-template-columns: repeat(3, 1fr); /* Three columns for defense view */
-      height: auto; /* Allow height to adjust for defense view */
-    }
-
-    /* Mobile */
-    @media (max-width: 600px) {
-      .grid-container,
-      .grid-container.defense {
-        grid-template-columns: 1fr; /* Single column on mobile view */
-        width: 100%; /* Ensure full width on mobile */
-        padding: 20px; /* Add padding to ensure visibility */
-        height: auto; /* Allow height to adjust on mobile */
-      }
-
-      .player-name {
-        font-size: 1.5rem;
-      }
-
-      .box-number {
-        font-size: 1.5rem;
-      }
-
-      .result {
-        font-size: 2.5rem;
-      }
-
-      .number {
-        font-size: 1.5rem;
-      }
-    }
-
-    /* Tabloid */
-    @media (max-width: 1209px) and (min-width: 601px) {
-      .player-name {
-        font-size: 1rem;
-      }
-
-      .box-number {
-        font-size: 1rem;
-      }
-
-      .result {
-        font-size: 1rem;
-      }
-
-      .number {
-        font-size: 1rem;
-      }
-
-      .number-result-container {
-        margin-bottom: -1rem;
-      }
-    }
-
-    /* Desktop */
-    @media (min-width: 1210px) {
-      .player-name {
-        font-size: 1.5rem;
-      }
-
-      .box-number {
-        font-size: 1.5rem;
-      }
-
-      .result {
-        font-size: 2rem;
-      }
-
-      .number {
-        font-size: 1rem;
-      }
-    }
-
-    .grid-item {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between; /* Distribute space between items */
-      align-items: center;
-      background-color: white;
-      padding: 20px 20px; /* Adjust padding to bring content closer to the top */
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      aspect-ratio: 1 / 1; /* Maintain 1:1 aspect ratio */
-      overflow: hidden; /* Ensure content doesn't overflow */
-      cursor: pointer; /* Change cursor to pointer to indicate clickability */
-    }
-
-    .box-number {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      font-weight: bold;
-      color: rgba(0, 0, 0, 0.5);
-      z-index: 2; /* Ensure it appears above the background image */
-    }
-
-    .number-result-container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; /* Center align the content */
-      visibility: hidden; /* Hidden by default */
-      height: 3rem; /* Set a fixed height */
-      z-index: 2; /* Ensure it appears above the background image */
-      margin-top: auto; /* Push to the bottom */
-    }
-
-    .number {
-      color: #ccc;
-      text-align: center; /* Center align the text */
-    }
-
-    .result {
-      font-weight: bold;
-      color: black;
-      text-align: center; /* Center align the text */
-      background-color: white;
-    }
-
-    .player-info {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 10px;
-      z-index: 2; /* Ensure it appears above the background image */
-      margin-top: 0; /* Align to the top */
-    }
-
-    .player-name {
-      font-weight: bold;
-      margin-top: -10px; /* Align to the top */
-      margin-left: 10px;
-      margin-right: 10px;
-      z-index: 2;
-    }
-
-    .player-image {
-      position: absolute;
-      top: 5%;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: 1; /* Ensure it appears behind other elements */
-      opacity: 1; /* Optional: Add opacity to make text more readable */
-    }
-  </style>
 </head>
 <body>
   <div class="dropdown-container">
-    <label for="view-select"></label>
+    <label for="view-select">Choose a view:</label>
     <select id="view-select">
       <option value="offense">OFFENSE</option>
       <option value="defense">DEFENSE</option>
     </select>
   </div>
 
-  <div class="grid-container offense">
-    <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number1" data-result="result1">
-      <div class="box-number">1</div>
+  <div class="main-container">
+    <div class="grid-container offense">
+      <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number1" data-result="result1">
+        <div class="box-number">1</div>
+      </div>
+      <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number2" data-result="result2">
+        <div class="box-number">2</div>
+      </div>
+      <div class="grid-item" data-script="scripts/3_Delete.js" data-number="number3" data-result="result3">
+        <div class="box-number">3</div>
+      </div>
+      <div class="grid-item" data-script="scripts/4_Delete.js" data-number="number4" data-result="result4">
+        <div class="box-number">4</div>
+      </div>
+      <div class="grid-item" data-script="scripts/5_Delete.js" data-number="number5" data-result="result5">
+        <div class="box-number">5</div>
+      </div>
+      <div class="grid-item" data-script="scripts/6_Delete.js" data-number="number6" data-result="result6">
+        <div class="box-number">6</div>
+      </div>
+      <div class="grid-item" data-script="scripts/7_Delete.js" data-number="number7" data-result="result7">
+        <div class="box-number">7</div>
+      </div>
+      <div class="grid-item" data-script="scripts/8_Delete.js" data-number="number8" data-result="result8">
+        <div class="box-number">8</div>
+      </div>
+      <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-result="result9">
+        <div class="box-number">9</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number10" data-result="result10" style="display: none;">
+        <div class="box-number">10</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/11_WorstPitcher.js" data-number="number11" data-result="result11" style="display: none;">
+        <div class="box-number">11</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number12" data-result="result12" style="display: none;">
+        <div class="box-number">12</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number13" data-result="result13" style="display: none;">
+        <div class="box-number">13</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number14" data-result="result14" style="display: none;">
+        <div class="box-number">14</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number15" data-result="result15" style="display: none;">
+        <div class="box-number">15</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number16" data-result="result16" style="display: none;">
+        <div class="box-number">16</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number17" data-result="result17" style="display: none;">
+        <div class="box-number">17</div>
+      </div>
+      <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number18" data-result="result18" style="display: none;">
+        <div class="box-number">18</div>
+      </div>
     </div>
-    <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number2" data-result="result2">
-      <div class="box-number">2</div>
+
+    <div class="container offense-form">
+      <form method="post" action="https://script.google.com/macros/s/AKfycbw11xMtBjPecdJLSzcCjx-kPSPqHvwNZVoRwrgUHGwIbr1mzTfYlD0zucwtoNV45TIp/exec" name="offense" class="form-grid">
+        <input type="text" name="1_Bat#" placeholder="Bat code">
+        <input type="text" name="1_BatResult" placeholder="Bat result">
+        <input type="text" name="2_Bat#" placeholder="Bat code">
+        <input type="text" name="2_BatResult" placeholder="Bat result">
+        <input type="text" name="3_Bat#" placeholder="Bat code">
+        <input type="text" name="3_BatResult" placeholder="Bat result">
+        <input type="text" name="4_Bat#" placeholder="Bat code">
+        <input type="text" name="4_BatResult" placeholder="Bat result">
+        <input type="text" name="5_Bat#" placeholder="Bat code">
+        <input type="text" name="5_BatResult" placeholder="Bat result">
+        <input type="text" name="6_Bat#" placeholder="Bat code">
+        <input type="text" name="6_BatResult" placeholder="Bat result">
+        <input type="text" name="7_Bat#" placeholder="Bat code">
+        <input type="text" name="7_BatResult" placeholder="Bat result">
+        <input type="text" name="8_Bat#" placeholder="Bat code">
+        <input type="text" name="8_BatResult" placeholder="Bat result">
+        <input type="text" name="9_Bat#" placeholder="Bat code">
+        <input type="text" name="9_BatResult" placeholder="Bat result">
+        <input type="submit" value="Submit" id="submit">
+      </form>
     </div>
-    <div class="grid-item" data-script="scripts/3_Delete.js" data-number="number3" data-result="result3">
-      <div class="box-number">3</div>
-    </div>
-    <div class="grid-item" data-script="scripts/4_Delete.js" data-number="number4" data-result="result4">
-      <div class="box-number">4</div>
-    </div>
-    <div class="grid-item" data-script="scripts/5_Delete.js" data-number="number5" data-result="result5">
-      <div class="box-number">5</div>
-    </div>
-    <div class="grid-item" data-script="scripts/6_Delete.js" data-number="number6" data-result="result6">
-      <div class="box-number">6</div>
-    </div>
-    <div class="grid-item" data-script="scripts/7_Delete.js" data-number="number7" data-result="result7">
-      <div class="box-number">7</div>
-    </div>
-    <div class="grid-item" data-script="scripts/8_Delete.js" data-number="number8" data-result="result8">
-      <div class="box-number">8</div>
-    </div>
-    <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-result="result9">
-      <div class="box-number">9</div>
-    </div>
-    <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number10" data-result="result10" style="display: none;">
-      <div class="box-number">10</div>
-    </div>
-    <div class="grid-item defense-only" data-script="scripts/11_WorstPitcher.js" data-number="number11" data-result="result11" style="display: none;">
-      <div class="box-number">11</div>
-    </div>
-    <div class="grid-item defense-only" data-script="scripts/4_Delete.js" data-number="number12" data-result="result12" style="display: none;">
-      <div class="box-number">12</div>
+
+    <div class="container defense-form">
+      <form method="post" action="https://script.google.com/macros/s/AKfycbzkOHTtK-dzvW49I2Og4MMR3ziZg-hxAXR4XpF0W5uQCl_i_mWpTV1IfJOhCltCgIWcFQ/exec" name="defense" class="form-grid">
+        <input type="text" name="10_Pitch#" placeholder="Pitch code">
+        <input type="text" name="10_PitchResult" placeholder="Pitch result">
+        <input type="text" name="11_Pitch#" placeholder="Pitch code">
+        <input type="text" name="11_PitchResult" placeholder="Pitch result">
+        <input type="text" name="12_Pitch#" placeholder="Pitch code">
+        <input type="text" name="12_PitchResult" placeholder="Pitch result">
+        <input type="text" name="13_Pitch#" placeholder="Pitch code">
+        <input type="text" name="13_PitchResult" placeholder="Pitch result">
+        <input type="text" name="14_Pitch#" placeholder="Pitch code">
+        <input type="text" name="14_PitchResult" placeholder="Pitch result">
+        <input type="text" name="15_Pitch#" placeholder="Pitch code">
+        <input type="text" name="15_PitchResult" placeholder="Pitch result">
+        <input type="text" name="16_Pitch#" placeholder="Pitch code">
+        <input type="text" name="16_PitchResult" placeholder="Pitch result">
+        <input type="text" name="17_Pitch#" placeholder="Pitch code">
+        <input type="text" name="17_PitchResult" placeholder="Pitch result">
+        <input type="text" name="18_Pitch#" placeholder="Pitch code">
+        <input type="text" name="18_PitchResult" placeholder="Pitch result">
+        <input type="submit" value="Submit" id="submit">
+      </form>
     </div>
   </div>
 
   <script src="scripts/players.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const gridItems = document.querySelectorAll('.grid-item');
-      const viewSelect = document.getElementById('view-select');
-      const gridContainer = document.querySelector('.grid-container');
-      const defenseOnlyItems = document.querySelectorAll('.defense-only');
-
-      viewSelect.addEventListener('change', (event) => {
-        if (event.target.value === 'defense') {
-          gridContainer.classList.add('defense');
-          gridItems.forEach(item => {
-            if (!item.classList.contains('defense-only')) {
-              item.style.display = 'none';
-            }
-          });
-          defenseOnlyItems.forEach(item => {
-            item.style.display = 'flex';
-          });
-        } else {
-          gridContainer.classList.remove('defense');
-          gridItems.forEach(item => {
-            item.style.display = 'flex';
-          });
-          defenseOnlyItems.forEach(item => {
-            item.style.display = 'none';
-          });
-        }
-      });
-
-      gridItems.forEach((item) => {
-        const scriptSrc = item.getAttribute('data-script');
-        const numberElementId = item.getAttribute('data-number');
-        const resultElementId = item.getAttribute('data-result');
-
-        // Create elements for number and result
-        const numberElement = document.createElement('div');
-        numberElement.id = numberElementId;
-        numberElement.className = 'number';
-        numberElement.textContent = '1';
-
-        const resultElement = document.createElement('div');
-        resultElement.id = resultElementId;
-        resultElement.className = 'result';
-
-        const numberResultContainer = document.createElement('div');
-        numberResultContainer.className = 'number-result-container';
-        numberResultContainer.appendChild(numberElement);
-        numberResultContainer.appendChild(resultElement);
-
-        item.appendChild(numberResultContainer);
-
-        const script = document.createElement('script');
-        script.src = scriptSrc;
-        script.onload = () => {
-          initializePlayerBox(numberElementId, resultElementId);
-        };
-        document.body.appendChild(script);
-      });
-    });
-  </script>
+  <script src="scripts/fatescript.js"></script>
 </body>
 </html>
