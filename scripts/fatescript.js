@@ -60,6 +60,16 @@ document.addEventListener('DOMContentLoaded', () => {
       initializePlayerBox(numberElementId, resultElementId);
     };
     document.body.appendChild(script);
+
+    // Add event listener to handle autofill of input boxes
+    item.addEventListener('click', () => {
+      if (numberResultContainer.style.visibility === 'visible') {
+        const inputNumber = document.querySelector(`input[data-number="${numberElementId}"]`);
+        const inputResult = document.querySelector(`input[data-result="${resultElementId}"]`);
+        if (inputNumber) inputNumber.value = numberElement.textContent;
+        if (inputResult) inputResult.value = resultElement.textContent;
+      }
+    });
   });
 
   // Submission success message for offense form

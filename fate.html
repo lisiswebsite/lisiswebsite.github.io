@@ -10,7 +10,7 @@
 </head>
 <body>
   <div class="dropdown-container">
-    <label for="view-select">Choose a view:</label>
+    <label for="view-select"></label>
     <select id="view-select">
       <option value="offense">OFFENSE</option>
       <option value="defense">DEFENSE</option>
@@ -25,25 +25,25 @@
       <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number2" data-result="result2">
         <div class="box-number">2</div>
       </div>
-      <div class="grid-item" data-script="scripts/3_Delete.js" data-number="number3" data-result="result3">
+      <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number3" data-result="result3">
         <div class="box-number">3</div>
       </div>
-      <div class="grid-item" data-script="scripts/4_Delete.js" data-number="number4" data-result="result4">
+      <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number4" data-result="result4">
         <div class="box-number">4</div>
       </div>
-      <div class="grid-item" data-script="scripts/5_Delete.js" data-number="number5" data-result="result5">
+      <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number5" data-result="result5">
         <div class="box-number">5</div>
       </div>
-      <div class="grid-item" data-script="scripts/6_Delete.js" data-number="number6" data-result="result6">
+      <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number6" data-result="result6">
         <div class="box-number">6</div>
       </div>
-      <div class="grid-item" data-script="scripts/7_Delete.js" data-number="number7" data-result="result7">
+      <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number7" data-result="result7">
         <div class="box-number">7</div>
       </div>
-      <div class="grid-item" data-script="scripts/8_Delete.js" data-number="number8" data-result="result8">
+      <div class="grid-item" data-script="scripts/2_WorstPlayer.js" data-number="number8" data-result="result8">
         <div class="box-number">8</div>
       </div>
-      <div class="grid-item" data-script="scripts/9_Delete.js" data-number="number9" data-result="result9">
+      <div class="grid-item" data-script="scripts/1_BestPlayer.js" data-number="number9" data-result="result9">
         <div class="box-number">9</div>
       </div>
       <div class="grid-item defense-only" data-script="scripts/10_BestPitcher.js" data-number="number10" data-result="result10" style="display: none;">
@@ -77,48 +77,48 @@
 
     <div class="container offense-form">
       <form method="post" action="https://script.google.com/macros/s/AKfycbw11xMtBjPecdJLSzcCjx-kPSPqHvwNZVoRwrgUHGwIbr1mzTfYlD0zucwtoNV45TIp/exec" name="offense" class="form-grid">
-        <input type="text" name="1_Bat#" placeholder="Bat code">
-        <input type="text" name="1_BatResult" placeholder="Bat result">
-        <input type="text" name="2_Bat#" placeholder="Bat code">
-        <input type="text" name="2_BatResult" placeholder="Bat result">
-        <input type="text" name="3_Bat#" placeholder="Bat code">
-        <input type="text" name="3_BatResult" placeholder="Bat result">
-        <input type="text" name="4_Bat#" placeholder="Bat code">
-        <input type="text" name="4_BatResult" placeholder="Bat result">
-        <input type="text" name="5_Bat#" placeholder="Bat code">
-        <input type="text" name="5_BatResult" placeholder="Bat result">
-        <input type="text" name="6_Bat#" placeholder="Bat code">
-        <input type="text" name="6_BatResult" placeholder="Bat result">
-        <input type="text" name="7_Bat#" placeholder="Bat code">
-        <input type="text" name="7_BatResult" placeholder="Bat result">
-        <input type="text" name="8_Bat#" placeholder="Bat code">
-        <input type="text" name="8_BatResult" placeholder="Bat result">
-        <input type="text" name="9_Bat#" placeholder="Bat code">
-        <input type="text" name="9_BatResult" placeholder="Bat result">
+        <input type="text" name="1_Bat#" placeholder="code" data-number="number1">
+        <input type="text" name="1_BatResult" placeholder="outcome" data-result="result1">
+        <input type="text" name="2_Bat#" placeholder="code" data-number="number2">
+        <input type="text" name="2_BatResult" placeholder="outcome" data-result="result2">
+        <input type="text" name="3_Bat#" placeholder="code" data-number="number3">
+        <input type="text" name="3_BatResult" placeholder="outcome" data-result="result3">
+        <input type="text" name="4_Bat#" placeholder="code" data-number="number4">
+        <input type="text" name="4_BatResult" placeholder="outcome" data-result="result4">
+        <input type="text" name="5_Bat#" placeholder="code" data-number="number5">
+        <input type="text" name="5_BatResult" placeholder="outcome" data-result="result5">
+        <input type="text" name="6_Bat#" placeholder="code" data-number="number6">
+        <input type="text" name="6_BatResult" placeholder="outcome" data-result="result6">
+        <input type="text" name="7_Bat#" placeholder="code" data-number="number7">
+        <input type="text" name="7_BatResult" placeholder="outcome" data-result="result7">
+        <input type="text" name="8_Bat#" placeholder="code" data-number="number8">
+        <input type="text" name="8_BatResult" placeholder="outcome" data-result="result8">
+        <input type="text" name="9_Bat#" placeholder="code" data-number="number9">
+        <input type="text" name="9_BatResult" placeholder="outcome" data-result="result9">
         <input type="submit" value="Submit" id="submit">
       </form>
     </div>
 
     <div class="container defense-form">
       <form method="post" action="https://script.google.com/macros/s/AKfycbzkOHTtK-dzvW49I2Og4MMR3ziZg-hxAXR4XpF0W5uQCl_i_mWpTV1IfJOhCltCgIWcFQ/exec" name="defense" class="form-grid">
-        <input type="text" name="10_Pitch#" placeholder="Pitch code">
-        <input type="text" name="10_PitchResult" placeholder="Pitch result">
-        <input type="text" name="11_Pitch#" placeholder="Pitch code">
-        <input type="text" name="11_PitchResult" placeholder="Pitch result">
-        <input type="text" name="12_Pitch#" placeholder="Pitch code">
-        <input type="text" name="12_PitchResult" placeholder="Pitch result">
-        <input type="text" name="13_Pitch#" placeholder="Pitch code">
-        <input type="text" name="13_PitchResult" placeholder="Pitch result">
-        <input type="text" name="14_Pitch#" placeholder="Pitch code">
-        <input type="text" name="14_PitchResult" placeholder="Pitch result">
-        <input type="text" name="15_Pitch#" placeholder="Pitch code">
-        <input type="text" name="15_PitchResult" placeholder="Pitch result">
-        <input type="text" name="16_Pitch#" placeholder="Pitch code">
-        <input type="text" name="16_PitchResult" placeholder="Pitch result">
-        <input type="text" name="17_Pitch#" placeholder="Pitch code">
-        <input type="text" name="17_PitchResult" placeholder="Pitch result">
-        <input type="text" name="18_Pitch#" placeholder="Pitch code">
-        <input type="text" name="18_PitchResult" placeholder="Pitch result">
+        <input type="text" name="10_Pitch#" placeholder="code" data-number="number10">
+        <input type="text" name="10_PitchResult" placeholder="outcome" data-result="result10">
+        <input type="text" name="11_Pitch#" placeholder="code" data-number="number11">
+        <input type="text" name="11_PitchResult" placeholder="outcome" data-result="result11">
+        <input type="text" name="12_Pitch#" placeholder="code" data-number="number12">
+        <input type="text" name="12_PitchResult" placeholder="outcome" data-result="result12">
+        <input type="text" name="13_Pitch#" placeholder="code" data-number="number13">
+        <input type="text" name="13_PitchResult" placeholder="outcome" data-result="result13">
+        <input type="text" name="14_Pitch#" placeholder="code" data-number="number14">
+        <input type="text" name="14_PitchResult" placeholder="outcome" data-result="result14">
+        <input type="text" name="15_Pitch#" placeholder="code" data-number="number15">
+        <input type="text" name="15_PitchResult" placeholder="outcome" data-result="result15">
+        <input type="text" name="16_Pitch#" placeholder="code" data-number="number16">
+        <input type="text" name="16_PitchResult" placeholder="outcome" data-result="result16">
+        <input type="text" name="17_Pitch#" placeholder="code" data-number="number17">
+        <input type="text" name="17_PitchResult" placeholder="outcome" data-result="result17">
+        <input type="text" name="18_Pitch#" placeholder="code" data-number="number18">
+        <input type="text" name="18_PitchResult" placeholder="outcome" data-result="result18">
         <input type="submit" value="Submit" id="submit">
       </form>
     </div>
