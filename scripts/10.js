@@ -1,5 +1,5 @@
 function initializePlayerBox(numberElementId, resultElementId) {
-  const playerName = "Jordan Mallory Jr.";
+  const playerName = "Clyde Babee";
   const playerData = players.find(player => player.name === playerName);
 
   const numberElement = document.getElementById(numberElementId);
@@ -35,29 +35,29 @@ function initializePlayerBox(numberElementId, resultElementId) {
   }
 
   function getOutcome(number) {
-    if (number >= 1 && number <= 100) {
+    if (number >= 1 && number <= 80) {
       return "Walk";
-    } else if (number >= 101 && number <= 200) {
+    } else if (number >= 81 && number <= 254) {
       return "Strikeout";
-    } else if (number >= 201 && number <= 300) {
+    } else if (number >= 255 && number <= 257) {
       return "HBP";
-    } else if (number >= 301 && number <= 400) {
+    } else if (number >= 258 && number <= 259) {
       return "Reached on error";
-    } else if (number >= 401 && number <= 500) {
+    } else if (number >= 260 && number <= 382) {
       return "Flyout";
-    } else if (number >= 501 && number <= 600) {
+    } else if (number >= 383 && number <= 539) {
       return "Single";
-    } else if (number >= 601 && number <= 700) {
+    } else if (number >= 540 && number <= 662) {
       return "Groundout";
-    } else if (number >= 701 && number <= 750) {
+    } else if (number >= 663 && number <= 704) {
       return "Double";
-    } else if (number >= 751 && number <= 800) {
+    } else if (number >= 705 && number <= 826) {
       return "Lineout";
-    } else if (number >= 801 && number <= 850) {
+    } else if (number >= 827 && number <= 829) {
       return "Triple";
-    } else if (number >= 851 && number <= 900) {
+    } else if (number >= 830 && number <= 951) {
       return "Popout";
-    } else if (number >= 901 && number <= 1000) {
+    } else if (number >= 952 && number <= 1000) {
       return "Home run";
     }
   }

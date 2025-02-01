@@ -1,5 +1,5 @@
 function initializePlayerBox(numberElementId, resultElementId) {
-  const playerName = "Jurrangelo Kryszczuk";
+  const playerName = "Tatsunori Schmidt";
   const playerData = players.find(player => player.name === playerName);
 
   const numberElement = document.getElementById(numberElementId);
@@ -35,29 +35,29 @@ function initializePlayerBox(numberElementId, resultElementId) {
   }
 
   function getOutcome(number) {
-    if (number >= 1 && number <= 67) {
+    if (number >= 1 && number <= 81) {
       return "Walk";
-    } else if (number >= 68 && number <= 213) {
+    } else if (number >= 82 && number <= 262) {
       return "Strikeout";
-    } else if (number >= 214 && number <= 256) {
+    } else if (number >= 263 && number <= 293) {
       return "HBP";
-    } else if (number >= 257 && number <= 258) {
+    } else if (number >= 294 && number <= 313) {
       return "Reached on error";
-    } else if (number >= 259 && number <= 359) {
+    } else if (number >= 314 && number <= 426) {
       return "Flyout";
-    } else if (number >= 360 && number <= 594) {
+    } else if (number >= 427 && number <= 639) {
       return "Single";
-    } else if (number >= 595 && number <= 695) {
+    } else if (number >= 640 && number <= 752) {
       return "Groundout";
-    } else if (number >= 696 && number <= 752) {
+    } else if (number >= 753 && number <= 765) {
       return "Double";
-    } else if (number >= 753 && number <= 853) {
+    } else if (number >= 766 && number <= 878) {
       return "Lineout";
-    } else if (number >= 854 && number <= 864) {
+    } else if (number >= 879 && number <= 884) {
       return "Triple";
-    } else if (number >= 865 && number <= 965) {
+    } else if (number >= 885 && number <= 997) {
       return "Popout";
-    } else if (number >= 966 && number <= 1000) {
+    } else if (number >= 998 && number <= 1000) {
       return "Home run";
     }
   }

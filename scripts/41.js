@@ -1,5 +1,5 @@
 function initializePlayerBox(numberElementId, resultElementId) {
-  const playerName = "Yorks Font";
+  const playerName = "Maina Dogsta";
   const playerData = players.find(player => player.name === playerName);
 
   const numberElement = document.getElementById(numberElementId);
@@ -35,29 +35,29 @@ function initializePlayerBox(numberElementId, resultElementId) {
   }
 
   function getOutcome(number) {
-    if (number >= 1 && number <= 100) {
+    if (number >= 1 && number <= 81) {
       return "Walk";
-    } else if (number >= 101 && number <= 200) {
+    } else if (number >= 82 && number <= 199) {
       return "Strikeout";
-    } else if (number >= 201 && number <= 300) {
+    } else if (number >= 200 && number <= 217) {
       return "HBP";
-    } else if (number >= 301 && number <= 400) {
+    } else if (number >= 218 && number <= 266) {
       return "Reached on error";
-    } else if (number >= 401 && number <= 500) {
+    } else if (number >= 267 && number <= 378) {
       return "Flyout";
-    } else if (number >= 501 && number <= 600) {
+    } else if (number >= 379 && number <= 627) {
       return "Single";
-    } else if (number >= 601 && number <= 700) {
+    } else if (number >= 628 && number <= 739) {
       return "Groundout";
-    } else if (number >= 701 && number <= 750) {
+    } else if (number >= 740 && number <= 753) {
       return "Double";
-    } else if (number >= 751 && number <= 800) {
+    } else if (number >= 754 && number <= 865) {
       return "Lineout";
-    } else if (number >= 801 && number <= 850) {
+    } else if (number >= 866 && number <= 883) {
       return "Triple";
-    } else if (number >= 851 && number <= 900) {
+    } else if (number >= 884 && number <= 995) {
       return "Popout";
-    } else if (number >= 901 && number <= 1000) {
+    } else if (number >= 996 && number <= 1000) {
       return "Home run";
     }
   }
