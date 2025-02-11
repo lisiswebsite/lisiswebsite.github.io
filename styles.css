@@ -45,8 +45,24 @@ header {
     color: white;
     text-align: center;
     padding-top: 8rem;
-    position: fixed;
+    position: relative;
     width: 100%;
+}
+
+.boxscore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxscore img {
+    padding-top: 8rem;
+    position: relative;
+}
+
+.boxscore a {
+    padding-top: 2rem;
+    color: white;
 }
 
 .secondary-header {
@@ -594,6 +610,10 @@ tbody tr:last-child td {
         margin-right: 0;
         padding-left: 20%;
     }
+
+    .boxscore img {
+        width: 50%;
+    }
 }
 
 /* Tabloid */
@@ -624,6 +644,10 @@ tbody tr:last-child td {
     .main-content {
         margin-top: -60px; /* Adjust based on the height of the header */
         margin-bottom: 0px;
+    }
+
+    .boxscore img {
+        width: 65%;
     }
 }
 
@@ -728,5 +752,9 @@ tbody tr:last-child td {
         text-align: center;
         opacity: 0; /* Initially hidden */
         transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    }
+
+    .boxscore img {
+        width: 80%;
     }
 }
