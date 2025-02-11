@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="background-color: white;">
+<html lang="en" style="background-color: black;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,26 +9,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.png" type="favicon">
 </head>
-<body style="background-color: white;">
+<body class="index-page" style="background-color: black;">
     <div id="header"></div>
-<script>
-    fetch('header.html')
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header').innerHTML = data;
-        });
-</script>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+    </script>
 
-    <div class="secondary-header">
-        <h2>2025 Baseball Roster</h2>
-        <select id="viewSelect" onchange="changeView()">
-            <option value="list">List View</option>
-            <option value="grid" selected>Grid View</option>
-            <option value="cards">Cards View</option>
-        </select>
-    </div>
-    <section id="roster" class="list-view">
-    </section>
+    <div class="homepage"><h1>THE PRATT BASEBALL SEASON BEGINS<br>FEBRUARY 14</h1></div>
 
     <div id="footer"></div>
     <script>
@@ -38,9 +29,5 @@
                 document.getElementById('footer').innerHTML = data;
             });
     </script>
-
-    <!-- Include the script that handles view rendering -->
-    <script src="scripts/players.js"></script>
-    <script src="scripts/script.js"></script>
 </body>
 </html>

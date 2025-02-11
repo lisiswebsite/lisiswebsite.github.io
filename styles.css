@@ -41,6 +41,14 @@ header {
     align-items: center; /* Vertically aligns the items if needed */
 }
 
+.homepage {
+    color: white;
+    text-align: center;
+    padding-top: 8rem;
+    position: fixed;
+    width: 100%;
+}
+
 .secondary-header {
     display: flex;
     justify-content: space-between;
