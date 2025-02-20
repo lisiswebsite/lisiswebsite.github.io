@@ -60,6 +60,18 @@ header {
     position: relative;
 }
 
+.blindcontour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blindcontour img {
+    padding-top: 8rem;
+    margin-bottom: -5rem;
+    position: relative;
+}
+
 .boxscore a {
     padding-top: 2rem;
     color: white;
@@ -614,6 +626,10 @@ tbody tr:last-child td {
     .boxscore img {
         width: 50%;
     }
+
+    .blindcontour img {
+        width: 80%;
+    }
 }
 
 /* Tabloid */
@@ -648,6 +664,10 @@ tbody tr:last-child td {
 
     .boxscore img {
         width: 65%;
+    }
+
+    .blindcontour img {
+        width: 80%;
     }
 }
 
@@ -756,5 +776,9 @@ tbody tr:last-child td {
 
     .boxscore img {
         width: 80%;
+    }
+
+    .blindcontour img {
+        width: 100%;
     }
 }
